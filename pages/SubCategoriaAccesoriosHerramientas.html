@@ -1,0 +1,225 @@
+<!DOCTYPE html> 
+
+<html lang="en">
+  <head>  <!--Aca va lo que el usuario no ve-->
+    <meta charset="utf-8">
+    <title> Herramientas Salamandras </title>
+    <link rel="stylesheet" href="../css/hogare.css">
+    <link href = "https://fonts.googleapis.com/css2? family = Suravaram & display = swap" rel = "hoja de estilo ">
+    
+  </head>
+
+  <body class="body">  <!--Aca va lo que el usuario ve-->
+        <header class="header">
+          <section class="headerChico">
+            <article class="subHeader">
+              <artcle class=" rotador"><a href="../index.html"><img src="../imagenes/hogaregris.jpeg" alt="Logo Encabezado" height="70" width="70" ></a></artcle>
+              <artcle >  <h1 class="h1">HOGARE </h1></artcle>
+            </article>  
+              <article>
+                <button class="boton__inicio">
+                  <a href="iniciarSesion.html"> Iniciar sesion/</a>
+                </button>
+                <button class="boton__inicio" >
+                  <a href="registrarse.html"> Registrarse</a>
+                </button>
+              </article>
+          </section>    
+            
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">HOME</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="categoriaSalamandras.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      SALAMANDRAS
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="subCategoriaSalamandraLeña.html">A LEÑA</a></li>
+                      <li><a class="dropdown-item" href="subCategoriaSalamandraGas.html">A GAS</a></li>
+                      <li><a class="dropdown-item" href="subCategoriaSalamandraPellets.html">A PELLETS</a></li>
+                      <li><a class="dropdown-item" href="categoriaSalamandras.html">VER TODO</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="categoriaGuardaLeña.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      GUARDA LEÑA Y LEÑA
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="../pages/subCategoriaGuardaLeñaModerno.html">GURDA LEÑA MODERNO</a></li>
+                      <li><a class="dropdown-item" href="../pages/subCategoriaGuardaLeñaRustico.html">GUARDA LEÑA RUSTICO</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="categoriaAccesorios.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      ACCESORIOS
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="../pages/SubCategoriaAccesoriosHerramientas.html">HERRAMIENTAS</a></li>
+                      <li><a class="dropdown-item" href="../pages/SubCategoriaAccesoriosLimpieza.html">LIMPIEZA</a></li>
+                      <li><a class="dropdown-item" href="../pages/SubCategoriaAccesoriosUtensillos.html">UTENSILLOS</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="categoriaConsejos.html">CONSEJOS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="categoriaContacto.html">CONTACTO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">CARRITO</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+            
+           
+        </header>  
+      
+        
+        <main>
+           <section>
+                
+                <div><p><a href="../index.html">Home </a><a href="categoriaSalamandras.html">/ Accesorios</a><a href="subCategoriaSalamandraLeña.html">/ Herramientas </a></p></div>  
+                <h3>ACCESOROS</h3>
+                
+                <section class="gridSubCategoria">
+                    <section class="gridFiltro">
+                        <h3>Ordenar por</h3>
+                            <form>
+                                <select name="ordenar">
+                                    <option value="PrecioMenosrAMayor">Precio Menor a Mayor</option>
+                                    <option value="PrecioMayorAMenor">Precio Mayor a Menor</option>
+                                    <option value="MasNuevo">Mas nuevo</option>
+                                    <option value="MasViejo">Mas viejo</option>
+                                    <option value="Destacado">Destacado</option>
+                                </select>
+                            </form>
+                        <h3>Categorias</h3>
+                            <form >
+                                <ul>
+                                    <div>Grande</div>
+                                    <input type="radio" name="tamaño" value="grande">
+                                    <div>Mediano</div>
+                                    <input type="radio"name="tamaño" value="mediano">
+                                    <div>Chico</div>
+                                    <input type="radio"name="tamaño" value="chico">
+                                </ul>
+                            </form>
+                        
+                        <h3>Precio</h3>
+                        <input type="range" name="precio" min="20000" max="80000" step="1" value="40">
+                        
+                        </section>
+                    <section class="gridProductos">
+                
+                        <!--Aca va las imagenes de cada producto con su precio y nombre de cada producto-->
+                        <div class="divProductos" ><a href="visualizacionProducto.html"><img src="../imagenes/accesoriosHerramienta.jpg" alt="articuloDePrueba" width="200px" height="200px"/></a>
+                            <p>$5.000 <br> Articulo 000 </p>
+                             <form action="visualizacionProducto.html">
+                                 <input type="submit" value="Ir"  class="ver"/>
+                             </form>
+                        </div>
+                        <div class="divProductos" ><a href="visualizacionProducto.html"><img src="../imagenes/accesoriosHerramienta.jpg" alt="articuloDePrueba" width="200px" height="200px"/></a>
+                            <p>$5.000 <br> Articulo 000 </p>
+                             <form action="visualizacionProducto.html">
+                                 <input type="submit" value="Ir"  class="ver"/>
+                             </form>
+                        </div>
+                        <div class="divProductos" ><a href="visualizacionProducto.html"><img src="../imagenes/accesoriosHerramienta.jpg" alt="articuloDePrueba" width="200px" height="200px"/></a>
+                            <p>$5.000 <br> Articulo 000 </p>
+                             <form action="visualizacionProducto.html">
+                                 <input type="submit" value="Ir"  class="ver"/>
+                             </form>
+                        </div>
+                        <div class="divProductos" ><a href="visualizacionProducto.html"><img src="../imagenes/accesoriosHerramienta.jpg" alt="articuloDePrueba" width="200px" height="200px"/></a>
+                            <p>$5.000 <br> Articulo 000 </p>
+                             <form action="visualizacionProducto.html">
+                                 <input type="submit" value="Ir"  class="ver"/>
+                             </form>
+                        </div>
+                        <div class="divProductos" ><a href="visualizacionProducto.html"><img src="../imagenes/accesoriosHerramienta.jpg" alt="articuloDePrueba" width="200px" height="200px"/></a>
+                            <p>$5.000 <br> Articulo 000 </p>
+                             <form action="visualizacionProducto.html">
+                                 <input type="submit" value="Ir"  class="ver"/>
+                             </form>
+                        </div>
+                        <div class="divProductos" ><a href="visualizacionProducto.html"><img src="../imagenes/accesoriosHerramienta.jpg" alt="articuloDePrueba" width="200px" height="200px"/></a>
+                            <p>$5.000 <br> Articulo 000 </p>
+                             <form action="visualizacionProducto.html">
+                                 <input type="submit" value="Ir"  class="ver"/>
+                             </form>
+                        </div>
+                        <div class="divProductos" ><a href="visualizacionProducto.html"><img src="../imagenes/accesoriosHerramienta.jpg" alt="articuloDePrueba" width="200px" height="200px"/></a>
+                            <p>$5.000 <br> Articulo 000 </p>
+                             <form action="visualizacionProducto.html">
+                                 <input type="submit" value="Ir"  class="ver"/>
+                             </form>
+                        </div>
+                        <div class="divProductos" ><a href="visualizacionProducto.html"><img src="../imagenes/accesoriosHerramienta.jpg" alt="articuloDePrueba" width="200px" height="200px"/></a>
+                            <p>$5.000 <br> Articulo 000 </p>
+                             <form action="visualizacionProducto.html">
+                                 <input type="submit" value="Ir"  class="ver"/>
+                             </form>
+                        </div>
+                        <div class="divProductos" ><a href="visualizacionProducto.html"><img src="../imagenes/accesoriosHerramienta.jpg" alt="articuloDePrueba" width="200px" height="200px"/></a>
+                            <p>$5.000 <br> Articulo 000 </p>
+                             <form action="visualizacionProducto.html">
+                                 <input type="submit" value="Ir"  class="ver"/>
+                             </form>
+                        </div>
+                    </section>
+               </section> 
+            
+    </main>
+    <hr size="2px" color="black"> <!-- linea horizontal-->
+     <!--Pie de pagina-->
+      <!--Pie de pagina-->
+      <footer >
+        <div class=" footer">
+         <div class="lineaAnchaFooter">
+            <div>
+              <p>ayudaEmpresa@gmail.com | 2612345678 </p>
+            </div>
+            <div>
+              <img src="../imagenes/hogaregris.jpeg" alt="" height="70px" width="70px">
+            </div>
+            <div>
+              <img src="../imagenes/instagramGris.png" alt="">
+              <img src="../imagenes/twitterGris.png" alt="">
+              <img src="../imagenes/facebookGris.png" alt="">
+              <img src="../imagenes/wspGris.png" alt="">
+              <img src="../imagenes/gmailGris.png" alt="">
+            </div>
+         </div>
+         <div class="lineaFinaFooter">
+            <div class="col-9 enlaces">
+              <div class="row">
+                <div class="col"><p><a href="../index.html">Home</a> </p></div>
+              <div class="col"><p><a href="../pages/categoriaSalamandras.html">Salamandras</a> </p></div>
+              <div class="col"><p><a href="../pages/categoriaGuardaLeña.html">GuardaLeñas</a> </p></div>
+              <div class="col"><p><a href="../pages/categoriaAccesorios.html">Accesorios</a> </p></div>
+              <div class="col"><p><a href="../pages/categoriaConsejos.html">Consejos</a> </p> </div>
+              <div class="col"> <p><a href="../pages/categoriaContacto.html">Contacto</a> </p></div>
+              </div>
+              
+            </div>
+            <div class="col-3 credito">
+              <p>MartinaZera ~HOGARE~</p>
+            </div>
+         </div>
+  
+        </div>
+     </footer>
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</html>
