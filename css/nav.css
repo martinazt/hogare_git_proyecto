@@ -1,0 +1,46 @@
+/* media queries nav*/
+@media (min-width: 360px) {
+  nav {
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+  nav .container-fluid {
+    font-size: 0.6rem;
+  }
+  nav .navbar-toggler {
+    font-size: 0.65rem;
+  }
+  nav .dropdown-menu {
+    font-size: 9px;
+  }
+}
+
+@media (min-width: 600px) {
+  nav {
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+  nav .container-fluid {
+    font-size: 0.9rem;
+  }
+  nav .navbar-toggler {
+    font-size: 0.851 0;
+  }
+  nav .dropdown-menu {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 1024px) {
+  nav {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  nav .container-fluid {
+    font-size: 1.0rem;
+  }
+  nav .dropdown-menu {
+    font-size: 14px;
+  }
+}
+/*# sourceMappingURL=nav.css.map */

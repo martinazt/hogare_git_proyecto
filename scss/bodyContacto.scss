@@ -1,0 +1,277 @@
+
+/* probando*/ 
+.botonEnviar{
+    .ghost {
+        background-color: transparent;
+        color:#eab769e0;
+        border: 2px solid #eab769e0;
+        transition: .2s ease;
+        vertical-align: inherit;
+        padding: 1px;
+        margin: 2px;;
+        
+        &:hover {
+          background-color: #eab769e0;
+          color: white;
+          
+          transition: .2s ease;
+        }
+      }
+    button{
+        background-color: #eab6698e;
+        color: white;
+    }
+    
+}
+.contenedorContacto{
+    color: aliceblue;
+    text-align: center;
+    .redesContacto{
+     
+        .gridRedesContacto{
+            display:  inline-flex;;
+         }
+    }
+    .accordion{
+        padding-top: 25px;
+        .accordion-item{
+        background-color: #eab769e0;
+        button{
+            color: #fbebbb;
+            background-color: #717171;
+            
+        }
+        }
+    }
+    
+    
+}
+
+.fondoGris{
+    background-color: #232122 ;
+  
+}
+
+.tituloContacto{
+    color: black;
+    margin-left: 15px;
+    font-family:system-ui;
+    h2{
+        padding: 2px;
+        
+    }
+}
+.botonMensaje{
+    text-align: center;
+}
+.mensajeContacto{
+    textarea{
+        width: 100%;
+    }    
+}
+.gridContac{
+    display: grid;
+    grid-template-rows: 400px 450px;
+    grid-template-columns: 700px;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    
+   
+}
+/* media queries */
+
+
+@media (min-width: 360px) {
+    .accordion-item{
+        button{
+            height: 10px;
+        }
+    }   
+    .contenedorContacto{
+        padding-bottom: 20px; 
+        margin-top: 15px;
+        h2{
+            font-size: 16px;
+            margin: 2px;
+        }
+        legend{
+            font-size: 15px;
+        }
+        h4{
+            font-size: 15px;
+        }
+        h5{
+            font-size: 13px;
+        }
+        p{
+            font-size: 13px;
+        }
+    }
+    .gridContac{
+        grid-template-rows: 25% 75%;
+        grid-template-columns: 80%;
+        
+        textarea{
+            height: 60px;
+        }
+        label{
+            font-size: 10px;
+        }
+        input{
+            padding: 2px;
+            height: 20px;
+        }
+        div{
+            margin: 0px;
+           select{
+            height: 25px;
+            padding: 2px;
+            padding-top: 0;
+            padding-bottom: 0px;
+           }
+
+            button{
+                background-color: #eab769e0;
+                margin-top: 10px;
+                padding-right: 2px;
+                border-style: ridge;
+                padding-left: 2px;
+                border-bottom: solid 2px #7d5e00;
+                font-size: 13px;
+            }
+        }
+ 
+    }
+}
+ 
+ 
+ @media (min-width: 600px) {
+    .accordion-item{
+        button{
+            height: 45px;
+        }
+    }   
+    .contenedorContacto{
+        padding-bottom: 20px; 
+        margin-top: 15px;
+        h2{
+            font-size: 18px;
+            margin: 4px;
+        }
+        legend{
+            font-size: 20px;
+        }
+        h4{
+            font-size: 20px;
+        }
+        h5{
+            font-size: 15px;
+        }
+        p{
+            font-size: 15px;
+        }
+    }
+    .gridContac{
+        grid-template-rows: 40% 60%;
+        grid-template-columns: 70%;
+        textarea{
+            height: 100px;
+        }
+      
+        label{
+            font-size: 15px;
+            
+        }
+        input{
+            padding: 1px;
+            height: 28px;
+        }
+        div{
+            margin-bottom: 14px;
+           select{
+            height: 25px;
+            padding: 2px;
+            padding-top: 0;
+            padding-bottom: 0px;
+           }
+           button{
+            background-color: #eab769e0;
+            margin-top: 10px;
+            padding-right: 2px;
+            border-style: ridge;
+            padding-left: 2px;
+            border-bottom: solid 2px #7d5e00;
+            font-size: 13px;
+        }
+        }
+
+    }
+ }
+ 
+ @media (min-width: 1024px) {
+    .accordion-item{
+        button{
+            height: 65px;
+        }
+    }   
+    .contenedorContacto{
+        padding-bottom: 25px; 
+        margin-top: 17px;
+        h2{
+            font-size: 22px;
+            margin: 8px;
+        }
+        legend{
+            font-size: 30px;
+        }
+        h4{
+            font-size: 30px;
+        }
+        h5{
+            font-size: 25px;
+        }
+        p{
+            font-size: 25px;
+        }
+    }
+    .gridContac{
+        grid-template-rows: 50% 50%;
+        grid-template-columns: 70%;
+        height: 850px;
+        textarea{
+            height: 130px;
+        }
+      
+        label{
+            font-size: 25px;
+   
+        }
+        input{
+            padding: 4px;
+            height: 32px;
+        }
+        div{
+            margin-bottom: 14px;
+           select{
+            height: 35px;
+            padding: 2px;
+            padding-top: 0;
+            padding-bottom: 0px;
+           }
+           button{
+            background-color: #eab769e0;
+            margin-top: 10px;
+            padding-right: 2px;
+            border-style: ridge;
+            padding-left: 2px;
+            border-bottom: solid 2px #7d5e00;
+            font-size: 20px;
+            }
+        }
+
+       
+        
+    }
+     
+ }

@@ -1,0 +1,22 @@
+
+/* consejo */
+
+.gridConsejos{
+    display:grid;
+    grid-template-columns: 50% 50%;
+   
+}
+.consejos{
+    display:grid;
+   text-align:center;
+   margin-top:10px;
+   margin-left:40px;
+   margin-right:40px;
+}
+.categoriasSalamandra{
+    text-align: center;
+    .botonEnviar{
+        width: 50%;
+        
+    }
+}

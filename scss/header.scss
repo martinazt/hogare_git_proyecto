@@ -1,0 +1,146 @@
+
+/*header*/
+
+header{
+    z-index: 500;
+}
+
+.header{
+   position: sticky;
+   top: 0px;
+  
+   
+
+   .subHeader{
+   display: flex;
+   flex-flow: row nowrap;
+   justify-content:space-between;
+   align-items: center;
+   align-content: center;
+   z-index:500;
+
+   }
+   .headerChico{
+       display: flex;
+       flex-flow: row nowrap;
+       justify-content:space-between;
+       align-items: center;
+       background-color: #383838;
+       align-content: center;
+       padding-top: 20px;
+       padding-bottom: 20px;
+       z-index:500;
+       padding-left: 10px;
+       padding-right: 10px;
+       h1{
+           color:#ffffff;
+           font-family: Verdana;
+       }
+       p{
+           color:#FCF2EE;
+       }
+   }
+
+}
+
+/* animaciones */ 
+
+
+.rotador{
+    animation:rotando 2s ease-in 0s infinite;
+    margin-left:30px ;
+    margin-right: 30px;
+}
+@keyframes rotando{
+0%{
+    transform: rotateY(0 deg );
+}
+25%{
+    transform: rotateY(90 deg);
+}
+50%{
+    transform: rotateY(180 deg);
+}
+75%{
+    transform: rotateY(270 deg);
+}
+100%{
+    transform: rotateY(360deg);
+}
+}
+
+/* media queries */
+
+
+@media (min-width: 360px) {
+   
+    .headerChico{
+        .rotador{
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        img{
+            height: 45px;
+            width: 45px;
+        }
+        .h1{
+            font-size: 22px;
+            margin-left: 5px;
+        }
+        padding:5px;
+    }
+    .boton__inicio{
+        a{
+            font-size: 9px;
+        }
+    }
+}
+ 
+ 
+ @media (min-width: 600px) {
+    
+    .headerChico{
+        .rotador{
+            margin-left: 13px;
+            margin-right: 13px;
+        }
+        img{
+            height: 65px;
+            width: 65px;
+        }
+        .h1{
+            font-size: 35px;
+            margin-left: 13px;
+        }
+        padding: 10px;
+    }
+    .boton__inicio{
+        a{
+            font-size: 12px;
+        }
+    }
+ }
+ 
+ @media (min-width: 1024px) {
+    .headerChico{
+        .rotador{
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+        img{
+            height: 85px;
+            width: 85px;
+        }
+        .h1{
+            font-size: 45px;
+            margin-left: 55px;
+        }
+        padding: 15px;
+    }
+    .boton__inicio{
+        a{
+            font-size: 17px;
+        }
+    }
+     
+ }

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../scss/bodyVisualizar.scss"
+    ],
+    "names": [],
+    "file": "bodyVisualizar.css"
+}

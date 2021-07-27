@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,aAAa;AAEb,AAAA,aAAa,CAAA;EACT,OAAO,EAAC,IAAI;EACZ,qBAAqB,EAAE,OAAO;CAEjC;;AACD,AAAA,SAAS,CAAA;EACL,OAAO,EAAC,IAAI;EACb,UAAU,EAAC,MAAM;EACjB,UAAU,EAAC,IAAI;EACf,WAAW,EAAC,IAAI;EAChB,YAAY,EAAC,IAAI;CACnB;;AACD,AAAA,qBAAqB,CAAA;EACjB,UAAU,EAAE,MAAM;CAKrB;;AAND,AAEI,qBAFiB,CAEjB,YAAY,CAAA;EACR,KAAK,EAAE,GAAG;CAEb",
+    "sources": [
+        "../scss/bodyConsejos.scss"
+    ],
+    "names": [],
+    "file": "bodyConsejos.css"
+}

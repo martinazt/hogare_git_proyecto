@@ -1,0 +1,10 @@
+/* media queries */
+@media (min-width: 360px) {
+  .banner {
+    height: 530px;
+  }
+  .banner img {
+    height: 530px;
+  }
+}
+/*# sourceMappingURL=bodyIndex.css.map */

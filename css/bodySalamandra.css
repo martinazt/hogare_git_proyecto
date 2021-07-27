@@ -1,0 +1,134 @@
+.salamandras h2 {
+  margin: 10px 15px;
+}
+
+.salamandras p {
+  margin: 15px 40px;
+}
+
+.salamandras h3 {
+  background-color: #ebbe7a7d;
+}
+
+.salamandras a {
+  text-decoration: none;
+}
+
+.categoriaSalamandra div {
+  margin-bottom: 15px;
+}
+
+.categoriaSalamandra div .col {
+  background-color: #d0d0d021;
+}
+
+.botonVerCategoria {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.botonVerCategoria .ghost {
+  background-color: transparent;
+  color: #eab769e0;
+  border: 2px solid #eab769e0;
+  -webkit-transition: .2s ease;
+  transition: .2s ease;
+  vertical-align: inherit;
+  padding: 1px;
+  margin: 2px;
+}
+
+.botonVerCategoria .ghost:hover {
+  background-color: #eab769e0;
+  color: white;
+  -webkit-transition: .2s ease;
+  transition: .2s ease;
+  border-collapse: 0;
+}
+
+.botonVerCategoria button {
+  background-color: #eab6698e;
+  color: white;
+  width: 50%;
+}
+
+/* media queries */
+@media (min-width: 360px) {
+  .salamandras h2 {
+    font-size: 23px;
+  }
+  .salamandras h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  .salamandras .categoriaSalamandra {
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+  .salamandras .categoriaSalamandra p {
+    font-weight: 700;
+    font-size: 14px;
+  }
+  .salamandras p {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 600px) {
+  .salamandras h2 {
+    font-size: 25px;
+  }
+  .salamandras h3 {
+    margin-top: 22px;
+    margin-bottom: 22px;
+    font-size: 22px;
+  }
+  .salamandras p {
+    font-size: 16px;
+  }
+  .salamandras .categoriaSalamandra {
+    margin-bottom: 80px;
+    margin-top: 80px;
+  }
+  .salamandras .categoriaSalamandra p {
+    font-weight: 700;
+    font-size: 17px;
+  }
+  .salamandras .categoriaSalamandra .botonVerCategoria {
+    padding: 10px;
+  }
+  .salamandras .categoriaSalamandra div {
+    margin-right: 2px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .salamandras h2 {
+    font-size: 27px;
+  }
+  .salamandras h3 {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-size: 24px;
+  }
+  .salamandras p {
+    font-size: 18px;
+  }
+  .salamandras .categoriaSalamandra {
+    margin-bottom: 70px;
+    margin-top: 70px;
+  }
+  .salamandras .categoriaSalamandra p {
+    font-weight: 650;
+    font-size: 19px;
+  }
+  .salamandras .categoriaSalamandra .botonVerCategoria {
+    padding: 11px;
+  }
+  .salamandras .categoriaSalamandra div {
+    margin-right: 10px;
+  }
+}
+/*# sourceMappingURL=bodySalamandra.css.map */
