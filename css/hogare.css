@@ -30,6 +30,8 @@
 
 footer {
   width: 100%; }
+  footer a {
+    text-decoration: none; }
   footer p {
     color: #b4b4b4; }
   footer ul li {
@@ -49,10 +51,11 @@ footer {
     font-size: 11px; }
   footer .lineaAnchaFooter {
     padding: 5px;
+    padding-top: 15px;
     min-height: 77px; }
     footer .lineaAnchaFooter img {
-      width: 40px;
-      height: 40px; }
+      width: 45px;
+      height: 45px; }
     footer .lineaAnchaFooter .redesFooter img {
       width: 15px;
       height: 15px; }
@@ -69,16 +72,16 @@ footer {
 
 @media (min-width: 600px) {
   footer p {
-    font-size: 11px; }
+    font-size: 14px; }
   footer .lineaAnchaFooter {
     padding: 10px;
     height: 85px; }
     footer .lineaAnchaFooter img {
-      width: 60px;
-      height: 60px; }
+      width: 70px;
+      height: 70px; }
     footer .lineaAnchaFooter .redesFooter img {
-      width: 20px;
-      height: 20px; }
+      width: 25px;
+      height: 25px; }
   footer .lineaFinaFooter {
     margin: 0px;
     padding: 10px;
@@ -191,7 +194,7 @@ footer {
       .consejos .accordion .accordion-item {
         width: 325px; }
         .consejos .accordion .accordion-item button {
-          height: 55px;
+          height: 58px;
           border: 2px solid #fbebbb; }
       .consejos .accordion .accordion-body {
         padding-left: 5px;
@@ -859,6 +862,8 @@ table {
 
 footer {
   width: 100%; }
+  footer a {
+    text-decoration: none; }
   footer p {
     color: #b4b4b4; }
   footer ul li {
@@ -878,10 +883,11 @@ footer {
     font-size: 11px; }
   footer .lineaAnchaFooter {
     padding: 5px;
+    padding-top: 15px;
     min-height: 77px; }
     footer .lineaAnchaFooter img {
-      width: 40px;
-      height: 40px; }
+      width: 45px;
+      height: 45px; }
     footer .lineaAnchaFooter .redesFooter img {
       width: 15px;
       height: 15px; }
@@ -898,16 +904,16 @@ footer {
 
 @media (min-width: 600px) {
   footer p {
-    font-size: 11px; }
+    font-size: 14px; }
   footer .lineaAnchaFooter {
     padding: 10px;
     height: 85px; }
     footer .lineaAnchaFooter img {
-      width: 60px;
-      height: 60px; }
+      width: 70px;
+      height: 70px; }
     footer .lineaAnchaFooter .redesFooter img {
-      width: 20px;
-      height: 20px; }
+      width: 25px;
+      height: 25px; }
   footer .lineaFinaFooter {
     margin: 0px;
     padding: 10px;

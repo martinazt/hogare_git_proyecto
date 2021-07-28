@@ -9,7 +9,7 @@
     justify-content: space-between;
     width: 100%;
     align-items: baseline;
-   
+
 }
 .lineaFinaFooter{
     background-color: rgb(43, 43, 43);
@@ -40,6 +40,9 @@
 }
 footer{
     width: 100%;
+    a{
+        text-decoration: none;
+    }
     p{
        color: rgb(180, 180, 180);
     }
@@ -70,11 +73,13 @@ footer{
            font-size: 11px;
        }
        .lineaAnchaFooter{
-           padding: 5px;
-           min-height: 77px;
+            
+            padding: 5px;
+            padding-top: 15px;
+            min-height: 77px;
            img{
-               width: 40px;
-               height: 40px;
+               width: 45px;
+               height: 45px;
            }
             .redesFooter{
                 img{
@@ -104,19 +109,19 @@ footer{
 @media (min-width: 600px) {
 	footer{
         p{
-            font-size: 11px;
+            font-size: 14px;
         }
         .lineaAnchaFooter{
             padding: 10px;
             height: 85px;
             img{
-                width: 60px;
-                height: 60px;
+                width: 70px;
+                height: 70px;
             }
              .redesFooter{
                  img{
-                     width: 20px;
-                     height: 20px;
+                     width: 25px;
+                     height: 25px;
                  }
              }   
         }
