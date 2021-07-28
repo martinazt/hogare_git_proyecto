@@ -14,8 +14,11 @@
   .lineaFinaFooter row {
     margin-right: 0px;
     margin-left: 0px; }
+  .lineaFinaFooter .col {
+    text-align: center; }
 
 .enlaces {
+  text-align: right;
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
@@ -43,9 +46,10 @@ footer {
 /* media queries footer*/
 @media (min-width: 360px) {
   footer p {
-    font-size: 7px; }
+    font-size: 11px; }
   footer .lineaAnchaFooter {
-    padding: 5px; }
+    padding: 5px;
+    min-height: 77px; }
     footer .lineaAnchaFooter img {
       width: 40px;
       height: 40px; }
@@ -54,7 +58,8 @@ footer {
       height: 15px; }
   footer .lineaFinaFooter {
     margin: 0px;
-    padding: 5px; }
+    padding: 5px;
+    min-height: 50px; }
     footer .lineaFinaFooter .col {
       padding-left: 2px;
       padding-right: 2px; }
@@ -66,7 +71,8 @@ footer {
   footer p {
     font-size: 11px; }
   footer .lineaAnchaFooter {
-    padding: 10px; }
+    padding: 10px;
+    height: 85px; }
     footer .lineaAnchaFooter img {
       width: 60px;
       height: 60px; }
@@ -75,7 +81,8 @@ footer {
       height: 20px; }
   footer .lineaFinaFooter {
     margin: 0px;
-    padding: 10px; }
+    padding: 10px;
+    height: 65px; }
     footer .lineaFinaFooter .col {
       padding-left: 4px;
       padding-right: 4px; }
@@ -87,7 +94,8 @@ footer {
   footer p {
     font-size: 13px; }
   footer .lineaAnchaFooter {
-    padding: 15px; }
+    padding: 15px;
+    height: 90px; }
     footer .lineaAnchaFooter img {
       width: 70px;
       height: 70px; }
@@ -96,7 +104,8 @@ footer {
       height: 25px; }
   footer .lineaFinaFooter {
     margin: 0px;
-    padding: 15px; }
+    padding: 15px;
+    height: 70px; }
     footer .lineaFinaFooter .col {
       padding-left: 10px;
       padding-right: 10px; }
@@ -159,7 +168,9 @@ footer {
     .consejos .accordion .accordion-item button {
       color: #fbebbb;
       background-color: #717171;
-      width: 100%; }
+      width: 98%; }
+    .consejos .accordion .accordion-item .accordion .accordion-item {
+      width: 98%; }
 
 .videoConsejo {
   text-align: center; }
@@ -443,10 +454,16 @@ footer {
 
 /* media queries */
 @media (min-width: 360px) {
-  .banner {
-    min-height: calc(69vh - 50px); }
-    .banner img {
-      height: 597px; } }
+  .banner img {
+    height: 60vh; } }
+
+@media (min-width: 600px) {
+  .banner img {
+    min-height: 73vh; } }
+
+@media (min-width: 1024px) {
+  .banner img {
+    min-height: 68vh; } }
 
 /*iniciar*/
 .gridInicio {
@@ -826,8 +843,11 @@ table {
   .lineaFinaFooter row {
     margin-right: 0px;
     margin-left: 0px; }
+  .lineaFinaFooter .col {
+    text-align: center; }
 
 .enlaces {
+  text-align: right;
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
@@ -855,9 +875,10 @@ footer {
 /* media queries footer*/
 @media (min-width: 360px) {
   footer p {
-    font-size: 7px; }
+    font-size: 11px; }
   footer .lineaAnchaFooter {
-    padding: 5px; }
+    padding: 5px;
+    min-height: 77px; }
     footer .lineaAnchaFooter img {
       width: 40px;
       height: 40px; }
@@ -866,7 +887,8 @@ footer {
       height: 15px; }
   footer .lineaFinaFooter {
     margin: 0px;
-    padding: 5px; }
+    padding: 5px;
+    min-height: 50px; }
     footer .lineaFinaFooter .col {
       padding-left: 2px;
       padding-right: 2px; }
@@ -878,7 +900,8 @@ footer {
   footer p {
     font-size: 11px; }
   footer .lineaAnchaFooter {
-    padding: 10px; }
+    padding: 10px;
+    height: 85px; }
     footer .lineaAnchaFooter img {
       width: 60px;
       height: 60px; }
@@ -887,7 +910,8 @@ footer {
       height: 20px; }
   footer .lineaFinaFooter {
     margin: 0px;
-    padding: 10px; }
+    padding: 10px;
+    height: 65px; }
     footer .lineaFinaFooter .col {
       padding-left: 4px;
       padding-right: 4px; }
@@ -899,7 +923,8 @@ footer {
   footer p {
     font-size: 13px; }
   footer .lineaAnchaFooter {
-    padding: 15px; }
+    padding: 15px;
+    height: 90px; }
     footer .lineaAnchaFooter img {
       width: 70px;
       height: 70px; }
@@ -908,7 +933,8 @@ footer {
       height: 25px; }
   footer .lineaFinaFooter {
     margin: 0px;
-    padding: 15px; }
+    padding: 15px;
+    height: 70px; }
     footer .lineaFinaFooter .col {
       padding-left: 10px;
       padding-right: 10px; }

@@ -1,25 +1,153 @@
 /* consejo */
-.gridConsejos {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 50% 50%;
-      grid-template-columns: 50% 50%;
+.consejos .col {
+  text-align: -webkit-center;
 }
 
-.consejos {
-  display: -ms-grid;
-  display: grid;
+.consejos .accordion {
+  text-align: -webkit-center;
+}
+
+.consejos .accordion .accordion-item {
+  background-color: #eab769e0;
+}
+
+.consejos .accordion .accordion-item button {
+  color: #fbebbb;
+  background-color: #717171;
+  width: 98%;
+}
+
+.consejos .accordion .accordion-item .accordion .accordion-item {
+  width: 98%;
+}
+
+.videoConsejo {
   text-align: center;
-  margin-top: 10px;
-  margin-left: 40px;
-  margin-right: 40px;
 }
 
-.categoriasSalamandra {
-  text-align: center;
+/* media queries */
+@media (min-width: 360px) {
+  main {
+    min-height: calc(75vh - 50px);
+  }
+  .consejos {
+    padding: 8px;
+  }
+  .consejos p {
+    margin-left: 8px;
+    margin-top: 8px;
+  }
+  .consejos h2 {
+    font-size: 20px;
+  }
+  .consejos .accordion {
+    padding: 5px;
+  }
+  .consejos .accordion .accordion-item {
+    width: 325px;
+  }
+  .consejos .accordion .accordion-item button {
+    height: 55px;
+    border: 2px solid #fbebbb;
+  }
+  .consejos .accordion .accordion-body {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .consejos .col {
+    padding-bottom: 15px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .consejos .videoConsejo iframe {
+    width: 300px;
+    height: 200px;
+  }
 }
 
-.categoriasSalamandra .botonEnviar {
-  width: 50%;
+@media (min-width: 600px) {
+  main {
+    min-height: calc(80vh - 50px);
+  }
+  .consejos {
+    padding: 10px;
+  }
+  .consejos p {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .consejos h2 {
+    font-size: 45px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+  .consejos .accordion {
+    padding: 8px;
+  }
+  .consejos .accordion h2 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .consejos .accordion .accordion-item {
+    width: 700px;
+  }
+  .consejos .accordion .accordion-item button {
+    height: 75px;
+    border: 2px solid #fbebbb;
+  }
+  .consejos .accordion .accordion-body .accordion-body {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .consejos .col {
+    padding-bottom: 25px;
+  }
+  .consejos .videoConsejo iframe {
+    width: 650px;
+    height: 400px;
+  }
+}
+
+@media (min-width: 1024px) {
+  main {
+    min-height: calc(70vh - 50px);
+  }
+  .consejos {
+    padding: 20px;
+  }
+  .consejos p {
+    margin-left: 15px;
+    margin-top: 15px;
+  }
+  .consejos h2 {
+    font-size: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .consejos .accordion {
+    padding: 10px;
+  }
+  .consejos .accordion h2 {
+    padding-top: 2px;
+    padding-bottom: 3px;
+  }
+  .consejos .accordion .accordion-item {
+    width: 900px;
+  }
+  .consejos .accordion .accordion-item button {
+    height: 85px;
+    border: 3px solid #fbebbb;
+  }
+  .consejos .accordion .accordion-body .accordion-body {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .consejos .col {
+    padding-bottom: 35px;
+  }
+  .consejos .videoConsejo iframe {
+    width: 750px;
+    height: 450px;
+  }
 }
 /*# sourceMappingURL=bodyConsejos.css.map */

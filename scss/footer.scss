@@ -19,10 +19,14 @@
         margin-right: 0px;
         margin-left: 0px;
     }
+    .col{
+        text-align: center;
+    }
 }
 
+
 .enlaces{
-   
+    text-align: right;
     display: flex;
     flex-flow: row nowrap;
     justify-content:center;
@@ -63,10 +67,11 @@ footer{
 @media (min-width: 360px) {
    footer{
        p{
-           font-size: 7px;
+           font-size: 11px;
        }
        .lineaAnchaFooter{
            padding: 5px;
+           min-height: 77px;
            img{
                width: 40px;
                height: 40px;
@@ -81,6 +86,7 @@ footer{
        .lineaFinaFooter{
             margin: 0px;
            padding: 5px;
+           min-height: 50px;
            .col{
                padding-left: 2px;
                padding-right: 2px;
@@ -102,6 +108,7 @@ footer{
         }
         .lineaAnchaFooter{
             padding: 10px;
+            height: 85px;
             img{
                 width: 60px;
                 height: 60px;
@@ -116,6 +123,7 @@ footer{
         .lineaFinaFooter{
             margin: 0px;
             padding: 10px;
+            height: 65px;
             .col{
                 padding-left: 4px;
                 padding-right: 4px;
@@ -135,6 +143,7 @@ footer{
         }
         .lineaAnchaFooter{
             padding: 15px;
+            height: 90px;
             img{
                 width: 70px;
                 height: 70px;
@@ -149,6 +158,7 @@ footer{
         .lineaFinaFooter{
             margin: 0px;
             padding: 15px;
+            height: 70px;
             .col{
                 padding-left: 10px;
                 padding-right: 10px;
@@ -160,4 +170,4 @@ footer{
         }
     }
     
-}
+} 
