@@ -5,9 +5,11 @@
 
 @media (min-width: 360px) {
    .banner{
-       height: 530px;
+        min-height: calc(69vh - 50px);
        img{
-           height: 530px;
+            height: 597px;
+
+
        }
    }
    
