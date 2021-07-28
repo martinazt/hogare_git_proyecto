@@ -21,6 +21,11 @@
   width: 98%;
 }
 
+.consejos .accordion .accordion-item .accordion-button {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
 .videoConsejo {
   text-align: center;
 }

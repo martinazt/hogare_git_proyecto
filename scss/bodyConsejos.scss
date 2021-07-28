@@ -19,6 +19,10 @@
             width: 98%;
 
          }
+     }
+     .accordion-button{
+         padding-top: 2px ;
+        padding-bottom: 2px ;
      }    
     }
 }
@@ -51,6 +55,7 @@
             .accordion-item{
                 width: 325px;
                 button{
+                    
                     height: 58px;
                     border: 2px solid #fbebbb;
                     }
