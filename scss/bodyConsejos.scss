@@ -6,27 +6,29 @@
         text-align: -webkit-center;
     }
     .accordion{
-    text-align: -webkit-center;
-    .accordion-item{
-    background-color: #eab769e0;
-    button{
-        color: #fbebbb;
-        background-color: #717171;
-        width: 98%;
-         }
-     .accordion{
+        text-align: -webkit-center;
+
         .accordion-item{
-            width: 98%;
 
-         }
-     }
-     .accordion-button{
-         padding-top: 2px ;
-        padding-bottom: 2px ;
-     }    
+            .accordion-button{
+                padding-top: 2px ;
+                padding-bottom: 2px ;
+            }
+            border: 0px;
+            background-color: #fbebbb;
+            button{
+                color: #fbebbb;
+                background-color: #717171;
+                width: 98%;
+            }
+            .accordion{
+                .accordion-item{
+                    width: 98%;
+                    margin-bottom: 2px;
+                }
+            }
+        }
     }
-}
-
 }
 .videoConsejo{
     text-align: center;
@@ -55,10 +57,8 @@
             .accordion-item{
                 width: 325px;
                 button{
-                    
                     height: 58px;
-                    border: 2px solid #fbebbb;
-                    }
+                }
             }
             .accordion-body{
                 padding-left: 5px;
@@ -104,8 +104,7 @@
                 width: 700px;
                 button{
                     height: 75px;
-                    border: 2px solid #fbebbb;
-                 }
+                }
              }
              .accordion-body{
                 .accordion-body{
@@ -152,8 +151,7 @@
                 width: 900px;
                 button{
                     height: 85px;
-                    border: 3px solid #fbebbb;
-                 }
+                }
              }
              .accordion-body{
                 .accordion-body{
