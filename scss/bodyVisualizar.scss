@@ -1,16 +1,86 @@
-/*tablas*/ 
+/* visualizar */ 
 
+.verProducto{
+    .container{
+        h3{
+            color: #fbebbb;
+        }
+    }
+    tbody{
+        border-width: 0px;
+    }
+    td {
+        padding: 5px;
+        border-top: 0px;
+        border-right: 0px;
+        border-bottom: 0px ;
+        border-left: 0px;
+        
+    }
+    tr{
+        border-width: 0px;
+    }
+    
+   .imagenVisualizar{
+    text-align: center;
+   }
+   .botonComprar{
+        justify-content: center;
+        a{
+            text-align-last: center;
+        }
+        .ghostOscuro {
+            background-color: transparent;
+            color:#eab769e0;
+            border: 2px solid #eab769e0;
+            transition: .2s ease;
+            vertical-align: inherit;
+            padding: 1px;
+            margin: 2px;;
+            
+            &:hover {
+            background-color: #eab769e0;
+            color: white;
+            
+            transition: .2s ease;
+            }
+        }
+        .ghostClaro {
+            background-color: #eab769e0;
+            color:white;
+            border: 2px solid #eab769e0;
+            transition: .2s ease;
+            vertical-align: inherit;
+            padding: 1px;
+            margin: 2px;;
+            
+            &:hover {
+            background-color: transparent;
+            color: #eab769e0;
+            
+            transition: .2s ease;
+            }
+        }
+
+            button{
+                background-color: #eab6698e;
+                color: white;
+            }
+            margin-bottom: 0px;
+        }
+ 
+}
+/*tablas*/
 table {
    
-    background-color: black;
-    color:rgb(224, 221, 193);
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
     line-height: 150%;
     caption-side: bottom;
     border-collapse: collapse;
     width: -webkit-fill-available;
     margin: 20px;
-    border: 3px solid #b5b5b5;
-    color: #d8d8d8;
+    
     
     ul {
         li{
@@ -18,44 +88,109 @@ table {
         }
     }
 }
+/* media queries visualizar*/
 
-/* visualizar */ 
+@media (min-width: 360px) {
+    .verProducto{
+        h3{
+            font-size: 17px ;
+        }
+        h2{
+            font-size: 20px ;
+        }
+        h4{
+            font-size: 15px;
+        }
+        p{
+            font-size: 14px;
+        }
+        .container{
+            margin-top: 20px;
+            width: 75%;
+            p{
+                margin-bottom: 4px;
+            }
+        }
+        img{
+            height: 250px;
+        }
+        .botonComprar{
+                button{
+                    width: 90%
+                }
+         }
+     
+    }
+}       
 
-.visualizarPrincipal{
-    display: grid;
-    grid-template-columns: 45% 55%;
-    grid-template-rows: auto auto;
-    margin: 2px; 
-    
-}
-
-.gridFotos{
-    display: grid;
-    grid-template-columns:35% 65%;
-    margin-top: 20px;
-    padding: 2px;
-}
-.redesVisualizar{
-    text-align: right;
-}
-.fotos{
-    display: grid;
-    grid-template-rows: 80% 20%;
-    text-align: left;
-}
-.informacionVisualizar{
-    display: grid;
-    grid-template-rows:15% 10% 10% 15% 10% 5% 5%;
-    margin-left: 10%;
-    margin-top: 10px;
-    padding-left: 15px;
-    
-}
-
-.informacion{
-    margin-right: 35px;
-    margin-left: 35px;
-}
-
-
-
+ 
+ @media (min-width: 600px) {
+    .verProducto{
+        h3{
+            font-size: 19px ;
+        }
+        h2{
+            font-size: 22px ;
+        }
+        h4{
+            font-size: 17px;
+        }
+        p{
+            font-size: 16px;
+        }
+        .container{
+            margin-top: 30px;
+            width: 65%;
+            p{
+                margin-bottom: 8px;
+            }
+        }
+        img{
+            height: 300px;
+        }
+        .botonComprar{
+                button{
+                    width: 70%
+                }
+         }
+         .row{
+            margin-bottom: 2px;
+         }
+    }
+ }
+ 
+ @media (min-width: 1024px) {
+    .verProducto{
+        h3{
+            font-size: 20px ;
+        }
+        h2{
+            font-size: 23px ;
+        }
+        h4{
+            font-size: 18px;
+        }
+        p{
+            font-size: 17px;
+        }
+        .container{
+            margin-top: 40px;
+            width: 55%;
+            p{
+                margin-bottom: 10px;
+            }
+        }
+        img{
+            height: 350px;
+        }
+        .botonComprar{
+                button{
+                    width: 40%
+                }
+         }
+         .row{
+            margin-bottom: 3px;
+         }
+    }
+     
+ }

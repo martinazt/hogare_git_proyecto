@@ -1,35 +1,56 @@
 
-
+.banner{
+    margin-top: 0;
+    margin-bottom: 0px;
+    
+    color: #f8f9fa;
+    background-color: #41464bad;
+    p{
+      background-color: #000000a8;
+      color: white;
+      width: max-content;
+    }
+    h5{
+      background-color: #000000a8;
+      color: white;
+      width: max-content;
+    }
+    .d-none{
+      text-align: -webkit-center;
+    }
+}
 /* media queries */
-
 
 @media (min-width: 360px) {
    .banner{
-     
+      p{
+        font-size: smaller;
+        width: auto;
+      }
+      h5{
+        font-size: smaller;
+      }
        img{
-        height: 60vh;
+        height: 63vh;
+       }
+       .d-none{
+        display: inline !important;
        }
    }
-  
-   
-
 }
- 
- 
+
  @media (min-width: 600px) {
      .banner{
             img{
               min-height: 73vh;;
             }
         }
-    
- }
+}
  
  @media (min-width: 1024px) {
   .banner{
     img{
       min-height: 72vh;
     }
+  }   
 }
-     
- }

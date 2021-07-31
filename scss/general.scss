@@ -1,3 +1,4 @@
+/* general*/
 *{
     margin: 0%;
     padding: 0%;
@@ -17,8 +18,11 @@ main{
            a{
                color: #818181;
                text-decoration: none;
-          }
+           }
    }
+   a:hover{
+    color:#fbebbb;
+}
 }
 
 
@@ -37,11 +41,21 @@ main{
     }
 }
 .boton__index{
-    background-color: #00000099;
+    background-color: #ffffff99;
     height: 35px;
     width: 130px;
-    border-color:rgb(0, 0, 0);
-    color: black;
+    border-color: #c9c9c7;
+    
+    
+    a{
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+    }
+}
+.boton__index:hover{
+    background-color: rgb(255, 222, 151);
+    color: rgb(255, 255, 255);
+    border: solid 3px black;
     a{
         color: black;
     }
@@ -122,6 +136,7 @@ a{
     color: rgb(124, 124, 124);
     text-decoration: none;
 }
+
 
 /* div */
 div{

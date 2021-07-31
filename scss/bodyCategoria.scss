@@ -1,15 +1,6 @@
 /*GRID DE LAS SUBCATEGORIAS*/
 
-.divProductos{
-    margin:5px;
-    padding:1px;
-    background-color: #ffffff1f;
-    text-align: center;
-    transition: all 2ms;
-}
-.divProductos:hover{
-    border: solid 5px black;
-}
+
 .gridSubCategoria{
     display: grid;
     grid-template-columns: 20% 80%;
@@ -49,3 +40,60 @@
     text-align: center;
 }
 
+/* nuevo*/
+.divProductos:hover{
+    border: solid 5px #fbebbb;
+}
+
+.divProductos{
+    margin:5px;
+    padding:1px;
+    background-color: #ffffff1f;
+    text-align: center;
+    transition: all 2ms;
+    .pie{
+        background-color: rgb(43, 43, 43);
+        color: #fbebbb;
+    }
+}
+.subCategorias{
+    border-top: 8px solid #fbebbb;
+    text-align: center;
+    p{
+        text-align: initial;
+    }
+    h2{
+        margin-bottom: 50px;
+    }
+   
+    
+}
+;
+@media (min-width: 360px) {
+    .subCategorias{
+    img{
+        width: 300px;
+        height: 300px;
+    }
+}
+}
+
+@media (min-width: 600px) {
+    .subCategorias{
+    img{
+        width: 450px;
+        height: 450px;
+    }
+}
+}
+@media (min-width: 1024px) {
+    .subCategorias{
+        img{
+            width: 350px;
+            height: 350px;
+        }
+        
+        
+    }
+    
+} 
