@@ -1,0 +1,133 @@
+.bannerAccesorios {
+  background-image: url(https://693431.smushcdn.com/1076333/wp-content/uploads/sites/3/2018/08/171031-barbas-26497_1920x540px.jpg?lossy=1&strip=1&webp=1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.bannerAccesorios img {
+  width: 100%;
+}
+
+.bannerAccesorios h2 {
+  color: white;
+  padding-top: 120px;
+  -webkit-backdrop-filter: saturate(0.5);
+          backdrop-filter: saturate(0.5);
+}
+
+.accesorios p {
+  margin: 15px 40px;
+}
+
+.accesorios h3 {
+  background-color: #ebbe7a7d;
+}
+
+.accesorios a {
+  text-decoration: none;
+}
+
+.accesorios .categoriaAccesorio div {
+  margin-bottom: 15px;
+}
+
+.accesorios .categoriaAccesorio div .col {
+  background-color: #d0d0d021;
+}
+
+.accesorios .categoriaAccesorio .categoriaH {
+  text-align: center;
+  border: 1px solid #a38a76;
+  border-width: 0px 0px 15px 0px;
+}
+
+.accesorios .categoriaAccesorio .categoriaL {
+  text-align: center;
+  border: 1px solid #744128;
+  border-width: 0px 0px 15px 0px;
+}
+
+.accesorios .categoriaAccesorio .categoriaU {
+  text-align: center;
+  border: 1px solid #2f1e16;
+  border-width: 0px 0px 15px 0px;
+}
+
+/* media queries */
+@media (min-width: 360px) {
+  .bannerAccesorios {
+    height: 25vh;
+  }
+  .bannerAccesorios h2 {
+    font-size: 30px;
+    -webkit-backdrop-filter: saturate(1);
+            backdrop-filter: saturate(1);
+    padding-top: 40px;
+  }
+  .accesorios .categoriaAccesorio {
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+  .accesorios .categoriaAccesorio p {
+    font-weight: 700;
+    font-size: 14px;
+  }
+  .accesorios p {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 600px) {
+  .bannerAccesorios {
+    height: 35vh;
+  }
+  .bannerAccesorios h2 {
+    font-size: 40px;
+    padding-top: 150px;
+  }
+  .accesorios p {
+    font-size: 16px;
+  }
+  .accesorios .categoriaAccesorio {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .accesorios .categoriaAccesorio p {
+    font-weight: 700;
+    font-size: 17px;
+  }
+  .accesorios .categoriaAccesorio .botonVerCategoria {
+    padding: 10px;
+  }
+  .accesorios .categoriaAccesorio div {
+    margin-right: 2px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .bannerAccesorios {
+    height: 45vh;
+  }
+  .bannerAccesorios h2 {
+    font-size: 40px;
+  }
+  .accesorios p {
+    font-size: 18px;
+  }
+  .accesorios .categoriaAccesorio {
+    margin-bottom: 70px;
+    margin-top: 70px;
+  }
+  .accesorios .categoriaAccesorio p {
+    font-weight: 650;
+    font-size: 19px;
+  }
+  .accesorios .categoriaAccesorio .botonVerCategoria {
+    padding: 11px;
+  }
+  .accesorios .categoriaAccesorio div {
+    margin-right: 10px;
+  }
+}
+/*# sourceMappingURL=bodyCategoriaAccesorios.css.map */

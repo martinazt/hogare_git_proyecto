@@ -1,5 +1,5 @@
 /* footer */
-.lineaAnchaFooter {
+footer .lineaAnchaFooter {
   background-color: #383838;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -13,7 +13,7 @@
           align-items: baseline;
 }
 
-.lineaFinaFooter {
+footer .lineaFinaFooter {
   background-color: #2b2b2b;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -21,15 +21,24 @@
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
+  height: 100%;
 }
 
-.lineaFinaFooter row {
+footer .lineaFinaFooter row {
   margin-right: 0px;
   margin-left: 0px;
 }
 
-.lineaFinaFooter .col {
+footer .lineaFinaFooter .col {
   text-align: center;
+}
+
+footer p {
+  margin-bottom: 2px;
+}
+
+footer a:hover {
+  color: #fbebbb;
 }
 
 .enlaces {
@@ -90,11 +99,11 @@ footer ul li a {
   footer .lineaAnchaFooter {
     padding: 5px;
     padding-top: 15px;
-    min-height: 77px;
   }
   footer .lineaAnchaFooter img {
     width: 45px;
     height: 45px;
+    margin-right: 2px;
   }
   footer .lineaAnchaFooter .redesFooter img {
     width: 15px;
@@ -103,7 +112,6 @@ footer ul li a {
   footer .lineaFinaFooter {
     margin: 0px;
     padding: 5px;
-    min-height: 50px;
   }
   footer .lineaFinaFooter .col {
     padding-left: 2px;
@@ -121,11 +129,11 @@ footer ul li a {
   }
   footer .lineaAnchaFooter {
     padding: 10px;
-    height: 85px;
   }
   footer .lineaAnchaFooter img {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
+    margin-right: 6px;
   }
   footer .lineaAnchaFooter .redesFooter img {
     width: 25px;
@@ -134,7 +142,6 @@ footer ul li a {
   footer .lineaFinaFooter {
     margin: 0px;
     padding: 10px;
-    height: 65px;
   }
   footer .lineaFinaFooter .col {
     padding-left: 4px;
@@ -151,21 +158,22 @@ footer ul li a {
     font-size: 13px;
   }
   footer .lineaAnchaFooter {
-    padding: 15px;
-    height: 90px;
+    padding-bottom: 20px;
+    padding-top: 20px;
   }
   footer .lineaAnchaFooter img {
-    width: 70px;
-    height: 70px;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
   }
   footer .lineaAnchaFooter .redesFooter img {
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
   }
   footer .lineaFinaFooter {
     margin: 0px;
-    padding: 15px;
-    height: 70px;
+    padding-bottom: 6px;
+    padding-top: 6px;
   }
   footer .lineaFinaFooter .col {
     padding-left: 10px;

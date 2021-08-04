@@ -41,9 +41,7 @@
 }
 
 /* nuevo*/
-.divProductos:hover{
-    border: solid 5px #fbebbb;
-}
+
 
 .divProductos{
     margin:5px;
@@ -53,11 +51,60 @@
     transition: all 2ms;
     .pie{
         background-color: rgb(43, 43, 43);
-        color: #fbebbb;
+        color: #d1d1d1;
     }
 }
+.mainGas{
+   border-top: 8px solid #881f14;
+   .divProductos:hover{
+        border: solid 5px #881f14;
+    }
+}
+.mainLeña{
+   border-top: 8px solid #f77a27;
+   .divProductos:hover{
+        border: solid 5px #f77a27;
+    }
+}
+.mainPellets{
+  border-top: 8px solid #dac6ae;
+  .divProductos:hover{
+        border: solid 5px #dac6ae;
+    }
+} 
+.mainGLModerno{
+    border-top: 8px solid #667754;
+  .divProductos:hover{
+        border: solid 5px #667754;
+    }
+}
+.mainGLRustico{
+    border-top: 8px solid #c49c51;
+  .divProductos:hover{
+        border: solid 5px #c49c51;
+    }
+}
+.mainHeramienta{
+    border-top: 8px solid #a38a76;
+  .divProductos:hover{
+        border: solid 5px #a38a76;
+    }
+}
+.mainLimpieza{
+    border-top: 8px solid #744128;
+  .divProductos:hover{
+        border: solid 5px #744128;
+    }
+}
+.mainUtensillo{
+    border-top: 8px solid #947b34;
+  .divProductos:hover{
+        border: solid 5px #947b34;
+    }
+}
+
+
 .subCategorias{
-    border-top: 8px solid #fbebbb;
     text-align: center;
     p{
         text-align: initial;
@@ -65,10 +112,9 @@
     h2{
         margin-bottom: 50px;
     }
-   
-    
 }
-;
+    
+
 @media (min-width: 360px) {
     .subCategorias{
     img{

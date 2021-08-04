@@ -9,6 +9,8 @@ footer{
     justify-content: space-between;
     width: 100%;
     align-items: baseline;
+    margin-right: 0px;
+    margin-left: 0px;
 
     }
     .lineaFinaFooter{
@@ -79,7 +81,7 @@ footer{
 @media (min-width: 360px) {
    footer{
        p{
-           font-size: 11px;
+           font-size: 14px;
        }
        .lineaAnchaFooter{
             
@@ -119,14 +121,14 @@ footer{
 @media (min-width: 600px) {
 	footer{
         p{
-            font-size: 14px;
+            font-size: 15px;
         }
         .lineaAnchaFooter{
             padding: 10px;
            
             img{
-                width: 60px;
-                height: 60px;
+                width: 65px;
+                height: 65px;
                 margin-right: 6px;
             }
              .redesFooter{
@@ -155,15 +157,15 @@ footer{
 @media (min-width: 1024px) {
     footer{
         p{
-            font-size: 13px;
+            font-size: 16px;
         }
         .lineaAnchaFooter{
             padding-bottom: 20px;
             padding-top: 20px;
                       
             img{
-                width: 40px;
-                height: 40px;
+                width: 70px;
+                height: 70px;
                 margin-right: 10px;
             }
              .redesFooter{

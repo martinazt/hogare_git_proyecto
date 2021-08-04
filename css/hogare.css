@@ -5,7 +5,9 @@ footer .lineaAnchaFooter {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  align-items: baseline; }
+  align-items: baseline;
+  margin-right: 0px;
+  margin-left: 0px; }
 
 footer .lineaFinaFooter {
   background-color: #2b2b2b;
@@ -55,7 +57,7 @@ footer {
 /* media queries footer*/
 @media (min-width: 360px) {
   footer p {
-    font-size: 11px; }
+    font-size: 14px; }
   footer .lineaAnchaFooter {
     padding: 5px;
     padding-top: 15px; }
@@ -78,12 +80,12 @@ footer {
 
 @media (min-width: 600px) {
   footer p {
-    font-size: 14px; }
+    font-size: 15px; }
   footer .lineaAnchaFooter {
     padding: 10px; }
     footer .lineaAnchaFooter img {
-      width: 60px;
-      height: 60px;
+      width: 65px;
+      height: 65px;
       margin-right: 6px; }
     footer .lineaAnchaFooter .redesFooter img {
       width: 25px;
@@ -100,13 +102,13 @@ footer {
 
 @media (min-width: 1024px) {
   footer p {
-    font-size: 13px; }
+    font-size: 16px; }
   footer .lineaAnchaFooter {
     padding-bottom: 20px;
     padding-top: 20px; }
     footer .lineaAnchaFooter img {
-      width: 40px;
-      height: 40px;
+      width: 70px;
+      height: 70px;
       margin-right: 10px; }
     footer .lineaAnchaFooter .redesFooter img {
       width: 20px;
@@ -157,9 +159,6 @@ footer {
   text-align: center; }
 
 /* nuevo*/
-.divProductos:hover {
-  border: solid 5px #fbebbb; }
-
 .divProductos {
   margin: 5px;
   padding: 1px;
@@ -168,10 +167,49 @@ footer {
   transition: all 2ms; }
   .divProductos .pie {
     background-color: #2b2b2b;
-    color: #fbebbb; }
+    color: #d1d1d1; }
+
+.mainGas {
+  border-top: 8px solid #881f14; }
+  .mainGas .divProductos:hover {
+    border: solid 5px #881f14; }
+
+.mainLeña {
+  border-top: 8px solid #f77a27; }
+  .mainLeña .divProductos:hover {
+    border: solid 5px #f77a27; }
+
+.mainPellets {
+  border-top: 8px solid #dac6ae; }
+  .mainPellets .divProductos:hover {
+    border: solid 5px #dac6ae; }
+
+.mainGLModerno {
+  border-top: 8px solid #667754; }
+  .mainGLModerno .divProductos:hover {
+    border: solid 5px #667754; }
+
+.mainGLRustico {
+  border-top: 8px solid #c49c51; }
+  .mainGLRustico .divProductos:hover {
+    border: solid 5px #c49c51; }
+
+.mainHeramienta {
+  border-top: 8px solid #a38a76; }
+  .mainHeramienta .divProductos:hover {
+    border: solid 5px #a38a76; }
+
+.mainLimpieza {
+  border-top: 8px solid #744128; }
+  .mainLimpieza .divProductos:hover {
+    border: solid 5px #744128; }
+
+.mainUtensillo {
+  border-top: 8px solid #947b34; }
+  .mainUtensillo .divProductos:hover {
+    border: solid 5px #947b34; }
 
 .subCategorias {
-  border-top: 8px solid #fbebbb;
   text-align: center; }
   .subCategorias p {
     text-align: initial; }
@@ -194,6 +232,18 @@ footer {
     height: 350px; } }
 
 /* consejo */
+.bannerConsejo {
+  background-image: url(https://693431.smushcdn.com/1076333/wp-content/uploads/sites/3/2018/08/Img4439_1920x540px.jpg?lossy=1&strip=1&webp=1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  text-align: center; }
+  .bannerConsejo img {
+    width: 100%; }
+  .bannerConsejo h2, .bannerConsejo .h2 {
+    color: white;
+    backdrop-filter: saturate(1); }
+
 .consejos .col {
   text-align: -webkit-center; }
 
@@ -202,16 +252,30 @@ footer {
   .consejos .accordion .accordion-item {
     border: 0px;
     background-color: #fbebbb; }
+    .consejos .accordion .accordion-item .arrowed {
+      background-color: pink; }
+      .consejos .accordion .accordion-item .arrowed div {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto; }
+      .consejos .accordion .accordion-item .arrowed .arrow-1 {
+        height: 15px;
+        width: 15px;
+        border: 1px solid #fbebbb;
+        border-width: 0px 2px 2px 0px;
+        transform: rotate(45deg); }
+    .consejos .accordion .accordion-item .accordion-button:not(.collapsed)::after {
+      background-image: none; }
     .consejos .accordion .accordion-item .accordion-button {
       padding-top: 2px;
       padding-bottom: 2px; }
     .consejos .accordion .accordion-item button {
       color: #fbebbb;
-      background-color: #717171;
+      background-color: #232122;
       width: 98%; }
-    .consejos .accordion .accordion-item .accordion-button:not(.collapsed)::after {
-      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
-      transform: rotate(-180deg); }
     .consejos .accordion .accordion-item .accordion .accordion-item {
       width: 98%;
       margin-bottom: 2px; }
@@ -221,6 +285,10 @@ footer {
 
 /* media queries */
 @media (min-width: 360px) {
+  .bannerConsejo {
+    height: 22vh; }
+    .bannerConsejo H2 {
+      padding: 80px; }
   main {
     min-height: calc(75vh - 50px); }
   .consejos {
@@ -236,6 +304,9 @@ footer {
         width: 325px; }
         .consejos .accordion .accordion-item button {
           height: 58px; }
+        .consejos .accordion .accordion-item .arrowed .arrow-1 {
+          right: 0px;
+          left: 250px; }
       .consejos .accordion .accordion-body {
         padding-left: 5px;
         padding-right: 5px; }
@@ -248,6 +319,10 @@ footer {
       height: 200px; } }
 
 @media (min-width: 600px) {
+  .bannerConsejo {
+    height: 25vh; }
+    .bannerConsejo H2 {
+      padding: 140px; }
   main {
     min-height: calc(80vh - 50px); }
   .consejos {
@@ -268,6 +343,9 @@ footer {
         width: 700px; }
         .consejos .accordion .accordion-item button {
           height: 75px; }
+        .consejos .accordion .accordion-item .arrowed .arrow-1 {
+          right: 0px;
+          left: 550px; }
       .consejos .accordion .accordion-body .accordion-body {
         padding-left: 10px;
         padding-right: 10px; }
@@ -278,6 +356,10 @@ footer {
       height: 400px; } }
 
 @media (min-width: 1024px) {
+  .bannerConsejo {
+    height: 22vh; }
+    .bannerConsejo H2 {
+      padding: 120px; }
   main {
     min-height: calc(70vh - 50px); }
   .consejos {
@@ -298,6 +380,9 @@ footer {
         width: 900px; }
         .consejos .accordion .accordion-item button {
           height: 85px; }
+        .consejos .accordion .accordion-item .arrowed .arrow-1 {
+          right: 0px;
+          left: 750px; }
       .consejos .accordion .accordion-body .accordion-body {
         padding-left: 15px;
         padding-right: 15px; }
@@ -313,19 +398,16 @@ footer {
   margin-bottom: 0px; }
   .gridContac .botonEnviar .ghost {
     background-color: transparent;
-    color: #eab769e0;
-    border: 2px solid #eab769e0;
+    color: #fbebbb;
+    border: 2px solid #fbebbb;
     transition: .2s ease;
     vertical-align: inherit;
     padding: 1px;
     margin: 2px; }
     .gridContac .botonEnviar .ghost:hover {
-      background-color: #eab769e0;
-      color: white;
+      background-color: #fbebbb;
+      color: #232122;
       transition: .2s ease; }
-  .gridContac .botonEnviar button {
-    background-color: #eab6698e;
-    color: white; }
 
 .gridContac .botonMensaje {
   text-align: center; }
@@ -346,7 +428,7 @@ footer {
       background-color: #fbebbb; }
       .contenedorContacto .accordion .accordion-item button {
         color: #fbebbb;
-        background-color: #717171; }
+        background-color: #232122; }
       .contenedorContacto .accordion .accordion-item .accordion-button:not(.collapsed)::after {
         background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
         transform: rotate(-180deg); }
@@ -764,8 +846,18 @@ footer {
       height: 18px;
       width: 18px; } }
 
-.salamandras h2, .salamandras .h2 {
-  margin: 10px 15px; }
+.bannerSalamandras {
+  background-image: url(https://693431.smushcdn.com/1076333/wp-content/uploads/sites/3/2018/08/F1_BOX-Gas-80-C.-1.jpg?lossy=1&strip=1&webp=1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  text-align: center; }
+  .bannerSalamandras img {
+    width: 100%; }
+  .bannerSalamandras h2, .bannerSalamandras .h2 {
+    color: white;
+    padding-top: 120px;
+    backdrop-filter: saturate(0.5); }
 
 .salamandras p {
   margin: 15px 40px; }
@@ -776,10 +868,25 @@ footer {
 .salamandras a {
   text-decoration: none; }
 
-.categoriaSalamandra div {
+.salamandras .categoriaSalamandra div {
   margin-bottom: 15px; }
-  .categoriaSalamandra div .col {
+  .salamandras .categoriaSalamandra div .col {
     background-color: #d0d0d021; }
+
+.salamandras .categoriaSalamandra .categoria1 {
+  text-align: center;
+  border: 1px solid #881f14;
+  border-width: 0px 0px 15px 0px; }
+
+.salamandras .categoriaSalamandra .categoria2 {
+  text-align: center;
+  border: 1px solid #f77a27;
+  border-width: 0px 0px 15px 0px; }
+
+.salamandras .categoriaSalamandra .categoria3 {
+  text-align: center;
+  border: 1px solid #dac6ae;
+  border-width: 0px 0px 15px 0px; }
 
 .botonVerCategoria {
   justify-content: center; }
@@ -803,12 +910,11 @@ footer {
 
 /* media queries */
 @media (min-width: 360px) {
-  .salamandras h2, .salamandras .h2 {
-    font-size: 23px; }
-  .salamandras h3, .salamandras .h3 {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 20px; }
+  .bannerSalamandras {
+    height: 25vh; }
+    .bannerSalamandras h2, .bannerSalamandras .h2 {
+      font-size: 30px;
+      backdrop-filter: saturate(1); }
   .salamandras .categoriaSalamandra {
     margin-bottom: 50px;
     margin-top: 50px; }
@@ -819,17 +925,15 @@ footer {
     font-size: 14px; } }
 
 @media (min-width: 600px) {
-  .salamandras h2, .salamandras .h2 {
-    font-size: 25px; }
-  .salamandras h3, .salamandras .h3 {
-    margin-top: 22px;
-    margin-bottom: 22px;
-    font-size: 22px; }
+  .bannerSalamandras {
+    height: 35vh; }
+    .bannerSalamandras h2, .bannerSalamandras .h2 {
+      font-size: 40px; }
   .salamandras p {
     font-size: 16px; }
   .salamandras .categoriaSalamandra {
-    margin-bottom: 80px;
-    margin-top: 80px; }
+    margin-top: 50px;
+    margin-bottom: 50px; }
     .salamandras .categoriaSalamandra p {
       font-weight: 700;
       font-size: 17px; }
@@ -839,12 +943,8 @@ footer {
       margin-right: 2px; } }
 
 @media (min-width: 1024px) {
-  .salamandras h2, .salamandras .h2 {
-    font-size: 27px; }
-  .salamandras h3, .salamandras .h3 {
-    margin-top: 24px;
-    margin-bottom: 24px;
-    font-size: 24px; }
+  .bannerSalamandras {
+    height: 45vh; }
   .salamandras p {
     font-size: 18px; }
   .salamandras .categoriaSalamandra {
@@ -991,7 +1091,9 @@ footer .lineaAnchaFooter {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  align-items: baseline; }
+  align-items: baseline;
+  margin-right: 0px;
+  margin-left: 0px; }
 
 footer .lineaFinaFooter {
   background-color: #2b2b2b;
@@ -1041,7 +1143,7 @@ footer {
 /* media queries footer*/
 @media (min-width: 360px) {
   footer p {
-    font-size: 11px; }
+    font-size: 14px; }
   footer .lineaAnchaFooter {
     padding: 5px;
     padding-top: 15px; }
@@ -1064,12 +1166,12 @@ footer {
 
 @media (min-width: 600px) {
   footer p {
-    font-size: 14px; }
+    font-size: 15px; }
   footer .lineaAnchaFooter {
     padding: 10px; }
     footer .lineaAnchaFooter img {
-      width: 60px;
-      height: 60px;
+      width: 65px;
+      height: 65px;
       margin-right: 6px; }
     footer .lineaAnchaFooter .redesFooter img {
       width: 25px;
@@ -1086,13 +1188,13 @@ footer {
 
 @media (min-width: 1024px) {
   footer p {
-    font-size: 13px; }
+    font-size: 16px; }
   footer .lineaAnchaFooter {
     padding-bottom: 20px;
     padding-top: 20px; }
     footer .lineaAnchaFooter img {
-      width: 40px;
-      height: 40px;
+      width: 70px;
+      height: 70px;
       margin-right: 10px; }
     footer .lineaAnchaFooter .redesFooter img {
       width: 20px;
@@ -1372,6 +1474,194 @@ header {
       font-size: 1.0rem; }
     nav .dropdown-menu {
       font-size: 14px; } }
+
+.bannerGuardaLena {
+  background-image: url(https://693431.smushcdn.com/1076333/wp-content/uploads/sites/3/2018/07/F1_Unilux-6-270-Three-sided_inbouw-kader-1.jpg?lossy=1&strip=1&webp=1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center; }
+  .bannerGuardaLena img {
+    width: 100%; }
+  .bannerGuardaLena h2, .bannerGuardaLena .h2 {
+    color: white;
+    padding-top: 120px;
+    backdrop-filter: saturate(0.5); }
+
+.guardaLena p {
+  margin: 15px 40px; }
+
+.guardaLena h3, .guardaLena .h3 {
+  background-color: #ebbe7a7d; }
+
+.guardaLena a {
+  text-decoration: none; }
+
+.guardaLena .categoriaGL div {
+  margin-bottom: 15px; }
+  .guardaLena .categoriaGL div .col {
+    background-color: #d0d0d021; }
+
+.guardaLena .categoriaGL .categoriaGL1 {
+  text-align: center;
+  border: 1px solid #667754;
+  border-width: 0px 0px 15px 0px; }
+
+.guardaLena .categoriaGL .categoriaGL2 {
+  text-align: center;
+  border: 1px solid #c49c51;
+  border-width: 0px 0px 15px 0px; }
+
+/* media queries */
+@media (min-width: 360px) {
+  .bannerGuardaLena {
+    height: 25vh;
+    background-position-y: -80px; }
+    .bannerGuardaLena h2, .bannerGuardaLena .h2 {
+      font-size: 30px;
+      backdrop-filter: saturate(1);
+      padding-top: 40px; }
+  .guardaLena .categoriaGL {
+    margin-bottom: 50px;
+    margin-top: 50px; }
+    .guardaLena .categoriaGL p {
+      font-weight: 700;
+      font-size: 14px; }
+  .guardaLena p {
+    font-size: 14px; } }
+
+@media (min-width: 600px) {
+  .bannerGuardaLena {
+    height: 35vh;
+    background-position-y: -150px; }
+    .bannerGuardaLena h2, .bannerGuardaLena .h2 {
+      font-size: 40px;
+      padding-top: 150px; }
+  .guardaLena p {
+    font-size: 16px; }
+  .guardaLena .categoriaGL {
+    margin-top: 50px;
+    margin-bottom: 50px; }
+    .guardaLena .categoriaGL p {
+      font-weight: 700;
+      font-size: 17px; }
+    .guardaLena .categoriaGL .botonVerCategoria {
+      padding: 10px; }
+    .guardaLena .categoriaGL div {
+      margin-right: 2px; } }
+
+@media (min-width: 1024px) {
+  .bannerGuardaLena {
+    height: 45vh;
+    background-position-y: -690px; }
+    .bannerGuardaLena h2, .bannerGuardaLena .h2 {
+      font-size: 40px; }
+  .guardaLena p {
+    font-size: 18px; }
+  .guardaLena .categoriaGL {
+    margin-bottom: 70px;
+    margin-top: 70px; }
+    .guardaLena .categoriaGL p {
+      font-weight: 650;
+      font-size: 19px; }
+    .guardaLena .categoriaGL .botonVerCategoria {
+      padding: 11px; }
+    .guardaLena .categoriaGL div {
+      margin-right: 10px; } }
+
+.bannerAccesorios {
+  background-image: url(https://693431.smushcdn.com/1076333/wp-content/uploads/sites/3/2018/08/171031-barbas-26497_1920x540px.jpg?lossy=1&strip=1&webp=1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center; }
+  .bannerAccesorios img {
+    width: 100%; }
+  .bannerAccesorios h2, .bannerAccesorios .h2 {
+    color: white;
+    padding-top: 120px;
+    backdrop-filter: saturate(0.5); }
+
+.accesorios p {
+  margin: 15px 40px; }
+
+.accesorios h3, .accesorios .h3 {
+  background-color: #ebbe7a7d; }
+
+.accesorios a {
+  text-decoration: none; }
+
+.accesorios .categoriaAccesorio div {
+  margin-bottom: 15px; }
+  .accesorios .categoriaAccesorio div .col {
+    background-color: #d0d0d021; }
+
+.accesorios .categoriaAccesorio .categoriaH {
+  text-align: center;
+  border: 1px solid #a38a76;
+  border-width: 0px 0px 15px 0px; }
+
+.accesorios .categoriaAccesorio .categoriaL {
+  text-align: center;
+  border: 1px solid #744128;
+  border-width: 0px 0px 15px 0px; }
+
+.accesorios .categoriaAccesorio .categoriaU {
+  text-align: center;
+  border: 1px solid #947b34;
+  border-width: 0px 0px 15px 0px; }
+
+/* media queries */
+@media (min-width: 360px) {
+  .bannerAccesorios {
+    height: 25vh; }
+    .bannerAccesorios h2, .bannerAccesorios .h2 {
+      font-size: 30px;
+      backdrop-filter: saturate(1);
+      padding-top: 40px; }
+  .accesorios .categoriaAccesorio {
+    margin-bottom: 50px;
+    margin-top: 50px; }
+    .accesorios .categoriaAccesorio p {
+      font-weight: 700;
+      font-size: 14px; }
+  .accesorios p {
+    font-size: 14px; } }
+
+@media (min-width: 600px) {
+  .bannerAccesorios {
+    height: 35vh; }
+    .bannerAccesorios h2, .bannerAccesorios .h2 {
+      font-size: 40px;
+      padding-top: 150px; }
+  .accesorios p {
+    font-size: 16px; }
+  .accesorios .categoriaAccesorio {
+    margin-top: 50px;
+    margin-bottom: 50px; }
+    .accesorios .categoriaAccesorio p {
+      font-weight: 700;
+      font-size: 17px; }
+    .accesorios .categoriaAccesorio .botonVerCategoria {
+      padding: 10px; }
+    .accesorios .categoriaAccesorio div {
+      margin-right: 2px; } }
+
+@media (min-width: 1024px) {
+  .bannerAccesorios {
+    height: 45vh; }
+    .bannerAccesorios h2, .bannerAccesorios .h2 {
+      font-size: 40px; }
+  .accesorios p {
+    font-size: 18px; }
+  .accesorios .categoriaAccesorio {
+    margin-bottom: 70px;
+    margin-top: 70px; }
+    .accesorios .categoriaAccesorio p {
+      font-weight: 650;
+      font-size: 19px; }
+    .accesorios .categoriaAccesorio .botonVerCategoria {
+      padding: 11px; }
+    .accesorios .categoriaAccesorio div {
+      margin-right: 10px; } }
 
 /*MODIFICACIONES BOOTSTRAP*/
 /* EN DROPDOWN.SCSS */

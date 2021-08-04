@@ -1,64 +1,183 @@
+/* visualizar */
+.verProducto .container h3 {
+  color: #fbebbb;
+}
+
+.verProducto tbody {
+  border-width: 0px;
+}
+
+.verProducto td {
+  padding: 5px;
+  border-top: 0px;
+  border-right: 0px;
+  border-bottom: 0px;
+  border-left: 0px;
+}
+
+.verProducto tr {
+  border-width: 0px;
+}
+
+.verProducto .imagenVisualizar {
+  text-align: center;
+}
+
+.verProducto .botonComprar {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 0px;
+}
+
+.verProducto .botonComprar a {
+  text-align-last: center;
+}
+
+.verProducto .botonComprar .ghostOscuro {
+  background-color: transparent;
+  color: #eab769e0;
+  border: 2px solid #eab769e0;
+  -webkit-transition: .2s ease;
+  transition: .2s ease;
+  vertical-align: inherit;
+  padding: 1px;
+  margin: 2px;
+}
+
+.verProducto .botonComprar .ghostOscuro:hover {
+  background-color: #eab769e0;
+  color: white;
+  -webkit-transition: .2s ease;
+  transition: .2s ease;
+}
+
+.verProducto .botonComprar .ghostClaro {
+  background-color: #eab769e0;
+  color: white;
+  border: 2px solid #eab769e0;
+  -webkit-transition: .2s ease;
+  transition: .2s ease;
+  vertical-align: inherit;
+  padding: 1px;
+  margin: 2px;
+}
+
+.verProducto .botonComprar .ghostClaro:hover {
+  background-color: transparent;
+  color: #eab769e0;
+  -webkit-transition: .2s ease;
+  transition: .2s ease;
+}
+
+.verProducto .botonComprar button {
+  background-color: #eab6698e;
+  color: white;
+}
+
 /*tablas*/
 table {
-  background-color: black;
-  color: #e0ddc1;
+  background-color: white;
+  color: black;
   line-height: 150%;
   caption-side: bottom;
   border-collapse: collapse;
   width: -webkit-fill-available;
   margin: 20px;
-  border: 3px solid #b5b5b5;
-  color: #d8d8d8;
 }
 
 table ul li {
   color: #d8d8d8;
 }
 
-/* visualizar */
-.visualizarPrincipal {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 45% 55%;
-      grid-template-columns: 45% 55%;
-  -ms-grid-rows: auto auto;
-      grid-template-rows: auto auto;
-  margin: 2px;
+/* media queries visualizar*/
+@media (min-width: 360px) {
+  .verProducto h3 {
+    font-size: 17px;
+  }
+  .verProducto h2 {
+    font-size: 20px;
+  }
+  .verProducto h4 {
+    font-size: 15px;
+  }
+  .verProducto p {
+    font-size: 14px;
+  }
+  .verProducto .container {
+    margin-top: 20px;
+    width: 75%;
+  }
+  .verProducto .container p {
+    margin-bottom: 4px;
+  }
+  .verProducto img {
+    height: 250px;
+  }
+  .verProducto .botonComprar button {
+    width: 90%;
+  }
 }
 
-.gridFotos {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 35% 65%;
-      grid-template-columns: 35% 65%;
-  margin-top: 20px;
-  padding: 2px;
+@media (min-width: 600px) {
+  .verProducto h3 {
+    font-size: 19px;
+  }
+  .verProducto h2 {
+    font-size: 22px;
+  }
+  .verProducto h4 {
+    font-size: 17px;
+  }
+  .verProducto p {
+    font-size: 16px;
+  }
+  .verProducto .container {
+    margin-top: 30px;
+    width: 65%;
+  }
+  .verProducto .container p {
+    margin-bottom: 8px;
+  }
+  .verProducto img {
+    height: 300px;
+  }
+  .verProducto .botonComprar button {
+    width: 70%;
+  }
+  .verProducto .row {
+    margin-bottom: 2px;
+  }
 }
 
-.redesVisualizar {
-  text-align: right;
-}
-
-.fotos {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-rows: 80% 20%;
-      grid-template-rows: 80% 20%;
-  text-align: left;
-}
-
-.informacionVisualizar {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-rows: 15% 10% 10% 15% 10% 5% 5%;
-      grid-template-rows: 15% 10% 10% 15% 10% 5% 5%;
-  margin-left: 10%;
-  margin-top: 10px;
-  padding-left: 15px;
-}
-
-.informacion {
-  margin-right: 35px;
-  margin-left: 35px;
+@media (min-width: 1024px) {
+  .verProducto h3 {
+    font-size: 20px;
+  }
+  .verProducto h2 {
+    font-size: 23px;
+  }
+  .verProducto h4 {
+    font-size: 18px;
+  }
+  .verProducto p {
+    font-size: 17px;
+  }
+  .verProducto .container {
+    margin-top: 40px;
+    width: 55%;
+  }
+  .verProducto .container p {
+    margin-bottom: 10px;
+  }
+  .verProducto img {
+    height: 350px;
+  }
+  .verProducto .botonComprar button {
+    width: 40%;
+  }
+  .verProducto .row {
+    margin-bottom: 3px;
+  }
 }
 /*# sourceMappingURL=bodyVisualizar.css.map */

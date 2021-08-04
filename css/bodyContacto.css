@@ -1,8 +1,15 @@
 /* probando*/
-.botonEnviar .ghost {
+.gridContac .botonEnviar {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 0px;
+}
+
+.gridContac .botonEnviar .ghost {
   background-color: transparent;
-  color: #eab769e0;
-  border: 2px solid #eab769e0;
+  color: #fbebbb;
+  border: 2px solid #fbebbb;
   -webkit-transition: .2s ease;
   transition: .2s ease;
   vertical-align: inherit;
@@ -10,20 +17,27 @@
   margin: 2px;
 }
 
-.botonEnviar .ghost:hover {
-  background-color: #eab769e0;
-  color: white;
+.gridContac .botonEnviar .ghost:hover {
+  background-color: #fbebbb;
+  color: #232122;
   -webkit-transition: .2s ease;
   transition: .2s ease;
 }
 
-.botonEnviar button {
-  background-color: #eab6698e;
-  color: white;
+.gridContac .botonMensaje {
+  text-align: center;
+}
+
+.gridContac .mensajeContacto {
+  margin-bottom: 0px;
+}
+
+.gridContac .mensajeContacto textarea {
+  width: 100%;
 }
 
 .contenedorContacto {
-  color: aliceblue;
+  color: #fbebbb;
   text-align: center;
 }
 
@@ -38,12 +52,22 @@
 }
 
 .contenedorContacto .accordion .accordion-item {
-  background-color: #eab769e0;
+  background-color: #fbebbb;
 }
 
 .contenedorContacto .accordion .accordion-item button {
   color: #fbebbb;
-  background-color: #717171;
+  background-color: #232122;
+}
+
+.contenedorContacto .accordion .accordion-item .accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  -webkit-transform: rotate(-180deg);
+          transform: rotate(-180deg);
+}
+
+.datosContacto {
+  color: black;
 }
 
 .fondoGris {
@@ -58,14 +82,6 @@
 
 .tituloContacto h2 {
   padding: 2px;
-}
-
-.botonMensaje {
-  text-align: center;
-}
-
-.mensajeContacto textarea {
-  width: 100%;
 }
 
 .gridContac {
@@ -144,6 +160,9 @@
 }
 
 @media (min-width: 600px) {
+  .fondoGris {
+    height: 358px;
+  }
   .accordion-item button {
     height: 45px;
   }

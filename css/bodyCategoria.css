@@ -1,17 +1,5 @@
+@charset "UTF-8";
 /*GRID DE LAS SUBCATEGORIAS*/
-.divProductos {
-  margin: 5px;
-  padding: 1px;
-  background-color: #ffffff1f;
-  text-align: center;
-  -webkit-transition: all 2ms;
-  transition: all 2ms;
-}
-
-.divProductos:hover {
-  border: solid 5px black;
-}
-
 .gridSubCategoria {
   display: -ms-grid;
   display: grid;
@@ -61,5 +49,117 @@
   margin: 5px;
   padding: 5px;
   text-align: center;
+}
+
+/* nuevo*/
+.divProductos {
+  margin: 5px;
+  padding: 1px;
+  background-color: #ffffff1f;
+  text-align: center;
+  -webkit-transition: all 2ms;
+  transition: all 2ms;
+}
+
+.divProductos .pie {
+  background-color: #2b2b2b;
+  color: #d1d1d1;
+}
+
+.mainGas {
+  border-top: 8px solid #881f14;
+}
+
+.mainGas .divProductos:hover {
+  border: solid 5px #881f14;
+}
+
+.mainLeña {
+  border-top: 8px solid #f77a27;
+}
+
+.mainLeña .divProductos:hover {
+  border: solid 5px #f77a27;
+}
+
+.mainPellets {
+  border-top: 8px solid #dac6ae;
+}
+
+.mainPellets .divProductos:hover {
+  border: solid 5px #dac6ae;
+}
+
+.mainGLModerno {
+  border-top: 8px solid #667754;
+}
+
+.mainGLModerno .divProductos:hover {
+  border: solid 5px #667754;
+}
+
+.mainGLRustico {
+  border-top: 8px solid #c49c51;
+}
+
+.mainGLRustico .divProductos:hover {
+  border: solid 5px #c49c51;
+}
+
+.mainHerramienta {
+  border-top: 8px solid #c49c51;
+}
+
+.mainHerramienta .divProductos:hover {
+  border: solid 5px #c49c51;
+}
+
+.mainLimpieza {
+  border-top: 8px solid #c49c51;
+}
+
+.mainLimpieza .divProductos:hover {
+  border: solid 5px #c49c51;
+}
+
+.mainUtensillo {
+  border-top: 8px solid #c49c51;
+}
+
+.mainUtensillo .divProductos:hover {
+  border: solid 5px #c49c51;
+}
+
+.subCategorias {
+  text-align: center;
+}
+
+.subCategorias p {
+  text-align: initial;
+}
+
+.subCategorias h2 {
+  margin-bottom: 50px;
+}
+
+@media (min-width: 360px) {
+  .subCategorias img {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media (min-width: 600px) {
+  .subCategorias img {
+    width: 450px;
+    height: 450px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .subCategorias img {
+    width: 350px;
+    height: 350px;
+  }
 }
 /*# sourceMappingURL=bodyCategoria.css.map */

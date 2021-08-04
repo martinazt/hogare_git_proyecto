@@ -8,22 +8,50 @@
 }
 
 .consejos .accordion .accordion-item {
-  background-color: #eab769e0;
+  border: 0px;
+  background-color: #fbebbb;
 }
 
-.consejos .accordion .accordion-item button {
-  color: #fbebbb;
-  background-color: #717171;
-  width: 98%;
+.consejos .accordion .accordion-item .arrowed {
+  background-color: pink;
 }
 
-.consejos .accordion .accordion-item .accordion .accordion-item {
-  width: 98%;
+.consejos .accordion .accordion-item .arrowed div {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.consejos .accordion .accordion-item .arrowed .arrow-1 {
+  height: 15px;
+  width: 15px;
+  border: 1px solid #fbebbb;
+  border-width: 0px 2px 2px 0px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.consejos .accordion .accordion-item .accordion-button:not(.collapsed)::after {
+  background-image: none;
 }
 
 .consejos .accordion .accordion-item .accordion-button {
   padding-top: 2px;
   padding-bottom: 2px;
+}
+
+.consejos .accordion .accordion-item button {
+  color: #fbebbb;
+  background-color: #232122;
+  width: 98%;
+}
+
+.consejos .accordion .accordion-item .accordion .accordion-item {
+  width: 98%;
+  margin-bottom: 2px;
 }
 
 .videoConsejo {
@@ -53,7 +81,10 @@
   }
   .consejos .accordion .accordion-item button {
     height: 58px;
-    border: 2px solid #fbebbb;
+  }
+  .consejos .accordion .accordion-item .arrowed .arrow-1 {
+    right: 0px;
+    left: 250px;
   }
   .consejos .accordion .accordion-body {
     padding-left: 5px;
@@ -98,7 +129,10 @@
   }
   .consejos .accordion .accordion-item button {
     height: 75px;
-    border: 2px solid #fbebbb;
+  }
+  .consejos .accordion .accordion-item .arrowed .arrow-1 {
+    right: 0px;
+    left: 550px;
   }
   .consejos .accordion .accordion-body .accordion-body {
     padding-left: 10px;
@@ -141,7 +175,10 @@
   }
   .consejos .accordion .accordion-item button {
     height: 85px;
-    border: 3px solid #fbebbb;
+  }
+  .consejos .accordion .accordion-item .arrowed .arrow-1 {
+    right: 0px;
+    left: 750px;
   }
   .consejos .accordion .accordion-body .accordion-body {
     padding-left: 15px;

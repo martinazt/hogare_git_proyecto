@@ -1,5 +1,20 @@
-.salamandras h2 {
-  margin: 10px 15px;
+.bannerSalamandras {
+  background-image: url(https://693431.smushcdn.com/1076333/wp-content/uploads/sites/3/2018/08/F1_BOX-Gas-80-C.-1.jpg?lossy=1&strip=1&webp=1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  text-align: center;
+}
+
+.bannerSalamandras img {
+  width: 100%;
+}
+
+.bannerSalamandras h2 {
+  color: white;
+  padding-top: 120px;
+  -webkit-backdrop-filter: saturate(0.5);
+          backdrop-filter: saturate(0.5);
 }
 
 .salamandras p {
@@ -14,12 +29,30 @@
   text-decoration: none;
 }
 
-.categoriaSalamandra div {
+.salamandras .categoriaSalamandra div {
   margin-bottom: 15px;
 }
 
-.categoriaSalamandra div .col {
+.salamandras .categoriaSalamandra div .col {
   background-color: #d0d0d021;
+}
+
+.salamandras .categoriaSalamandra .categoria1 {
+  text-align: center;
+  border: 1px solid #881f14;
+  border-width: 0px 0px 15px 0px;
+}
+
+.salamandras .categoriaSalamandra .categoria2 {
+  text-align: center;
+  border: 1px solid #f77a27;
+  border-width: 0px 0px 15px 0px;
+}
+
+.salamandras .categoriaSalamandra .categoria3 {
+  text-align: center;
+  border: 1px solid #dac6ae;
+  border-width: 0px 0px 15px 0px;
 }
 
 .botonVerCategoria {
@@ -55,13 +88,13 @@
 
 /* media queries */
 @media (min-width: 360px) {
-  .salamandras h2 {
-    font-size: 23px;
+  .bannerSalamandras {
+    height: 25vh;
   }
-  .salamandras h3 {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 20px;
+  .bannerSalamandras h2 {
+    font-size: 30px;
+    -webkit-backdrop-filter: saturate(1);
+            backdrop-filter: saturate(1);
   }
   .salamandras .categoriaSalamandra {
     margin-bottom: 50px;
@@ -77,20 +110,18 @@
 }
 
 @media (min-width: 600px) {
-  .salamandras h2 {
-    font-size: 25px;
+  .bannerSalamandras {
+    height: 35vh;
   }
-  .salamandras h3 {
-    margin-top: 22px;
-    margin-bottom: 22px;
-    font-size: 22px;
+  .bannerSalamandras h2 {
+    font-size: 40px;
   }
   .salamandras p {
     font-size: 16px;
   }
   .salamandras .categoriaSalamandra {
-    margin-bottom: 80px;
-    margin-top: 80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
   .salamandras .categoriaSalamandra p {
     font-weight: 700;
@@ -105,13 +136,8 @@
 }
 
 @media (min-width: 1024px) {
-  .salamandras h2 {
-    font-size: 27px;
-  }
-  .salamandras h3 {
-    margin-top: 24px;
-    margin-bottom: 24px;
-    font-size: 24px;
+  .bannerSalamandras {
+    height: 45vh;
   }
   .salamandras p {
     font-size: 18px;

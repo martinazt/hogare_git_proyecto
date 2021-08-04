@@ -1,0 +1,130 @@
+.bannerGuardaLena {
+  background-image: url(https://693431.smushcdn.com/1076333/wp-content/uploads/sites/3/2018/07/F1_Unilux-6-270-Three-sided_inbouw-kader-1.jpg?lossy=1&strip=1&webp=1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.bannerGuardaLena img {
+  width: 100%;
+}
+
+.bannerGuardaLena h2 {
+  color: white;
+  padding-top: 120px;
+  -webkit-backdrop-filter: saturate(0.5);
+          backdrop-filter: saturate(0.5);
+}
+
+.guardaLena p {
+  margin: 15px 40px;
+}
+
+.guardaLena h3 {
+  background-color: #ebbe7a7d;
+}
+
+.guardaLena a {
+  text-decoration: none;
+}
+
+.guardaLena .categoriaGL div {
+  margin-bottom: 15px;
+}
+
+.guardaLena .categoriaGL div .col {
+  background-color: #d0d0d021;
+}
+
+.guardaLena .categoriaGL .categoriaGL1 {
+  text-align: center;
+  border: 1px solid #667754;
+  border-width: 0px 0px 15px 0px;
+}
+
+.guardaLena .categoriaGL .categoriaGL2 {
+  text-align: center;
+  border: 1px solid #c49c51;
+  border-width: 0px 0px 15px 0px;
+}
+
+/* media queries */
+@media (min-width: 360px) {
+  .bannerGuardaLena {
+    height: 25vh;
+    background-position-y: -80px;
+  }
+  .bannerGuardaLena h2 {
+    font-size: 30px;
+    -webkit-backdrop-filter: saturate(1);
+            backdrop-filter: saturate(1);
+    padding-top: 40px;
+  }
+  .guardaLena .categoriaGL {
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+  .guardaLena .categoriaGL p {
+    font-weight: 700;
+    font-size: 14px;
+  }
+  .guardaLena p {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 600px) {
+  .bannerGuardaLena {
+    height: 35vh;
+    background-position-y: -150px;
+  }
+  .bannerGuardaLena h2 {
+    font-size: 40px;
+    padding-top: 150px;
+  }
+  .guardaLena p {
+    font-size: 16px;
+  }
+  .guardaLena .categoriaGL {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .guardaLena .categoriaGL p {
+    font-weight: 700;
+    font-size: 17px;
+  }
+  .guardaLena .categoriaGL .botonVerCategoria {
+    padding: 10px;
+  }
+  .guardaLena .categoriaGL div {
+    margin-right: 2px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .bannerGuardaLena {
+    height: 45vh;
+    background-position-y: -690px;
+  }
+  .bannerGuardaLena h2 {
+    font-size: 40px;
+  }
+  .guardaLena p {
+    font-size: 18px;
+  }
+  .guardaLena .categoriaGL {
+    margin-bottom: 70px;
+    margin-top: 70px;
+  }
+  .guardaLena .categoriaGL p {
+    font-weight: 650;
+    font-size: 19px;
+  }
+  .guardaLena .categoriaGL .botonVerCategoria {
+    padding: 11px;
+  }
+  .guardaLena .categoriaGL div {
+    margin-right: 10px;
+  }
+}
+/*# sourceMappingURL=bodyGuardaLena.css.map */

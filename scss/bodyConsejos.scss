@@ -1,6 +1,19 @@
 
 /* consejo */
-
+.bannerConsejo{
+    background-image:url(https://693431.smushcdn.com/1076333/wp-content/uploads/sites/3/2018/08/Img4439_1920x540px.jpg?lossy=1&strip=1&webp=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    text-align: center;
+    img{
+        width: 100%;
+    }
+    h2{
+        color: white;
+        backdrop-filter: saturate(1);
+    }
+}
 .consejos{
     .col{
         text-align: -webkit-center;
@@ -9,22 +22,36 @@
         text-align: -webkit-center;
 
         .accordion-item{
-
+            .arrowed{
+                background-color:pink ;
+                div {
+                  position: absolute;
+                  top: 0; bottom: 0; left: 0; right: 0;
+                  margin: auto;
+                }
+           
+               .arrow-1 {
+                   height: 15px; width: 15px;
+                   border: 1px solid #fbebbb;
+                   border-width: 0px 2px 2px 0px;
+                   transform: rotate(45deg);
+               }             
+           }
+           .accordion-button:not(.collapsed)::after {
+                background-image: none;
+           }
             .accordion-button{
                 padding-top: 2px ;
-                padding-bottom: 2px ;
+                padding-bottom: 2px ;               
             }
             border: 0px;
             background-color: #fbebbb;
             button{
                 color: #fbebbb;
-                background-color: #717171;
+                background-color: #232122;
                 width: 98%;
             }
-            .accordion-button:not(.collapsed)::after{
-                background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
-                transform: rotate(-180deg);
-            }
+           
             .accordion{
                 .accordion-item{
                     width: 98%;
@@ -44,6 +71,12 @@
 
 
 @media (min-width: 360px) {
+    .bannerConsejo{
+        height: 22vh;
+        H2{
+            padding:80px;
+        }
+    }
     main{
         min-height: calc(75vh - 50px);
     }
@@ -63,6 +96,12 @@
                 button{
                     height: 58px;
                 }
+                .arrowed{
+                    .arrow-1{
+                      right: 0px;
+                      left: 250px;
+                      }  
+                  }
             }
             .accordion-body{
                 padding-left: 5px;
@@ -81,9 +120,17 @@
             }
             
         }
+        
+        
     }
 }
 @media (min-width: 600px) {
+    .bannerConsejo{
+        height: 25vh;
+        H2{
+            padding:140px;
+        }
+    }
     main{
         min-height: calc(80vh - 50px);
     }
@@ -109,6 +156,12 @@
                 button{
                     height: 75px;
                 }
+                .arrowed{
+                    .arrow-1{
+                      right: 0px;
+                      left: 550px;
+                      }  
+                  }
              }
              .accordion-body{
                 .accordion-body{
@@ -127,10 +180,17 @@
             }
             
         }
+    
     }
  }
  
  @media (min-width: 1024px) {
+    .bannerConsejo{
+        height: 22vh;
+        H2{
+            padding:120px;
+        }
+    }
     main{
         min-height: calc(70vh - 50px);
     }
@@ -156,6 +216,12 @@
                 button{
                     height: 85px;
                 }
+                .arrowed{
+                    .arrow-1{
+                      right: 0px;
+                      left: 750px;
+                      }  
+                  }
              }
              .accordion-body{
                 .accordion-body{
@@ -177,4 +243,4 @@
     }
      
  }
- 
+

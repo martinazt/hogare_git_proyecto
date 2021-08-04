@@ -61,6 +61,10 @@ header {
   color: #FCF2EE;
 }
 
+.header .headerChico a:hover {
+  color: #fbebbb;
+}
+
 /* animaciones */
 .rotador {
   -webkit-animation: rotando 2s ease-in 0s infinite;
