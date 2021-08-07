@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* footer */
 footer .lineaAnchaFooter {
-  background-color: #383838;
+  background-color: #000000;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -10,7 +10,7 @@ footer .lineaAnchaFooter {
   margin-left: 0px; }
 
 footer .lineaFinaFooter {
-  background-color: #2b2b2b;
+  background-color: #0e0e0e;
   display: flex;
   align-items: baseline;
   height: 100%; }
@@ -359,7 +359,7 @@ footer {
   .bannerConsejo {
     height: 22vh; }
     .bannerConsejo H2 {
-      padding: 120px; }
+      padding: 80px; }
   main {
     min-height: calc(70vh - 50px); }
   .consejos {
@@ -424,14 +424,28 @@ footer {
     display: inline-flex; }
   .contenedorContacto .accordion {
     padding-top: 25px; }
+    .contenedorContacto .accordion .arrowed {
+      background-color: pink; }
+      .contenedorContacto .accordion .arrowed div {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto; }
+      .contenedorContacto .accordion .arrowed .arrow-1 {
+        height: 15px;
+        width: 15px;
+        border: 1px solid #fbebbb;
+        border-width: 0px 2px 2px 0px;
+        transform: rotate(45deg); }
+    .contenedorContacto .accordion .accordion-button:not(.collapsed)::after {
+      background-image: none; }
     .contenedorContacto .accordion .accordion-item {
       background-color: #fbebbb; }
       .contenedorContacto .accordion .accordion-item button {
         color: #fbebbb;
         background-color: #232122; }
-      .contenedorContacto .accordion .accordion-item .accordion-button:not(.collapsed)::after {
-        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
-        transform: rotate(-180deg); }
 
 .datosContacto {
   color: black; }
@@ -587,6 +601,74 @@ footer {
         border-bottom: solid 2px #7d5e00;
         font-size: 20px; } }
 
+/* gif index*/
+.gifIndex {
+  background-image: url(../imagenes/fuegogif.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  background-position-x: center;
+  height: 80vh;
+  text-align: left; }
+  .gifIndex img {
+    width: 100%; }
+  .gifIndex h2, .gifIndex .h2 {
+    color: white;
+    backdrop-filter: saturate(1);
+    background-color: #00000052; }
+
+/* titulo index*/
+.tituloIndex {
+  text-align: center;
+  margin-top: 50px; }
+
+/*div index*/
+.divIndex {
+  margin-bottom: 50px;
+  place-content: center; }
+  .divIndex a {
+    text-decoration: none; }
+  .divIndex div {
+    padding-left: 0px;
+    padding-right: 0px; }
+  .divIndex .divInterno {
+    margin-left: 0px; }
+  .divIndex .divIndexSalamandras {
+    background-image: url(https://693431.smushcdn.com/1076333/wp-content/uploads/sites/3/2018/08/F1_BOX-Gas-75-1.jpg?lossy=1&strip=1&webp=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center; }
+  .divIndex .divIndexGuadaLena {
+    background-image: url(../imagenes/imagenesMartina/divIndexGL.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    text-align: center; }
+  .divIndex .divIndexAccesorios {
+    background-image: url(../imagenes/imagenesMartina/divIndexA.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-position-y: center; }
+
+/*fila informativa*/
+.info {
+  background-color: #424242; }
+  .info .blancoNegro {
+    background-image: url(https://i.pinimg.com/564x/3e/4d/94/3e4d94a63f2a2019f5882fcdf1940eed.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    height: 40vh; }
+  .info .informativa {
+    color: white;
+    text-align: center;
+    padding-left: 50px;
+    PLACE-SELF: CENTER;
+    padding-right: 50px; }
+
+/*banner*/
 .banner {
   margin-top: 0;
   margin-bottom: 0px;
@@ -603,25 +685,130 @@ footer {
   .banner .d-none {
     text-align: -webkit-center; }
 
+/* main index*/
+.mainIndex {
+  margin-bottom: 0px; }
+
+/* galeria*/
+.galeria {
+  margin: 50px 20px;
+  text-align: center; }
+  .galeria .container.gallery-container {
+    background-color: #fff;
+    color: #35373a;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06); }
+  .galeria .gallery-container h1, .galeria .gallery-container .h1 {
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold; }
+  .galeria .gallery-container p.page-description {
+    text-align: center;
+    max-width: 800px;
+    margin: 25px auto;
+    color: #888;
+    font-size: 18px; }
+  .galeria .tz-gallery {
+    padding: 40px; }
+  .galeria .tz-gallery .lightbox img {
+    width: 100%;
+    margin-bottom: 30px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2); }
+  .galeria .tz-gallery .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); }
+  .galeria .tz-gallery img {
+    border-radius: 4px; }
+  .galeria .baguetteBox-button {
+    background-color: transparent !important; }
+
 /* media queries */
 @media (min-width: 360px) {
-  .banner p {
-    font-size: smaller;
-    width: auto; }
-  .banner h5, .banner .h5 {
-    font-size: smaller; }
+  .divIndex div {
+    width: 270px;
+    height: 100px;
+    margin-bottom: 15px; }
+    .divIndex div p {
+      color: white;
+      font-weight: bold;
+      font-size: x-large;
+      padding-top: 55px; }
+  .divIndex .divIndexSalamandras {
+    background-position-y: -85px; }
+  .divIndex .divIndexGuadaLena {
+    background-position-y: -50px; }
+  .divIndex .divIndexAccesorios {
+    background-position-y: -140px; }
+  .gifIndex h2, .gifIndex .h2 {
+    font-size: 1.5rem;
+    padding-top: 145px;
+    padding-left: 50px;
+    padding-bottom: 282px; }
   .banner img {
-    height: 63vh; }
-  .banner .d-none {
-    display: inline !important; } }
+    height: 25vh; }
+  .info .informativa p {
+    font-size: 10px; } }
 
 @media (min-width: 600px) {
+  .divIndex div {
+    width: 90%;
+    height: 200px;
+    margin-bottom: 20px; }
+    .divIndex div p {
+      color: white;
+      font-weight: bold;
+      font-size: x-large;
+      padding-top: 55px; }
+  .divIndex .divIndexSalamandras {
+    background-position-y: -195px; }
+  .divIndex .divIndexGuadaLena {
+    background-position-y: -140px; }
+  .divIndex .divIndexAccesorios {
+    background-position-y: -340px; }
+  .gifIndex h2, .gifIndex .h2 {
+    font-size: 3rem;
+    padding-top: 145px;
+    padding-left: 123px;
+    padding-bottom: 500px; }
   .banner img {
-    min-height: 73vh; } }
+    height: 40vh; }
+  .info .informativa p {
+    font-size: 17px; } }
 
 @media (min-width: 1024px) {
+  .divIndex {
+    justify-content: space-around; }
+    .divIndex div {
+      width: 400px;
+      height: 400px;
+      margin-left: 10px; }
+      .divIndex div p {
+        color: white;
+        font-weight: bold;
+        font-size: x-large;
+        padding-top: 55px; }
+    .divIndex .divIndexSalamandras {
+      background-position-y: center; }
+    .divIndex .divIndexGuadaLena {
+      background-position-y: center; }
+    .divIndex .divIndexAccesorios {
+      background-position-y: center; }
+  .tituloIndex h2, .tituloIndex .h2 {
+    font-size: 32px;
+    color: black;
+    padding-top: 40px;
+    padding-bottom: 40px; }
+  .gifIndex h2, .gifIndex .h2 {
+    font-size: 3rem;
+    padding-top: 90px;
+    padding-left: 100px;
+    padding-bottom: 490px; }
   .banner img {
-    min-height: 72vh; } }
+    height: 45vh; }
+  .info .informativa p {
+    font-size: 20px; } }
 
 /*iniciar*/
 .gridInicio {
@@ -1087,7 +1274,7 @@ table {
 
 /* footer */
 footer .lineaAnchaFooter {
-  background-color: #383838;
+  background-color: #000000;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -1096,7 +1283,7 @@ footer .lineaAnchaFooter {
   margin-left: 0px; }
 
 footer .lineaFinaFooter {
-  background-color: #2b2b2b;
+  background-color: #0e0e0e;
   display: flex;
   align-items: baseline;
   height: 100%; }
@@ -1364,7 +1551,7 @@ header {
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
-    background-color: #383838;
+    background-color: #000000;
     align-content: center;
     padding-top: 20px;
     padding-bottom: 20px;
