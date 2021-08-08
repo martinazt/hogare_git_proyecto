@@ -1,213 +1,247 @@
+/* filtro*/ 
+.filtro{
+   backdrop-filter: saturate(1);
+   background-color: #00000052;
+   height: 100%;
+}
 /* gif index*/
-.gifIndex{
-  background-image:url(../imagenes/fuegogif.gif);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-y: center;
-  background-position-x: center;
-  height: 80vh;
-  text-align: left;
-  img{
-      width: 100%;
-  }
-  h2{
-      color: white;
-      backdrop-filter: saturate(1);
-      background-color: #00000052;
-  }
-}
-/* titulo index*/
-.tituloIndex{
-  text-align: center;
-  margin-top: 50px;
-}
-/*div index*/
-
-.divIndex{  
-    a{
-      text-decoration: none;
-    }
-    div{
-      padding-left: 0px;
-      padding-right: 0px;
-    }
-    .divInterno{
-      margin-left: 0px;
-    }
-    margin-bottom: 50px;
-    place-content: center;
-    .divIndexSalamandras{
-      background-image: url(https://693431.smushcdn.com/1076333/wp-content/uploads/sites/3/2018/08/F1_BOX-Gas-75-1.jpg?lossy=1&strip=1&webp=1);
-      background-repeat: no-repeat;
-      background-size: cover;
-      text-align: center;
-
-    }
-    .divIndexGuadaLena{
-      background-image: url(../imagenes/imagenesMartina/divIndexGL.jfif);
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position-y: center;
-      text-align: center;
-
-    }
-    .divIndexAccesorios{
-      background-image: url(../imagenes/imagenesMartina/divIndexA.jpg);
-      background-repeat: no-repeat;
-      background-size: cover;
-      text-align: center;
-      background-position-y: center;
-    }
-}
-
-/*fila informativa*/
-.info{
-  background-color: rgb(66, 66, 66);
-  .blancoNegro{
-  background-image: url(https://i.pinimg.com/564x/3e/4d/94/3e4d94a63f2a2019f5882fcdf1940eed.jpg);
-  background-repeat: no-repeat;
-  background-position-x: center;
-  background-position-y: center;
-  background-size: cover;
-  height: 40vh;
-  }
-  .informativa{
-    color: white;
-    text-align: center;
-    padding-left: 50px;
-    PLACE-SELF: CENTER;
-    padding-right: 50px;
-  }  
-}
-
-
-/*banner*/
-.banner{
-    margin-top: 0;
-    margin-bottom: 0px;
-    
-    color: #f8f9fa;
-    background-color: #41464bad;
-    p{
-      background-color: #000000a8;
-      color: white;
-      width: max-content;
-    }
-    h5{
-      background-color: #000000a8;
-      color: white;
-      width: max-content;
-    }
-    .d-none{
-      text-align: -webkit-center;
-    }
-}
-/* main index*/
 .mainIndex{
-  margin-bottom: 0px;
+    .filtro{
+      h2{
+        text-align: center;
+      }
+    }
+    .gifIndex{
+      background-image:url(../imagenes/fuegogif.gif);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position-y: center;
+      background-position-x: center;
+      height: 80vh;
+      text-align: left;
+      img{
+          width: 100%;
+      }
+      h2{
+          color: white;
+        
+      }
+    }
+    /* titulo index*/
+    .tituloIndex{
+      text-align: center;
+      margin-top: 50px;
+    }
+    /*div index*/
+
+    .divIndex{  
+        a{
+          text-decoration: none;
+        }
+        div{
+          padding-left: 0px;
+          padding-right: 0px;
+        }
+        .divInterno{
+          margin-left: 0px;
+          background: linear-gradient(to bottom, rgba(0, 0, 0, 0.13), rgba(0, 0, 0, 0.753));
+          width: 100%;
+          margin-bottom: 0px;
+        }
+        margin-bottom: 50px;
+        place-content: center;
+        .divIndexSalamandras{
+          background-image: url(https://693431.smushcdn.com/1076333/wp-content/uploads/sites/3/2018/08/F1_BOX-Gas-75-1.jpg?lossy=1&strip=1&webp=1);
+          background-repeat: no-repeat;
+          background-size: cover;
+          text-align: center;
+
+        }
+        .divIndexGuadaLena{
+          background-image: url(../imagenes/imagenesMartina/divIndexGL.jfif);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position-y: center;
+          text-align: center;
+
+        }
+        .divIndexAccesorios{
+          background-image: url(../imagenes/imagenesMartina/divIndexA.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+          text-align: center;
+          background-position-y: center;
+        }
+    }
+
+    /*fila informativa*/
+    .info{
+      background-color: rgb(66, 66, 66);
+      .blancoNegro{
+      background-image: url(https://i.pinimg.com/564x/3e/4d/94/3e4d94a63f2a2019f5882fcdf1940eed.jpg);
+      background-repeat: no-repeat;
+      background-position-x: center;
+      background-position-y: center;
+      background-size: cover;
+      height: 40vh;
+      }
+      .informativa{
+        color: white;
+        text-align: center;
+        padding-left: 50px;
+        PLACE-SELF: CENTER;
+        padding-right: 50px;
+      }  
+    }
+
+
+    /*banner*/
+    .banner{
+        margin-top: 0;
+        margin-bottom: 0px;
+        
+        color: #f8f9fa;
+        background-color: #41464bad;
+        p{
+          background-color: #000000a8;
+          color: white;
+          width: max-content;
+        }
+        h5{
+          background-color: #000000a8;
+          color: white;
+          width: max-content;
+        }
+        .d-none{
+          text-align: -webkit-center;
+        }
+    }
+    /* main index*/
+    .mainIndex{
+      margin-bottom: 0px;
+    }
+
+    /* galeria*/ 
+    .galeria{
+      margin: 50px 20px;
+      text-align: center;
+      .container.gallery-container {
+      background-color: #fff;
+      color: #35373a;
+      border-radius: 20px;
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+      }
+
+      .gallery-container h1 {
+        text-align: center;
+        margin-top: 70px;
+        font-family: 'Droid Sans', sans-serif;
+        font-weight: bold;
+      }
+
+      .gallery-container p.page-description {
+        text-align: center;
+        max-width: 800px;
+        margin: 25px auto;
+        color: #888;
+        font-size: 18px;
+      }
+
+      .tz-gallery {
+        padding: 40px;
+      }
+
+      .tz-gallery .lightbox img {
+        width: 100%;
+        margin-bottom: 30px;
+        transition: 0.2s ease-in-out;
+        box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+      }
+
+
+      .tz-gallery .lightbox img:hover {
+        transform: scale(1.05);
+        box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+      }
+
+      .tz-gallery img {
+        border-radius: 4px;
+      }
+
+      .baguetteBox-button {
+        background-color: transparent !important;
+      }
+
+    }
 }
 
-/* galeria*/ 
-.galeria{
-  margin: 50px 20px;
-  text-align: center;
-  .container.gallery-container {
-  background-color: #fff;
-  color: #35373a;
-  border-radius: 20px;
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
-  }
-
-  .gallery-container h1 {
-    text-align: center;
-    margin-top: 70px;
-    font-family: 'Droid Sans', sans-serif;
-    font-weight: bold;
-  }
-
-  .gallery-container p.page-description {
-    text-align: center;
-    max-width: 800px;
-    margin: 25px auto;
-    color: #888;
-    font-size: 18px;
-  }
-
-  .tz-gallery {
-    padding: 40px;
-  }
-
-  .tz-gallery .lightbox img {
-    width: 100%;
-    margin-bottom: 30px;
-    transition: 0.2s ease-in-out;
-    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
-  }
-
-
-  .tz-gallery .lightbox img:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
-  }
-
-  .tz-gallery img {
-    border-radius: 4px;
-  }
-
-  .baguetteBox-button {
-    background-color: transparent !important;
-  }
-
-}
 
 /* media queries */
 
 @media (min-width: 360px) {
-  .divIndex{
-    div{
-      width: 270px;
-      height: 100px;
-      margin-bottom: 15px;
-      p{
-        color: white;
-        font-weight: bold;
-        font-size: x-large;
-        padding-top: 55px;
+  .mainIndex{
+    .tituloIndex{
+      margin-top: 32px;
+      margin-bottom: 32px;
+    }
+    
+    .divIndex{
+      div{
+        width: 270px;
+        height: 120px;
+        margin-bottom: 15px;
+        p{
+          color: white;
+          font-weight: bold;
+          font-size: large;
+          padding-top: 56px;
+        }
+      }
+      .divIndexSalamandras{
+        background-position-y: -85px;
+        width: 100%;
+        height: 120px;
+      }
+      .divIndexGuadaLena{
+        background-position-y: -50px;
+        width: 100%;
+        height: 120px;
+      }
+      .divIndexAccesorios{
+        background-position-y: -140px;
+        width: 100%;
+        height: 120px;
       }
     }
-    .divIndexSalamandras{
-      background-position-y: -85px;
-    }
-    .divIndexGuadaLena{
-      background-position-y: -50px;
-    }
-    .divIndexAccesorios{
-      background-position-y: -140px;
-    }
-  }
-  .gifIndex{
-    h2{
-      font-size: 1.5rem;
-      padding-top: 145px;
-      padding-left: 50px;
-      padding-bottom: 282px;
-    }
-  }
-   .banner{
-       img{
-        height: 25vh;
-       }
-   }
-   .info{
-    .informativa{
-      p{
-        font-size: 10px;
+    .gifIndex{
+      h2{
+        font-size: 1.5rem;
+        padding-top: 145px;
+        padding-bottom: 282px;
       }
     }
-   }
+    .banner{
+        img{
+          height: 25vh;
+        }
+    }
+    .info{
+      .informativa{
+        p{
+          font-size: 10px;
+        }
+      }
+    }
+  }
+  
 }
 
  @media (min-width: 600px) {
+   .mainIndex{
+     .tituloIndex{
+        margin-top: 48px;
+        margin-bottom: 48px;
+      }
       .divIndex{
         div{ 
         width: 90%;
@@ -217,24 +251,26 @@
             color: white;
             font-weight: bold;
             font-size: x-large;
-            padding-top: 55px;
+            padding-top: 128px;
           }
         }
         .divIndexSalamandras{
           background-position-y: -195px;
+          height: 100%;
         }
         .divIndexGuadaLena{
           background-position-y: -140px;
+          height: 100%;
         }
         .divIndexAccesorios{
           background-position-y: -340px;
+          height: 100%;
         }
       }
       .gifIndex{
         h2{
           font-size: 3rem;
-          padding-top: 145px;
-          padding-left: 123px;
+          padding-top: 165px;
           padding-bottom: 500px;
         }
       }
@@ -250,58 +286,69 @@
           }
         }
        }
+   }
+      
 }
  
  @media (min-width: 1024px) {
-  .divIndex{
-    justify-content: space-around;
-    div{ 
-      width: 400px;
-      height: 400px;
-      margin-left: 10px;
-      p{
-          color: white;
-          font-weight: bold;
-          font-size: x-large;
-          padding-top: 55px;
+  .mainIndex{
+    .tituloIndex{
+      margin-top: 64px;
+      margin-bottom: 64px;
+    }
+    .divIndex{
+      justify-content: space-around;
+      div{ 
+        width: 400px;
+        height: 400px;
+        margin-left: 10px;
+        p{
+            color: white;
+            font-weight: bold;
+            font-size: xx-large;
+            padding-top: 320px;
+          }
+      }
+      .divIndexSalamandras{
+        background-position-y: center;
+        width: 30%;
+      }
+      .divIndexGuadaLena{
+        background-position-y: center;
+        width: 30%;
+      }
+      .divIndexAccesorios{
+        background-position-y: center;
+        width: 30%;
+      }
+    }
+    .tituloIndex{
+        h2{
+          font-size: 32px;
+          color: black;
+          padding-top: 40px;
+          padding-bottom: 40px;
         }
     }
-    .divIndexSalamandras{
-      background-position-y: center;
-    }
-    .divIndexGuadaLena{
-      background-position-y: center;
-    }
-    .divIndexAccesorios{
-      background-position-y: center;
-    }
-  }
-    .tituloIndex{
+    .gifIndex{
       h2{
-        font-size: 32px;
-        color: black;
-        padding-top: 40px;
-        padding-bottom: 40px;
+        font-size: 3rem;
+        padding-top: 120px;
+        padding-bottom: 490px;
       }
     }
-   .gifIndex{
-    h2{
-      font-size: 3rem;
-      padding-top: 90px;
-      padding-left: 100px;
-      padding-bottom: 490px;
-    }
-  }
-  .banner{
-    img{
-      height: 45vh;
-    }
-  }
-  .info{
-    .informativa{
-      p{
-        font-size: 20px;
+    .banner{
+      img{
+        height: 45vh;
       }
     }
-  }   
+    .info{
+      .informativa{
+        p{
+          font-size: 20px;
+        }
+      }
+    }  
+  }
+   
 }

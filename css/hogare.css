@@ -601,213 +601,235 @@ footer {
         border-bottom: solid 2px #7d5e00;
         font-size: 20px; } }
 
+/* filtro*/
+.filtro {
+  backdrop-filter: saturate(1);
+  background-color: #00000052;
+  height: 100%; }
+
 /* gif index*/
-.gifIndex {
-  background-image: url(../imagenes/fuegogif.gif);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-y: center;
-  background-position-x: center;
-  height: 80vh;
-  text-align: left; }
-  .gifIndex img {
-    width: 100%; }
-  .gifIndex h2, .gifIndex .h2 {
-    color: white;
-    backdrop-filter: saturate(1);
-    background-color: #00000052; }
-
-/* titulo index*/
-.tituloIndex {
-  text-align: center;
-  margin-top: 50px; }
-
-/*div index*/
-.divIndex {
-  margin-bottom: 50px;
-  place-content: center; }
-  .divIndex a {
-    text-decoration: none; }
-  .divIndex div {
-    padding-left: 0px;
-    padding-right: 0px; }
-  .divIndex .divInterno {
-    margin-left: 0px; }
-  .divIndex .divIndexSalamandras {
-    background-image: url(https://693431.smushcdn.com/1076333/wp-content/uploads/sites/3/2018/08/F1_BOX-Gas-75-1.jpg?lossy=1&strip=1&webp=1);
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center; }
-  .divIndex .divIndexGuadaLena {
-    background-image: url(../imagenes/imagenesMartina/divIndexGL.jfif);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: center;
-    text-align: center; }
-  .divIndex .divIndexAccesorios {
-    background-image: url(../imagenes/imagenesMartina/divIndexA.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    background-position-y: center; }
-
-/*fila informativa*/
-.info {
-  background-color: #424242; }
-  .info .blancoNegro {
-    background-image: url(https://i.pinimg.com/564x/3e/4d/94/3e4d94a63f2a2019f5882fcdf1940eed.jpg);
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: center;
-    background-size: cover;
-    height: 40vh; }
-  .info .informativa {
-    color: white;
-    text-align: center;
-    padding-left: 50px;
-    PLACE-SELF: CENTER;
-    padding-right: 50px; }
-
-/*banner*/
-.banner {
-  margin-top: 0;
-  margin-bottom: 0px;
-  color: #f8f9fa;
-  background-color: #41464bad; }
-  .banner p {
-    background-color: #000000a8;
-    color: white;
-    width: max-content; }
-  .banner h5, .banner .h5 {
-    background-color: #000000a8;
-    color: white;
-    width: max-content; }
-  .banner .d-none {
-    text-align: -webkit-center; }
-
-/* main index*/
 .mainIndex {
-  margin-bottom: 0px; }
-
-/* galeria*/
-.galeria {
-  margin: 50px 20px;
-  text-align: center; }
-  .galeria .container.gallery-container {
-    background-color: #fff;
-    color: #35373a;
-    border-radius: 20px;
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06); }
-  .galeria .gallery-container h1, .galeria .gallery-container .h1 {
+  /* titulo index*/
+  /*div index*/
+  /*fila informativa*/
+  /*banner*/
+  /* main index*/
+  /* galeria*/ }
+  .mainIndex .filtro h2, .mainIndex .filtro .h2 {
+    text-align: center; }
+  .mainIndex .gifIndex {
+    background-image: url(../imagenes/fuegogif.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    background-position-x: center;
+    height: 80vh;
+    text-align: left; }
+    .mainIndex .gifIndex img {
+      width: 100%; }
+    .mainIndex .gifIndex h2, .mainIndex .gifIndex .h2 {
+      color: white; }
+  .mainIndex .tituloIndex {
     text-align: center;
-    margin-top: 70px;
-    font-family: 'Droid Sans', sans-serif;
-    font-weight: bold; }
-  .galeria .gallery-container p.page-description {
-    text-align: center;
-    max-width: 800px;
-    margin: 25px auto;
-    color: #888;
-    font-size: 18px; }
-  .galeria .tz-gallery {
-    padding: 40px; }
-  .galeria .tz-gallery .lightbox img {
-    width: 100%;
-    margin-bottom: 30px;
-    transition: 0.2s ease-in-out;
-    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2); }
-  .galeria .tz-gallery .lightbox img:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); }
-  .galeria .tz-gallery img {
-    border-radius: 4px; }
-  .galeria .baguetteBox-button {
-    background-color: transparent !important; }
+    margin-top: 50px; }
+  .mainIndex .divIndex {
+    margin-bottom: 50px;
+    place-content: center; }
+    .mainIndex .divIndex a {
+      text-decoration: none; }
+    .mainIndex .divIndex div {
+      padding-left: 0px;
+      padding-right: 0px; }
+    .mainIndex .divIndex .divInterno {
+      margin-left: 0px;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.13), rgba(0, 0, 0, 0.753));
+      width: 100%;
+      margin-bottom: 0px; }
+    .mainIndex .divIndex .divIndexSalamandras {
+      background-image: url(https://693431.smushcdn.com/1076333/wp-content/uploads/sites/3/2018/08/F1_BOX-Gas-75-1.jpg?lossy=1&strip=1&webp=1);
+      background-repeat: no-repeat;
+      background-size: cover;
+      text-align: center; }
+    .mainIndex .divIndex .divIndexGuadaLena {
+      background-image: url(../imagenes/imagenesMartina/divIndexGL.jfif);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position-y: center;
+      text-align: center; }
+    .mainIndex .divIndex .divIndexAccesorios {
+      background-image: url(../imagenes/imagenesMartina/divIndexA.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      text-align: center;
+      background-position-y: center; }
+  .mainIndex .info {
+    background-color: #424242; }
+    .mainIndex .info .blancoNegro {
+      background-image: url(https://i.pinimg.com/564x/3e/4d/94/3e4d94a63f2a2019f5882fcdf1940eed.jpg);
+      background-repeat: no-repeat;
+      background-position-x: center;
+      background-position-y: center;
+      background-size: cover;
+      height: 40vh; }
+    .mainIndex .info .informativa {
+      color: white;
+      text-align: center;
+      padding-left: 50px;
+      PLACE-SELF: CENTER;
+      padding-right: 50px; }
+  .mainIndex .banner {
+    margin-top: 0;
+    margin-bottom: 0px;
+    color: #f8f9fa;
+    background-color: #41464bad; }
+    .mainIndex .banner p {
+      background-color: #000000a8;
+      color: white;
+      width: max-content; }
+    .mainIndex .banner h5, .mainIndex .banner .h5 {
+      background-color: #000000a8;
+      color: white;
+      width: max-content; }
+    .mainIndex .banner .d-none {
+      text-align: -webkit-center; }
+  .mainIndex .mainIndex {
+    margin-bottom: 0px; }
+  .mainIndex .galeria {
+    margin: 50px 20px;
+    text-align: center; }
+    .mainIndex .galeria .container.gallery-container {
+      background-color: #fff;
+      color: #35373a;
+      border-radius: 20px;
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06); }
+    .mainIndex .galeria .gallery-container h1, .mainIndex .galeria .gallery-container .h1 {
+      text-align: center;
+      margin-top: 70px;
+      font-family: 'Droid Sans', sans-serif;
+      font-weight: bold; }
+    .mainIndex .galeria .gallery-container p.page-description {
+      text-align: center;
+      max-width: 800px;
+      margin: 25px auto;
+      color: #888;
+      font-size: 18px; }
+    .mainIndex .galeria .tz-gallery {
+      padding: 40px; }
+    .mainIndex .galeria .tz-gallery .lightbox img {
+      width: 100%;
+      margin-bottom: 30px;
+      transition: 0.2s ease-in-out;
+      box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2); }
+    .mainIndex .galeria .tz-gallery .lightbox img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); }
+    .mainIndex .galeria .tz-gallery img {
+      border-radius: 4px; }
+    .mainIndex .galeria .baguetteBox-button {
+      background-color: transparent !important; }
 
 /* media queries */
 @media (min-width: 360px) {
-  .divIndex div {
+  .mainIndex .tituloIndex {
+    margin-top: 32px;
+    margin-bottom: 32px; }
+  .mainIndex .divIndex div {
     width: 270px;
-    height: 100px;
+    height: 120px;
     margin-bottom: 15px; }
-    .divIndex div p {
+    .mainIndex .divIndex div p {
       color: white;
       font-weight: bold;
-      font-size: x-large;
-      padding-top: 55px; }
-  .divIndex .divIndexSalamandras {
-    background-position-y: -85px; }
-  .divIndex .divIndexGuadaLena {
-    background-position-y: -50px; }
-  .divIndex .divIndexAccesorios {
-    background-position-y: -140px; }
-  .gifIndex h2, .gifIndex .h2 {
+      font-size: large;
+      padding-top: 56px; }
+  .mainIndex .divIndex .divIndexSalamandras {
+    background-position-y: -85px;
+    width: 100%;
+    height: 120px; }
+  .mainIndex .divIndex .divIndexGuadaLena {
+    background-position-y: -50px;
+    width: 100%;
+    height: 120px; }
+  .mainIndex .divIndex .divIndexAccesorios {
+    background-position-y: -140px;
+    width: 100%;
+    height: 120px; }
+  .mainIndex .gifIndex h2, .mainIndex .gifIndex .h2 {
     font-size: 1.5rem;
     padding-top: 145px;
-    padding-left: 50px;
     padding-bottom: 282px; }
-  .banner img {
+  .mainIndex .banner img {
     height: 25vh; }
-  .info .informativa p {
+  .mainIndex .info .informativa p {
     font-size: 10px; } }
 
 @media (min-width: 600px) {
-  .divIndex div {
+  .mainIndex .tituloIndex {
+    margin-top: 48px;
+    margin-bottom: 48px; }
+  .mainIndex .divIndex div {
     width: 90%;
     height: 200px;
     margin-bottom: 20px; }
-    .divIndex div p {
+    .mainIndex .divIndex div p {
       color: white;
       font-weight: bold;
       font-size: x-large;
-      padding-top: 55px; }
-  .divIndex .divIndexSalamandras {
-    background-position-y: -195px; }
-  .divIndex .divIndexGuadaLena {
-    background-position-y: -140px; }
-  .divIndex .divIndexAccesorios {
-    background-position-y: -340px; }
-  .gifIndex h2, .gifIndex .h2 {
+      padding-top: 128px; }
+  .mainIndex .divIndex .divIndexSalamandras {
+    background-position-y: -195px;
+    height: 100%; }
+  .mainIndex .divIndex .divIndexGuadaLena {
+    background-position-y: -140px;
+    height: 100%; }
+  .mainIndex .divIndex .divIndexAccesorios {
+    background-position-y: -340px;
+    height: 100%; }
+  .mainIndex .gifIndex h2, .mainIndex .gifIndex .h2 {
     font-size: 3rem;
-    padding-top: 145px;
-    padding-left: 123px;
+    padding-top: 165px;
     padding-bottom: 500px; }
-  .banner img {
+  .mainIndex .banner img {
     height: 40vh; }
-  .info .informativa p {
+  .mainIndex .info .informativa p {
     font-size: 17px; } }
 
 @media (min-width: 1024px) {
-  .divIndex {
+  .mainIndex .tituloIndex {
+    margin-top: 64px;
+    margin-bottom: 64px; }
+  .mainIndex .divIndex {
     justify-content: space-around; }
-    .divIndex div {
+    .mainIndex .divIndex div {
       width: 400px;
       height: 400px;
       margin-left: 10px; }
-      .divIndex div p {
+      .mainIndex .divIndex div p {
         color: white;
         font-weight: bold;
-        font-size: x-large;
-        padding-top: 55px; }
-    .divIndex .divIndexSalamandras {
-      background-position-y: center; }
-    .divIndex .divIndexGuadaLena {
-      background-position-y: center; }
-    .divIndex .divIndexAccesorios {
-      background-position-y: center; }
-  .tituloIndex h2, .tituloIndex .h2 {
+        font-size: xx-large;
+        padding-top: 320px; }
+    .mainIndex .divIndex .divIndexSalamandras {
+      background-position-y: center;
+      width: 30%; }
+    .mainIndex .divIndex .divIndexGuadaLena {
+      background-position-y: center;
+      width: 30%; }
+    .mainIndex .divIndex .divIndexAccesorios {
+      background-position-y: center;
+      width: 30%; }
+  .mainIndex .tituloIndex h2, .mainIndex .tituloIndex .h2 {
     font-size: 32px;
     color: black;
     padding-top: 40px;
     padding-bottom: 40px; }
-  .gifIndex h2, .gifIndex .h2 {
+  .mainIndex .gifIndex h2, .mainIndex .gifIndex .h2 {
     font-size: 3rem;
-    padding-top: 90px;
-    padding-left: 100px;
+    padding-top: 120px;
     padding-bottom: 490px; }
-  .banner img {
+  .mainIndex .banner img {
     height: 45vh; }
-  .info .informativa p {
+  .mainIndex .info .informativa p {
     font-size: 20px; } }
 
 /*iniciar*/
