@@ -48,58 +48,73 @@
     padding:1px;
     background-color: #ffffff1f;
     text-align: center;
-    transition: all 2ms;
-    .pie{
-        background-color: rgb(43, 43, 43);
-        color: #d1d1d1;
+    background-color: white;
+    border-radius: 8px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    a{
+      color: #000;  
+      text-decoration: none;
     }
+    a:hover{
+        color: rgb(51, 51, 51);
+    }
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.53);
+}
+.divProductos:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
 }
 .mainGas{
    border-top: 8px solid #881f14;
    .divProductos:hover{
-        border: solid 5px #881f14;
+        border: solid 1px #881f14;
     }
 }
 .mainLeña{
    border-top: 8px solid #f77a27;
    .divProductos:hover{
-        border: solid 5px #f77a27;
+        border: solid 1px #f77a27;
     }
 }
 .mainPellets{
   border-top: 8px solid #dac6ae;
   .divProductos:hover{
-        border: solid 5px #dac6ae;
+        border: solid 1px #dac6ae;
     }
 } 
 .mainGLModerno{
     border-top: 8px solid #667754;
   .divProductos:hover{
-        border: solid 5px #667754;
+        border: solid 1px #667754;
     }
 }
 .mainGLRustico{
     border-top: 8px solid #c49c51;
   .divProductos:hover{
-        border: solid 5px #c49c51;
+        border: solid 1px #c49c51;
     }
 }
 .mainHeramienta{
     border-top: 8px solid #a38a76;
   .divProductos:hover{
-        border: solid 5px #a38a76;
+        border: solid 1px #a38a76;
     }
 }
 .mainLimpieza{
     border-top: 8px solid #744128;
   .divProductos:hover{
-        border: solid 5px #744128;
+        border: solid 1px #744128;
     }
 }
 .mainUtensillo{
     border-top: 8px solid #947b34;
   .divProductos:hover{
-        border: solid 5px #947b34;
+        border: solid 1px #947b34;
     }
 }
 

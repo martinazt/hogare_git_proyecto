@@ -22,17 +22,18 @@
         text-align: -webkit-center;
 
         .accordion-item{
+            border: 0px;
+            background-color: #a2a2a2;
             .arrowed{
                 background-color:pink ;
                 div {
                   position: absolute;
                   top: 0; bottom: 0; left: 0; right: 0;
                   margin: auto;
-                }
-           
+                }           
                .arrow-1 {
                    height: 15px; width: 15px;
-                   border: 1px solid #fbebbb;
+                   border: 1px solid#aaa;
                    border-width: 0px 2px 2px 0px;
                    transform: rotate(45deg);
                }             
@@ -44,10 +45,9 @@
                 padding-top: 2px ;
                 padding-bottom: 2px ;               
             }
-            border: 0px;
-            background-color: #fbebbb;
+            
             button{
-                color: #fbebbb;
+                color: #ffffff;
                 background-color: #232122;
                 width: 98%;
             }
@@ -58,6 +58,14 @@
                     margin-bottom: 2px;
                 }
             }
+            .accordion-item:last-of-type{
+                border-bottom-right-radius: 8px;
+                border-bottom-left-radius: 8px;
+             }
+             .accordion-item:first-of-type{
+                border-top-left-radius: 8px;
+                border-top-right-radius: 8px;
+             }
         }
     }
 }

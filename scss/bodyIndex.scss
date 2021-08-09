@@ -4,13 +4,10 @@
    background-color: #00000052;
    height: 100%;
 }
-/* gif index*/
+/* index*/
 .mainIndex{
-    .filtro{
-      h2{
-        text-align: center;
-      }
-    }
+   
+    /* gif index*/
     .gifIndex{
       background-image:url(../imagenes/fuegogif.gif);
       background-repeat: no-repeat;
@@ -24,9 +21,12 @@
       }
       h2{
           color: white;
-        
+          display: flex;
+          justify-content: center;
+          align-items: center;
       }
     }
+
     /* titulo index*/
     .tituloIndex{
       text-align: center;
@@ -41,6 +41,7 @@
         div{
           padding-left: 0px;
           padding-right: 0px;
+          border-radius: 8px;
         }
         .divInterno{
           margin-left: 0px;
@@ -55,15 +56,28 @@
           background-repeat: no-repeat;
           background-size: cover;
           text-align: center;
-
+          transition: 0.2s ease-in-out;
+          box-shadow: 0 2px 3px rgba(0,0,0,0.53);
         }
+        .divIndexSalamandras:hover {
+          transform: scale(1.05);
+          box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+        }
+
+      
+        
         .divIndexGuadaLena{
           background-image: url(../imagenes/imagenesMartina/divIndexGL.jfif);
           background-repeat: no-repeat;
           background-size: cover;
           background-position-y: center;
           text-align: center;
-
+          transition: 0.2s ease-in-out;
+          box-shadow: 0 2px 3px rgba(0,0,0,0.53);
+        }
+        .divIndexGuadaLena:hover {
+          transform: scale(1.05);
+          box-shadow: 0 8px 15px rgba(0,0,0,0.3);
         }
         .divIndexAccesorios{
           background-image: url(../imagenes/imagenesMartina/divIndexA.jpg);
@@ -71,12 +85,20 @@
           background-size: cover;
           text-align: center;
           background-position-y: center;
+          transition: 0.2s ease-in-out;
+          box-shadow: 0 2px 3px rgba(0,0,0,0.53);
+        }
+        .divIndexAccesorios:hover {
+          transform: scale(1.05);
+          box-shadow: 0 8px 15px rgba(0,0,0,0.3);
         }
     }
 
     /*fila informativa*/
     .info{
       background-color: rgb(66, 66, 66);
+      width: 100%;
+      margin: 0px;
       .blancoNegro{
       background-image: url(https://i.pinimg.com/564x/3e/4d/94/3e4d94a63f2a2019f5882fcdf1940eed.jpg);
       background-repeat: no-repeat;
@@ -165,7 +187,7 @@
       }
 
       .tz-gallery img {
-        border-radius: 4px;
+        border-radius: 8px;
       }
 
       .baguetteBox-button {
@@ -217,7 +239,6 @@
       h2{
         font-size: 1.5rem;
         padding-top: 145px;
-        padding-bottom: 282px;
       }
     }
     .banner{
@@ -229,6 +250,20 @@
       .informativa{
         p{
           font-size: 10px;
+        }
+      }
+    }
+    .galeria{
+      .tz-gallery {
+        padding: 20px;
+        .row{
+          div{
+            padding-left: 8px;
+            padding-right: 8px;
+            img{
+              margin-bottom: 16px;
+            }
+          }
         }
       }
     }
@@ -271,7 +306,6 @@
         h2{
           font-size: 3rem;
           padding-top: 165px;
-          padding-bottom: 500px;
         }
       }
      .banner{
@@ -285,7 +319,21 @@
             font-size: 17px;
           }
         }
-       }
+      }
+      .galeria{
+        .tz-gallery {
+          padding: 40px;
+          .row{
+            div{
+              padding-left: 10px;
+              padding-right: 10px;
+              img{
+                margin-bottom: 20px;
+              }
+            }
+          }
+        }
+      }
    }
       
 }
@@ -334,7 +382,7 @@
       h2{
         font-size: 3rem;
         padding-top: 120px;
-        padding-bottom: 490px;
+
       }
     }
     .banner{
@@ -349,6 +397,20 @@
         }
       }
     }  
+    .galeria{
+      .tz-gallery {
+        padding: 40px;
+        .row{
+          div{
+            padding-left: 15px;
+            padding-right: 15px;
+            img{
+              margin-bottom: 30px;
+            }
+          }
+        }
+      }
+    }
   }
    
 }
