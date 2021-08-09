@@ -862,7 +862,9 @@ footer {
   text-align: center; }
   .gridInicio a {
     text-decoration: none;
-    color: #d1d1d1; }
+    color: #ffffff; }
+  .gridInicio .botonInicioRegistro .button a {
+    color: white; }
   .gridInicio buttom a {
     color: #fbebbb; }
   .gridInicio buttom a:hover {
@@ -980,7 +982,7 @@ footer {
   appearance: none;
   border: 0;
   background: transparent;
-  color: #000000;
+  color: #ffffff;
   text-transform: uppercase;
   letter-spacing: .25em;
   outline: none;
@@ -1049,7 +1051,7 @@ footer {
   .gridRegistro div .botonInicioRegistro {
     margin-top: 20px; }
     .gridRegistro div .botonInicioRegistro a {
-      color: black;
+      color: white;
       text-decoration: none; }
 
 #registro {

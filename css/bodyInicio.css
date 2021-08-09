@@ -11,7 +11,11 @@
 
 .gridInicio a {
   text-decoration: none;
-  color: #d1d1d1;
+  color: #ffffff;
+}
+
+.gridInicio .botonInicioRegistro .button a {
+  color: white;
 }
 
 .gridInicio buttom a {
