@@ -940,6 +940,11 @@ footer {
         padding: 2px;
         padding-top: 0;
         padding-bottom: 0px; }
+      .gridInicio div .botonInicioRegistro {
+        margin-top: 20px; }
+        .gridInicio div .botonInicioRegistro a {
+          color: black;
+          text-decoration: none; }
     .gridInicio .form-check-input {
       height: 13px;
       width: 13px; } }
@@ -1060,10 +1065,6 @@ footer {
   .button a:hover {
     color: white; }
 
-.botonInicioRegistro a {
-  color: black;
-  text-decoration: none; }
-
 /*registro*/
 .bodyRegistro {
   background-color: #232122 !important; }
@@ -1080,6 +1081,11 @@ footer {
   text-align: center;
   color: white;
   justify-content: center; }
+  .gridRegistro div .botonInicioRegistro {
+    margin-top: 20px; }
+    .gridRegistro div .botonInicioRegistro a {
+      color: black;
+      text-decoration: none; }
 
 #registro {
   background-color: black;
@@ -1804,31 +1810,31 @@ header {
     padding-top: 2px;
     padding-bottom: 2px; }
     nav .container-fluid, nav .container-sm, nav .container-md, nav .container-lg, nav .container-xl, nav .container-xxl {
-      font-size: 0.6rem; }
+      font-size: 14px; }
     nav .navbar-toggler {
-      font-size: 0.65rem; }
+      font-size: 14px; }
     nav .dropdown-menu {
-      font-size: 9px; } }
+      font-size: 14px; } }
 
 @media (min-width: 600px) {
   nav {
     padding-top: 4px;
     padding-bottom: 4px; }
     nav .container-fluid, nav .container-sm, nav .container-md, nav .container-lg, nav .container-xl, nav .container-xxl {
-      font-size: 0.9rem; }
+      font-size: 16px; }
     nav .navbar-toggler {
-      font-size: 0.851 0; }
+      font-size: 16px; }
     nav .dropdown-menu {
-      font-size: 13px; } }
+      font-size: 16px; } }
 
 @media (min-width: 1024px) {
   nav {
     padding-top: 8px;
     padding-bottom: 8px; }
     nav .container-fluid, nav .container-sm, nav .container-md, nav .container-lg, nav .container-xl, nav .container-xxl {
-      font-size: 1.0rem; }
+      font-size: 17px; }
     nav .dropdown-menu {
-      font-size: 14px; } }
+      font-size: 17px; } }
 
 .bannerGuardaLena {
   background-image: url(https://693431.smushcdn.com/1076333/wp-content/uploads/sites/3/2018/07/F1_Unilux-6-270-Three-sided_inbouw-kader-1.jpg?lossy=1&strip=1&webp=1);

@@ -82,12 +82,7 @@
     }
 	
 }
-.botonInicioRegistro{
-    a{
-        color: rgb(0, 0, 0);
-        text-decoration: none;
-    }
-}
+
 
 /*registro*/
 
@@ -110,7 +105,15 @@
     text-align: center;
     color: white;
     justify-content: center;
-   
+   div{
+        .botonInicioRegistro{
+            a{
+                color: rgb(0, 0, 0);
+                text-decoration: none;
+            }
+            margin-top: 20px;
+        }
+   }
 }
 #registro{
     background-color: black;
