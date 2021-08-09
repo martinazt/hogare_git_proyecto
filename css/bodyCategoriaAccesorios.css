@@ -33,7 +33,22 @@
 }
 
 .accesorios .categoriaAccesorio div .col {
-  background-color: #d0d0d021;
+  background-color: #ffffff;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.53);
+          box-shadow: 0 2px 3px rgba(0, 0, 0, 0.53);
+}
+
+.accesorios .categoriaAccesorio div .col:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.accesorios .categoriaAccesorio div div {
+  border-radius: 8px;
 }
 
 .accesorios .categoriaAccesorio .categoriaH {
@@ -50,7 +65,7 @@
 
 .accesorios .categoriaAccesorio .categoriaU {
   text-align: center;
-  border: 1px solid #2f1e16;
+  border: 1px solid #947b34;
   border-width: 0px 0px 15px 0px;
 }
 

@@ -5,13 +5,13 @@
     padding-bottom: 2px;
   }
   nav .container-fluid {
-    font-size: 0.6rem;
+    font-size: 14px;
   }
   nav .navbar-toggler {
-    font-size: 0.65rem;
+    font-size: 14px;
   }
   nav .dropdown-menu {
-    font-size: 9px;
+    font-size: 14px;
   }
 }
 
@@ -21,13 +21,13 @@
     padding-bottom: 4px;
   }
   nav .container-fluid {
-    font-size: 0.9rem;
+    font-size: 16px;
   }
   nav .navbar-toggler {
-    font-size: 0.851 0;
+    font-size: 16px;
   }
   nav .dropdown-menu {
-    font-size: 13px;
+    font-size: 16px;
   }
 }
 
@@ -37,10 +37,10 @@
     padding-bottom: 8px;
   }
   nav .container-fluid {
-    font-size: 1.0rem;
+    font-size: 17px;
   }
   nav .dropdown-menu {
-    font-size: 14px;
+    font-size: 17px;
   }
 }
 /*# sourceMappingURL=nav.css.map */

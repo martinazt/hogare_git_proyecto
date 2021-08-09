@@ -33,7 +33,22 @@
 }
 
 .guardaLena .categoriaGL div .col {
-  background-color: #d0d0d021;
+  background-color: white;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.53);
+          box-shadow: 0 2px 3px rgba(0, 0, 0, 0.53);
+}
+
+.guardaLena .categoriaGL div .col:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.guardaLena .categoriaGL div div {
+  border-radius: 8px;
 }
 
 .guardaLena .categoriaGL .categoriaGL1 {

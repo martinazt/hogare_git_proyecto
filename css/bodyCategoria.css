@@ -57,13 +57,33 @@
   padding: 1px;
   background-color: #ffffff1f;
   text-align: center;
-  -webkit-transition: all 2ms;
-  transition: all 2ms;
+  background-color: white;
+  border-radius: 8px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.53);
+          box-shadow: 0 2px 3px rgba(0, 0, 0, 0.53);
 }
 
-.divProductos .pie {
-  background-color: #2b2b2b;
-  color: #d1d1d1;
+.divProductos a {
+  color: #000;
+  text-decoration: none;
+}
+
+.divProductos a:hover {
+  color: #333333;
+}
+
+.divProductos:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
 }
 
 .mainGas {
@@ -71,7 +91,7 @@
 }
 
 .mainGas .divProductos:hover {
-  border: solid 5px #881f14;
+  border: solid 1px #881f14;
 }
 
 .mainLeña {
@@ -79,7 +99,7 @@
 }
 
 .mainLeña .divProductos:hover {
-  border: solid 5px #f77a27;
+  border: solid 1px #f77a27;
 }
 
 .mainPellets {
@@ -87,7 +107,7 @@
 }
 
 .mainPellets .divProductos:hover {
-  border: solid 5px #dac6ae;
+  border: solid 1px #dac6ae;
 }
 
 .mainGLModerno {
@@ -95,7 +115,7 @@
 }
 
 .mainGLModerno .divProductos:hover {
-  border: solid 5px #667754;
+  border: solid 1px #667754;
 }
 
 .mainGLRustico {
@@ -103,31 +123,31 @@
 }
 
 .mainGLRustico .divProductos:hover {
-  border: solid 5px #c49c51;
+  border: solid 1px #c49c51;
 }
 
-.mainHerramienta {
-  border-top: 8px solid #c49c51;
+.mainHeramienta {
+  border-top: 8px solid #a38a76;
 }
 
-.mainHerramienta .divProductos:hover {
-  border: solid 5px #c49c51;
+.mainHeramienta .divProductos:hover {
+  border: solid 1px #a38a76;
 }
 
 .mainLimpieza {
-  border-top: 8px solid #c49c51;
+  border-top: 8px solid #744128;
 }
 
 .mainLimpieza .divProductos:hover {
-  border: solid 5px #c49c51;
+  border: solid 1px #744128;
 }
 
 .mainUtensillo {
-  border-top: 8px solid #c49c51;
+  border-top: 8px solid #947b34;
 }
 
 .mainUtensillo .divProductos:hover {
-  border: solid 5px #c49c51;
+  border: solid 1px #947b34;
 }
 
 .subCategorias {

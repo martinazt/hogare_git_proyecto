@@ -34,7 +34,22 @@
 }
 
 .salamandras .categoriaSalamandra div .col {
-  background-color: #d0d0d021;
+  background-color: #ffffff;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.53);
+          box-shadow: 0 2px 3px rgba(0, 0, 0, 0.53);
+}
+
+.salamandras .categoriaSalamandra div .col:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.salamandras .categoriaSalamandra div div {
+  border-radius: 8px;
 }
 
 .salamandras .categoriaSalamandra .categoria1 {
@@ -63,8 +78,8 @@
 
 .botonVerCategoria .ghost {
   background-color: transparent;
-  color: #eab769e0;
-  border: 2px solid #eab769e0;
+  color: #000000e0;
+  border: 2px solid #000000e0;
   -webkit-transition: .2s ease;
   transition: .2s ease;
   vertical-align: inherit;
@@ -73,7 +88,7 @@
 }
 
 .botonVerCategoria .ghost:hover {
-  background-color: #eab769e0;
+  background-color: #000000e0;
   color: white;
   -webkit-transition: .2s ease;
   transition: .2s ease;

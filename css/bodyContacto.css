@@ -8,8 +8,8 @@
 
 .gridContac .botonEnviar .ghost {
   background-color: transparent;
-  color: #fbebbb;
-  border: 2px solid #fbebbb;
+  color: #a2a2a2;
+  border: 2px solid #a2a2a2;
   -webkit-transition: .2s ease;
   transition: .2s ease;
   vertical-align: inherit;
@@ -18,7 +18,7 @@
 }
 
 .gridContac .botonEnviar .ghost:hover {
-  background-color: #fbebbb;
+  background-color: #a2a2a2;
   color: #232122;
   -webkit-transition: .2s ease;
   transition: .2s ease;
@@ -51,19 +51,37 @@
   padding-top: 25px;
 }
 
+.contenedorContacto .accordion .arrowed {
+  background-color: pink;
+}
+
+.contenedorContacto .accordion .arrowed div {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.contenedorContacto .accordion .arrowed .arrow-1 {
+  height: 15px;
+  width: 15px;
+  border: 1px solid #a2a2a2;
+  border-width: 0px 2px 2px 0px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.contenedorContacto .accordion .accordion-button:not(.collapsed)::after {
+  background-image: none;
+}
+
 .contenedorContacto .accordion .accordion-item {
-  background-color: #fbebbb;
+  background-color: #949494;
 }
 
 .contenedorContacto .accordion .accordion-item button {
-  color: #fbebbb;
+  color: #ffffff;
   background-color: #232122;
-}
-
-.contenedorContacto .accordion .accordion-item .accordion-button:not(.collapsed)::after {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
-  -webkit-transform: rotate(-180deg);
-          transform: rotate(-180deg);
 }
 
 .datosContacto {
@@ -102,6 +120,10 @@
 @media (min-width: 360px) {
   .accordion-item button {
     height: 10px;
+  }
+  .accordion-item .arrowed div {
+    right: 0px;
+    left: 250px;
   }
   .contenedorContacto {
     padding-bottom: 20px;
@@ -160,11 +182,12 @@
 }
 
 @media (min-width: 600px) {
-  .fondoGris {
-    height: 358px;
-  }
   .accordion-item button {
     height: 45px;
+  }
+  .accordion-item .arrowed div {
+    right: 0px;
+    left: 550px;
   }
   .contenedorContacto {
     padding-bottom: 20px;
@@ -223,9 +246,6 @@
 }
 
 @media (min-width: 1024px) {
-  .accordion-item button {
-    height: 65px;
-  }
   .contenedorContacto {
     padding-bottom: 25px;
     margin-top: 17px;
@@ -245,6 +265,13 @@
   }
   .contenedorContacto p {
     font-size: 25px;
+  }
+  .contenedorContacto .accordion-item button {
+    height: 65px;
+  }
+  .contenedorContacto .accordion-item .arrowed div {
+    right: 0px;
+    left: 1100px;
   }
   .gridContac {
     -ms-grid-rows: 50% 50%;

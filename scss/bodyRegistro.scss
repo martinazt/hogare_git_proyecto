@@ -190,7 +190,11 @@
             height: 13px;
             width: 13px;
         }
-        
+        .botonInicioRegistro{
+           .button{
+            padding:4px 8px !important;
+           }
+        }
     }
 }
  
@@ -227,7 +231,11 @@
             height: 15px;
             width: 15px;
         }
-        
+        .botonInicioRegistro{
+            .button{
+                padding:8px 16px !important;
+            }
+         }
     }
  }
  
@@ -262,7 +270,11 @@
             height: 18px;
             width: 18px;
         }
-        
+        .botonInicioRegistro{
+            .button{
+                padding:16px 32px !important;
+            }
+         }
     }
      
  }

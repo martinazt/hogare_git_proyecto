@@ -906,7 +906,9 @@ footer {
           text-decoration: none; }
     .gridInicio .form-check-input {
       height: 13px;
-      width: 13px; } }
+      width: 13px; }
+    .gridInicio .botonInicioRegistro .button {
+      padding: 4px 8px !important; } }
 
 @media (min-width: 600px) {
   .gridInicio {
@@ -934,7 +936,9 @@ footer {
         padding-bottom: 0px; }
     .gridInicio .form-check-input {
       height: 15px;
-      width: 15px; } }
+      width: 15px; }
+    .gridInicio .botonInicioRegistro .button {
+      padding: 8px 16px !important; } }
 
 @media (min-width: 1024px) {
   .gridInicio {
@@ -962,7 +966,9 @@ footer {
         padding-bottom: 2pxpx; }
     .gridInicio .form-check-input {
       height: 18px;
-      width: 18px; } }
+      width: 18px; }
+    .gridInicio .botonInicioRegistro .button {
+      padding: 16px 32px !important; } }
 
 /*boton inicio y boton registro*/
 .button {
@@ -1101,7 +1107,9 @@ footer {
         padding-bottom: 0px; }
     .gridRegistro .form-check-input {
       height: 13px;
-      width: 13px; } }
+      width: 13px; }
+    .gridRegistro .botonInicioRegistro .button {
+      padding: 4px 8px !important; } }
 
 @media (min-width: 600px) {
   .gridRegistro {
@@ -1126,7 +1134,9 @@ footer {
         padding-bottom: 0px; }
     .gridRegistro .form-check-input {
       height: 15px;
-      width: 15px; } }
+      width: 15px; }
+    .gridRegistro .botonInicioRegistro .button {
+      padding: 8px 16px !important; } }
 
 @media (min-width: 1024px) {
   .gridRegistro {
@@ -1151,7 +1161,9 @@ footer {
         padding-bottom: 2pxpx; }
     .gridRegistro .form-check-input {
       height: 18px;
-      width: 18px; } }
+      width: 18px; }
+    .gridRegistro .botonInicioRegistro .button {
+      padding: 16px 32px !important; } }
 
 .bannerSalamandras {
   background-image: url(https://693431.smushcdn.com/1076333/wp-content/uploads/sites/3/2018/08/F1_BOX-Gas-80-C.-1.jpg?lossy=1&strip=1&webp=1);

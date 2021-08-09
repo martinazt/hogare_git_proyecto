@@ -1,11 +1,164 @@
-.banner {
+/* filtro*/
+.filtro {
+  -webkit-backdrop-filter: saturate(1);
+          backdrop-filter: saturate(1);
+  background-color: #00000052;
+  height: 100%;
+}
+
+/* index*/
+.mainIndex {
+  /* gif index*/
+  /* titulo index*/
+  /*div index*/
+  /*fila informativa*/
+  /*banner*/
+  /* main index*/
+  /* galeria*/
+}
+
+.mainIndex .gifIndex {
+  background-image: url(../imagenes/fuegogif.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  background-position-x: center;
+  height: 80vh;
+  text-align: left;
+}
+
+.mainIndex .gifIndex img {
+  width: 100%;
+}
+
+.mainIndex .gifIndex h2 {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mainIndex .tituloIndex {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.mainIndex .divIndex {
+  margin-bottom: 50px;
+  place-content: center;
+}
+
+.mainIndex .divIndex a {
+  text-decoration: none;
+}
+
+.mainIndex .divIndex div {
+  padding-left: 0px;
+  padding-right: 0px;
+  border-radius: 8px;
+}
+
+.mainIndex .divIndex .divInterno {
+  margin-left: 0px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.13)), to(rgba(0, 0, 0, 0.753)));
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.13), rgba(0, 0, 0, 0.753));
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.mainIndex .divIndex .divIndexSalamandras {
+  background-image: url(https://693431.smushcdn.com/1076333/wp-content/uploads/sites/3/2018/08/F1_BOX-Gas-75-1.jpg?lossy=1&strip=1&webp=1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.53);
+          box-shadow: 0 2px 3px rgba(0, 0, 0, 0.53);
+}
+
+.mainIndex .divIndex .divIndexSalamandras:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.mainIndex .divIndex .divIndexGuadaLena {
+  background-image: url(../imagenes/imagenesMartina/divIndexGL.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  text-align: center;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.53);
+          box-shadow: 0 2px 3px rgba(0, 0, 0, 0.53);
+}
+
+.mainIndex .divIndex .divIndexGuadaLena:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.mainIndex .divIndex .divIndexAccesorios {
+  background-image: url(../imagenes/imagenesMartina/divIndexA.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  background-position-y: center;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.53);
+          box-shadow: 0 2px 3px rgba(0, 0, 0, 0.53);
+}
+
+.mainIndex .divIndex .divIndexAccesorios:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.mainIndex .info {
+  background-color: #424242;
+  width: 100%;
+  margin: 0px;
+}
+
+.mainIndex .info .blancoNegro {
+  background-image: url(https://i.pinimg.com/564x/3e/4d/94/3e4d94a63f2a2019f5882fcdf1940eed.jpg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+  height: 40vh;
+}
+
+.mainIndex .info .informativa {
+  color: white;
+  text-align: center;
+  padding-left: 50px;
+  PLACE-SELF: CENTER;
+  padding-right: 50px;
+}
+
+.mainIndex .banner {
   margin-top: 0;
   margin-bottom: 0px;
   color: #f8f9fa;
   background-color: #41464bad;
 }
 
-.banner p {
+.mainIndex .banner p {
   background-color: #000000a8;
   color: white;
   width: -webkit-max-content;
@@ -13,7 +166,7 @@
   width: max-content;
 }
 
-.banner h5 {
+.mainIndex .banner h5 {
   background-color: #000000a8;
   color: white;
   width: -webkit-max-content;
@@ -21,36 +174,231 @@
   width: max-content;
 }
 
-.banner .d-none {
+.mainIndex .banner .d-none {
   text-align: -webkit-center;
+}
+
+.mainIndex .mainIndex {
+  margin-bottom: 0px;
+}
+
+.mainIndex .galeria {
+  margin: 50px 20px;
+  text-align: center;
+}
+
+.mainIndex .galeria .container.gallery-container {
+  background-color: #fff;
+  color: #35373a;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+          box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+
+.mainIndex .galeria .gallery-container h1 {
+  text-align: center;
+  margin-top: 70px;
+  font-family: 'Droid Sans', sans-serif;
+  font-weight: bold;
+}
+
+.mainIndex .galeria .gallery-container p.page-description {
+  text-align: center;
+  max-width: 800px;
+  margin: 25px auto;
+  color: #888;
+  font-size: 18px;
+}
+
+.mainIndex .galeria .tz-gallery {
+  padding: 40px;
+}
+
+.mainIndex .galeria .tz-gallery .lightbox img {
+  width: 100%;
+  margin-bottom: 30px;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.mainIndex .galeria .tz-gallery .lightbox img:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.mainIndex .galeria .tz-gallery img {
+  border-radius: 8px;
+}
+
+.mainIndex .galeria .baguetteBox-button {
+  background-color: transparent !important;
 }
 
 /* media queries */
 @media (min-width: 360px) {
-  .banner p {
-    font-size: smaller;
-    width: auto;
+  .mainIndex .tituloIndex {
+    margin-top: 32px;
+    margin-bottom: 32px;
   }
-  .banner h5 {
-    font-size: smaller;
+  .mainIndex .divIndex div {
+    width: 270px;
+    height: 120px;
+    margin-bottom: 15px;
   }
-  .banner img {
-    height: 63vh;
+  .mainIndex .divIndex div p {
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    padding-top: 56px;
   }
-  .banner .d-none {
-    display: inline !important;
+  .mainIndex .divIndex .divIndexSalamandras {
+    background-position-y: -85px;
+    width: 100%;
+    height: 120px;
+  }
+  .mainIndex .divIndex .divIndexGuadaLena {
+    background-position-y: -50px;
+    width: 100%;
+    height: 120px;
+  }
+  .mainIndex .divIndex .divIndexAccesorios {
+    background-position-y: -140px;
+    width: 100%;
+    height: 120px;
+  }
+  .mainIndex .gifIndex h2 {
+    font-size: 1.5rem;
+    padding-top: 145px;
+  }
+  .mainIndex .banner img {
+    height: 25vh;
+  }
+  .mainIndex .info .informativa p {
+    font-size: 10px;
+  }
+  .mainIndex .galeria .tz-gallery {
+    padding: 20px;
+  }
+  .mainIndex .galeria .tz-gallery .row div {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .mainIndex .galeria .tz-gallery .row div img {
+    margin-bottom: 16px;
   }
 }
 
 @media (min-width: 600px) {
-  .banner img {
-    min-height: 73vh;
+  .mainIndex .tituloIndex {
+    margin-top: 48px;
+    margin-bottom: 48px;
+  }
+  .mainIndex .divIndex div {
+    width: 90%;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+  .mainIndex .divIndex div p {
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+    padding-top: 128px;
+  }
+  .mainIndex .divIndex .divIndexSalamandras {
+    background-position-y: -195px;
+    height: 100%;
+  }
+  .mainIndex .divIndex .divIndexGuadaLena {
+    background-position-y: -140px;
+    height: 100%;
+  }
+  .mainIndex .divIndex .divIndexAccesorios {
+    background-position-y: -340px;
+    height: 100%;
+  }
+  .mainIndex .gifIndex h2 {
+    font-size: 3rem;
+    padding-top: 165px;
+  }
+  .mainIndex .banner img {
+    height: 40vh;
+  }
+  .mainIndex .info .informativa p {
+    font-size: 17px;
+  }
+  .mainIndex .galeria .tz-gallery {
+    padding: 40px;
+  }
+  .mainIndex .galeria .tz-gallery .row div {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .mainIndex .galeria .tz-gallery .row div img {
+    margin-bottom: 20px;
   }
 }
 
 @media (min-width: 1024px) {
-  .banner img {
-    min-height: 72vh;
+  .mainIndex .tituloIndex {
+    margin-top: 64px;
+    margin-bottom: 64px;
+  }
+  .mainIndex .divIndex {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .mainIndex .divIndex div {
+    width: 400px;
+    height: 400px;
+    margin-left: 10px;
+  }
+  .mainIndex .divIndex div p {
+    color: white;
+    font-weight: bold;
+    font-size: xx-large;
+    padding-top: 320px;
+  }
+  .mainIndex .divIndex .divIndexSalamandras {
+    background-position-y: center;
+    width: 30%;
+  }
+  .mainIndex .divIndex .divIndexGuadaLena {
+    background-position-y: center;
+    width: 30%;
+  }
+  .mainIndex .divIndex .divIndexAccesorios {
+    background-position-y: center;
+    width: 30%;
+  }
+  .mainIndex .tituloIndex h2 {
+    font-size: 32px;
+    color: black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .mainIndex .gifIndex h2 {
+    font-size: 3rem;
+    padding-top: 120px;
+  }
+  .mainIndex .banner img {
+    height: 45vh;
+  }
+  .mainIndex .info .informativa p {
+    font-size: 20px;
+  }
+  .mainIndex .galeria .tz-gallery {
+    padding: 40px;
+  }
+  .mainIndex .galeria .tz-gallery .row div {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .mainIndex .galeria .tz-gallery .row div img {
+    margin-bottom: 30px;
   }
 }
 /*# sourceMappingURL=bodyIndex.css.map */

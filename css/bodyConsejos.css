@@ -1,4 +1,22 @@
 /* consejo */
+.bannerConsejo {
+  background-image: url(https://693431.smushcdn.com/1076333/wp-content/uploads/sites/3/2018/08/Img4439_1920x540px.jpg?lossy=1&strip=1&webp=1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  text-align: center;
+}
+
+.bannerConsejo img {
+  width: 100%;
+}
+
+.bannerConsejo h2 {
+  color: white;
+  -webkit-backdrop-filter: saturate(1);
+          backdrop-filter: saturate(1);
+}
+
 .consejos .col {
   text-align: -webkit-center;
 }
@@ -9,7 +27,7 @@
 
 .consejos .accordion .accordion-item {
   border: 0px;
-  background-color: #fbebbb;
+  background-color: #a2a2a2;
 }
 
 .consejos .accordion .accordion-item .arrowed {
@@ -28,7 +46,7 @@
 .consejos .accordion .accordion-item .arrowed .arrow-1 {
   height: 15px;
   width: 15px;
-  border: 1px solid #fbebbb;
+  border: 1px solid #aaa;
   border-width: 0px 2px 2px 0px;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
@@ -44,7 +62,7 @@
 }
 
 .consejos .accordion .accordion-item button {
-  color: #fbebbb;
+  color: #ffffff;
   background-color: #232122;
   width: 98%;
 }
@@ -54,12 +72,28 @@
   margin-bottom: 2px;
 }
 
+.consejos .accordion .accordion-item .accordion-item:last-of-type {
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.consejos .accordion .accordion-item .accordion-item:first-of-type {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
 .videoConsejo {
   text-align: center;
 }
 
 /* media queries */
 @media (min-width: 360px) {
+  .bannerConsejo {
+    height: 22vh;
+  }
+  .bannerConsejo H2 {
+    padding: 80px;
+  }
   main {
     min-height: calc(75vh - 50px);
   }
@@ -102,6 +136,12 @@
 }
 
 @media (min-width: 600px) {
+  .bannerConsejo {
+    height: 25vh;
+  }
+  .bannerConsejo H2 {
+    padding: 140px;
+  }
   main {
     min-height: calc(80vh - 50px);
   }
@@ -148,6 +188,12 @@
 }
 
 @media (min-width: 1024px) {
+  .bannerConsejo {
+    height: 22vh;
+  }
+  .bannerConsejo H2 {
+    padding: 80px;
+  }
   main {
     min-height: calc(70vh - 50px);
   }
