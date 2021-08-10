@@ -36,6 +36,8 @@
     /*div index*/
 
     .divIndex{  
+      margin-right: 0px;
+      margin-left: 0px;
         a{
           text-decoration: none;
         }
@@ -106,7 +108,7 @@
       background-position-x: center;
       background-position-y: center;
       background-size: cover;
-      height: 40vh;
+      min-height: 40vh;
       }
       .informativa{
         color: white;
