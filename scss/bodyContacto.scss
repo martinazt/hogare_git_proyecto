@@ -1,45 +1,53 @@
-
-/* probando*/ 
-.gridContac{
-    .botonEnviar{
-    justify-content: center;
-        .ghost {
-            background-color: transparent;
-            color:#a2a2a2;
-            border: 2px solid #a2a2a2;
-            transition: .2s ease;
-            vertical-align: inherit;
-            padding: 1px;
-            margin: 2px;;
-            
-            &:hover {
-            background-color: #a2a2a2;
-            color: #232122;
-            
-            transition: .2s ease;
-            }
-        }
-       margin-bottom: 0px;
-    }
-    .botonMensaje{
-        text-align: center;
-    }
-    .mensajeContacto{
-        margin-bottom: 0px;
-        textarea{
-            width: 100%;
-        }    
-    }   
-}
-
+/*contacto*/ 
 .contenedorContacto{
     color: #fbebbb;
     text-align: center;
-    .redesContacto{
-     
-        .gridRedesContacto{
-            display:  inline-flex;;
-         }
+    .tituloContacto{
+        color: black;
+        margin-left: 15px;
+        font-family:system-ui;
+        h2{
+            padding: 2px;            
+        }
+    }
+    .gridContac{
+        display: grid;
+        grid-template-rows: 400px 450px;
+        grid-template-columns: 700px;
+        text-align: center;
+        color: white;
+        justify-content: center;
+        
+        .botonEnviar{
+            justify-content: center;
+            .ghost {
+                background-color: transparent;
+                color:#a2a2a2;
+                border: 2px solid #a2a2a2;
+                transition: .2s ease;
+                vertical-align: inherit;
+                padding: 1px;
+                margin: 2px;;
+                
+                &:hover {
+                background-color: #a2a2a2;
+                color: #232122;
+                
+                transition: .2s ease;
+                }
+            }
+           margin-bottom: 0px;
+        }
+        .mensajeContacto{
+            margin-bottom: 0px;
+            textarea{
+                width: 100%;
+            }    
+        }   
+    }
+    .fondoGris{
+        background-color: #232122 ;
+    
     }
     .accordion{
         padding-top: 25px;
@@ -57,8 +65,8 @@
                border-width: 0px 2px 2px 0px;
                transform: rotate(45deg);
            }             
-       }
-       .accordion-button:not(.collapsed)::after {
+         }
+      .accordion-button:not(.collapsed)::after {
             background-image: none;
        }
         .accordion-item{
@@ -68,43 +76,25 @@
                 background-color: #232122;
             }
         }
+        .datosContacto{
+            color: black;
+            h4, h5, p {
+                margin:4px;
+            }
+        }
+        .redesContacto{    
+            .gridRedesContacto{
+                display:  inline-flex;;
+                background: bottom black;
+             }
+        }
     }
-    
-    
-}
-.datosContacto{
-    color: black;
-}
-.fondoGris{
-    background-color: #232122 ;
-  
-}
 
-.tituloContacto{
-    color: black;
-    margin-left: 15px;
-    font-family:system-ui;
-    h2{
-        padding: 2px;
-        
-    }
 }
-
-.gridContac{
-    display: grid;
-    grid-template-rows: 400px 450px;
-    grid-template-columns: 700px;
-    text-align: center;
-    color: white;
-    justify-content: center;
-    
-   
-}
-/* media queries */
+/* media queries contacto */
 
 
-@media (min-width: 360px) {
-    
+@media (min-width: 360px) {   
     .accordion-item{
         button{
             height: 10px;
@@ -135,41 +125,41 @@
         p{
             font-size: 13px;
         }
-    }
-    .gridContac{
-        grid-template-rows: 25% 75%;
-        grid-template-columns: 80%;
-        
-        textarea{
-            height: 60px;
-        }
-        label{
-            font-size: 10px;
-        }
-        input{
-            padding: 2px;
-            height: 20px;
-        }
-        div{
-            margin: 0px;
-           select{
-            height: 25px;
-            padding: 2px;
-            padding-top: 0;
-            padding-bottom: 0px;
-           }
-
-            button{
-                background-color: #eab769e0;
-                margin-top: 10px;
-                padding-right: 2px;
-                border-style: ridge;
-                padding-left: 2px;
-                border-bottom: solid 2px #7d5e00;
-                font-size: 13px;
+        .gridContac{
+            grid-template-rows: 25% 75%;
+            grid-template-columns: 80%;
+            
+            textarea{
+                height: 60px;
             }
+            label{
+                font-size: 10px;
+            }
+            input{
+                padding: 2px;
+                height: 20px;
+            }
+            div{
+                margin: 0px;
+            select{
+                height: 25px;
+                padding: 2px;
+                padding-top: 0;
+                padding-bottom: 0px;
+            }
+
+                button{
+                    background-color: #eab769e0;
+                    margin-top: 10px;
+                    padding-right: 2px;
+                    border-style: ridge;
+                    padding-left: 2px;
+                    border-bottom: solid 2px #7d5e00;
+                    font-size: 13px;
+                }
+            }
+    
         }
- 
     }
 }
  
@@ -191,59 +181,56 @@
         padding-bottom: 20px; 
         margin-top: 15px;
         h2{
-            font-size: 18px;
+            font-size: 16px;
             margin: 4px;
         }
         legend{
-            font-size: 20px;
+            font-size: 18px;
         }
         h4{
-            font-size: 20px;
+            font-size: 18px;
         }
         h5{
-            font-size: 15px;
+            font-size: 12px;
         }
         p{
-            font-size: 15px;
-        }
-        
-    }
-    .gridContac{
-        grid-template-rows: 40% 60%;
-        grid-template-columns: 70%;
-        textarea{
-            height: 100px;
-        }
-      
-        label{
-            font-size: 15px;
-            
-        }
-        input{
-            padding: 1px;
-            height: 28px;
-        }
-        div{
-            margin-bottom: 14px;
-           select{
-            height: 25px;
-            padding: 2px;
-            padding-top: 0;
-            padding-bottom: 0px;
-           }
-           button{
-            background-color: #eab769e0;
-            margin-top: 10px;
-            padding-right: 2px;
-            border-style: ridge;
-            padding-left: 2px;
-            border-bottom: solid 2px #7d5e00;
             font-size: 13px;
         }
+        .gridContac{
+            grid-template-rows: 40% 60%;
+            grid-template-columns: 70%;
+            textarea{
+                height: 100px;
+            }
+        
+            label{
+                font-size: 15px;
+                
+            }
+            input{
+                padding: 1px;
+                height: 28px;
+            }
+            div{
+                margin-bottom: 14px;
+            select{
+                height: 25px;
+                padding: 2px;
+                padding-top: 0;
+                padding-bottom: 0px;
+            }
+            button{
+                background-color: #eab769e0;
+                margin-top: 10px;
+                padding-right: 2px;
+                border-style: ridge;
+                padding-left: 2px;
+                border-bottom: solid 2px #7d5e00;
+                font-size: 13px;
+                }
+            }
         }
-
-    }
-    
+    } 
  }
  
  @media (min-width: 1024px) {
@@ -278,45 +265,41 @@
                 }   
             }
         } 
-    }
-    .gridContac{
-        grid-template-rows: 50% 50%;
-        grid-template-columns: 70%;
-        height: 850px;
-        textarea{
-            height: 130px;
-        }
-      
-        label{
-            font-size: 25px;
-   
-        }
-        input{
-            padding: 4px;
-            height: 32px;
-        }
-        div{
-            margin-bottom: 14px;
-           select{
-            height: 35px;
-            padding: 2px;
-            padding-top: 0;
-            padding-bottom: 0px;
-           }
-           button{
-            background-color: #eab769e0;
-            margin-top: 10px;
-            padding-right: 2px;
-            border-style: ridge;
-            padding-left: 2px;
-            border-bottom: solid 2px #7d5e00;
-            font-size: 20px;
+        .gridContac{
+            grid-template-rows: 50% 50%;
+            grid-template-columns: 70%;
+            height: 850px;
+            textarea{
+                height: 130px;
+            }
+        
+            label{
+                font-size: 25px;
+    
+            }
+            input{
+                padding: 4px;
+                height: 32px;
+            }
+            div{
+                margin-bottom: 14px;
+            select{
+                height: 35px;
+                padding: 2px;
+                padding-top: 0;
+                padding-bottom: 0px;
+            }
+            button{
+                background-color: #eab769e0;
+                margin-top: 10px;
+                padding-right: 2px;
+                border-style: ridge;
+                padding-left: 2px;
+                border-bottom: solid 2px #7d5e00;
+                font-size: 20px;
+                }
             }
         }
-
-       
-        
-    }
-     
+    } 
  }
  

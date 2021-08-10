@@ -1,48 +1,13 @@
-/*GRID DE LAS SUBCATEGORIAS*/
-
-
-.gridSubCategoria{
-    display: grid;
-    grid-template-columns: 20% 80%;
-}
-
-.gridFiltro{
-    background-color: #69696961;
-    padding-left: 5px;
-    margin-left: 0px;
-    div{
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-weight: bold;
+/* Categorias*/
+.subCategorias{
+    text-align: center;
+    p{
+        text-align: initial;
     }
-    input{
-        width: 80%;
+    h2{
+        margin-bottom: 50px;
     }
 }
-
-.gridProductos{
-    display: grid;
-    grid-template-columns: 32% 32% 32%;
-    padding:5px;
-    justify-content: space-between;
-}
-
-.grid{
-    display: grid;
-    /*3 columnas*/
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 3fr 1fr;
-    /*background-color: pink;*/
-    text-align: center;
-}
-.gridSalamandras{
-    margin: 5px;
-    padding: 5px;
-    text-align: center;
-}
-
-/* nuevo*/
-
-
 .divProductos{
     margin:5px;
     padding:1px;
@@ -117,19 +82,8 @@
         border: solid 1px #947b34;
     }
 }
-
-
-.subCategorias{
-    text-align: center;
-    p{
-        text-align: initial;
-    }
-    h2{
-        margin-bottom: 50px;
-    }
-}
     
-
+/* queries categorias*/
 @media (min-width: 360px) {
     .subCategorias{
     img{

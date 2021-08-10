@@ -94,7 +94,7 @@
         }
     }
 
-    /*fila informativa*/
+    /*fila informativa index*/
     .info{
       background-color: rgb(66, 66, 66);
       width: 100%;
@@ -116,34 +116,12 @@
       }  
     }
 
-
-    /*banner*/
-    .banner{
-        margin-top: 0;
-        margin-bottom: 0px;
-        
-        color: #f8f9fa;
-        background-color: #41464bad;
-        p{
-          background-color: #000000a8;
-          color: white;
-          width: max-content;
-        }
-        h5{
-          background-color: #000000a8;
-          color: white;
-          width: max-content;
-        }
-        .d-none{
-          text-align: -webkit-center;
-        }
-    }
     /* main index*/
     .mainIndex{
       margin-bottom: 0px;
     }
 
-    /* galeria*/ 
+    /* galeria index*/ 
     .galeria{
       margin: 50px 20px;
       text-align: center;
@@ -197,8 +175,7 @@
     }
 }
 
-
-/* media queries */
+/* media queries index*/
 
 @media (min-width: 360px) {
   .mainIndex{
@@ -206,7 +183,6 @@
       margin-top: 32px;
       margin-bottom: 32px;
     }
-    
     .divIndex{
       div{
         width: 270px;
@@ -240,11 +216,6 @@
         font-size: 1.5rem;
         padding-top: 145px;
       }
-    }
-    .banner{
-        img{
-          height: 25vh;
-        }
     }
     .info{
       .informativa{
@@ -307,11 +278,6 @@
           font-size: 3rem;
           padding-top: 165px;
         }
-      }
-     .banner{
-            img{
-              height: 40vh;
-            }
       }
       .info{
         .informativa{
@@ -385,11 +351,6 @@
 
       }
     }
-    .banner{
-      img{
-        height: 45vh;
-      }
-    }
     .info{
       .informativa{
         p{
@@ -411,6 +372,5 @@
         }
       }
     }
-  }
-   
+  }  
 }
