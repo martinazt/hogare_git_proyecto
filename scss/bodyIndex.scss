@@ -5,11 +5,12 @@
    height: 100%;
 }
 /* index*/
+
 .mainIndex{
    
     /* gif index*/
     .gifIndex{
-      background-image:url(../imagenes/fuegogif.gif);
+      background-image: url(../imagenes/fuegogif.gif);
       background-repeat: no-repeat;
       background-size: cover;
       background-position-y: center;
@@ -144,7 +145,7 @@
         max-width: 800px;
         margin: 25px auto;
         color: #888;
-        font-size: 18px;
+        font-size: 1.13 rem;
       }
 
       .tz-gallery {
@@ -220,7 +221,7 @@
     .info{
       .informativa{
         p{
-          font-size: 10px;
+          font-size: 0.6 rem;
         }
       }
     }
@@ -282,7 +283,7 @@
       .info{
         .informativa{
           p{
-            font-size: 17px;
+            font-size: 1 rem;
           }
         }
       }
@@ -338,7 +339,7 @@
     }
     .tituloIndex{
         h2{
-          font-size: 32px;
+          font-size: 2 rem;
           color: black;
           padding-top: 40px;
           padding-bottom: 40px;
@@ -354,7 +355,7 @@
     .info{
       .informativa{
         p{
-          font-size: 20px;
+          font-size: 1.25 rem;
         }
       }
     }  

@@ -41,7 +41,7 @@ footer {
 /* media queries footer*/
 @media (min-width: 360px) {
   footer p {
-    font-size: 14px; }
+    font-size: 0.90rem; }
   footer .logoFooter img {
     width: 64px;
     height: 64px; }
@@ -55,7 +55,7 @@ footer {
 
 @media (min-width: 600px) {
   footer p {
-    font-size: 15px; }
+    font-size: 1rem; }
   footer .logoFooter img {
     width: 72px;
     height: 72px; }
@@ -70,7 +70,7 @@ footer {
 
 @media (min-width: 1024px) {
   footer p {
-    font-size: 16px; }
+    font-size: 1rem; }
   footer .logoFooter img {
     width: 80px;
     height: 80px; }
@@ -417,23 +417,23 @@ footer {
     padding-bottom: 20px;
     margin-top: 15px; }
     .contenedorContacto h2, .contenedorContacto .h2 {
-      font-size: 16px;
+      font-size: 1 rem;
       margin: 2px; }
     .contenedorContacto legend {
-      font-size: 15px; }
+      font-size: 0.95 rem; }
     .contenedorContacto h4, .contenedorContacto .h4 {
-      font-size: 15px; }
+      font-size: 0.95 rem; }
     .contenedorContacto h5, .contenedorContacto .h5 {
-      font-size: 13px; }
+      font-size: .8 rem; }
     .contenedorContacto p {
-      font-size: 13px; }
+      font-size: 0.8 rem; }
     .contenedorContacto .gridContac {
       grid-template-rows: 25% 75%;
       grid-template-columns: 80%; }
       .contenedorContacto .gridContac textarea {
         height: 60px; }
       .contenedorContacto .gridContac label {
-        font-size: 10px; }
+        font-size: 0.6 rem; }
       .contenedorContacto .gridContac input {
         padding: 2px;
         height: 20px; }
@@ -451,7 +451,7 @@ footer {
           border-style: ridge;
           padding-left: 2px;
           border-bottom: solid 2px #7d5e00;
-          font-size: 13px; } }
+          font-size: 0.8 rem; } }
 
 @media (min-width: 600px) {
   .accordion-item button {
@@ -463,23 +463,23 @@ footer {
     padding-bottom: 20px;
     margin-top: 15px; }
     .contenedorContacto h2, .contenedorContacto .h2 {
-      font-size: 16px;
+      font-size: 1 rem;
       margin: 4px; }
     .contenedorContacto legend {
-      font-size: 18px; }
+      font-size: 1.13 rem; }
     .contenedorContacto h4, .contenedorContacto .h4 {
-      font-size: 18px; }
+      font-size: 1.13 rem; }
     .contenedorContacto h5, .contenedorContacto .h5 {
-      font-size: 12px; }
+      font-size: 0.75 rem; }
     .contenedorContacto p {
-      font-size: 13px; }
+      font-size: 0.8 rem; }
     .contenedorContacto .gridContac {
       grid-template-rows: 40% 60%;
       grid-template-columns: 70%; }
       .contenedorContacto .gridContac textarea {
         height: 100px; }
       .contenedorContacto .gridContac label {
-        font-size: 15px; }
+        font-size: 0.95 rem; }
       .contenedorContacto .gridContac input {
         padding: 1px;
         height: 28px; }
@@ -497,23 +497,23 @@ footer {
           border-style: ridge;
           padding-left: 2px;
           border-bottom: solid 2px #7d5e00;
-          font-size: 13px; } }
+          font-size: 0.8 rem; } }
 
 @media (min-width: 1024px) {
   .contenedorContacto {
     padding-bottom: 25px;
     margin-top: 17px; }
     .contenedorContacto h2, .contenedorContacto .h2 {
-      font-size: 22px;
+      font-size: 1.4 rem;
       margin: 8px; }
     .contenedorContacto legend {
-      font-size: 30px; }
+      font-size: 1.9 rem; }
     .contenedorContacto h4, .contenedorContacto .h4 {
-      font-size: 30px; }
+      font-size: 1.9 rem; }
     .contenedorContacto h5, .contenedorContacto .h5 {
-      font-size: 25px; }
+      font-size: 1.6 rem; }
     .contenedorContacto p {
-      font-size: 25px; }
+      font-size: 1.6 rem; }
     .contenedorContacto .accordion-item button {
       height: 65px; }
     .contenedorContacto .accordion-item .arrowed div {
@@ -526,7 +526,7 @@ footer {
       .contenedorContacto .gridContac textarea {
         height: 130px; }
       .contenedorContacto .gridContac label {
-        font-size: 25px; }
+        font-size: 1.6 rem; }
       .contenedorContacto .gridContac input {
         padding: 4px;
         height: 32px; }
@@ -544,7 +544,7 @@ footer {
           border-style: ridge;
           padding-left: 2px;
           border-bottom: solid 2px #7d5e00;
-          font-size: 20px; } }
+          font-size: 1.25 rem; } }
 
 /* filtro*/
 .filtro {
@@ -661,7 +661,7 @@ footer {
       max-width: 800px;
       margin: 25px auto;
       color: #888;
-      font-size: 18px; }
+      font-size: 1.13 rem; }
     .mainIndex .galeria .tz-gallery {
       padding: 40px; }
     .mainIndex .galeria .tz-gallery .lightbox img {
@@ -707,7 +707,7 @@ footer {
     font-size: 1.5rem;
     padding-top: 145px; }
   .mainIndex .info .informativa p {
-    font-size: 10px; }
+    font-size: 0.6 rem; }
   .mainIndex .galeria .tz-gallery {
     padding: 20px; }
     .mainIndex .galeria .tz-gallery .row div {
@@ -742,7 +742,7 @@ footer {
     font-size: 3rem;
     padding-top: 165px; }
   .mainIndex .info .informativa p {
-    font-size: 17px; }
+    font-size: 1 rem; }
   .mainIndex .galeria .tz-gallery {
     padding: 40px; }
     .mainIndex .galeria .tz-gallery .row div {
@@ -776,7 +776,7 @@ footer {
       background-position-y: center;
       width: 30%; }
   .mainIndex .tituloIndex h2, .mainIndex .tituloIndex .h2 {
-    font-size: 32px;
+    font-size: 2 rem;
     color: black;
     padding-top: 40px;
     padding-bottom: 40px; }
@@ -784,7 +784,7 @@ footer {
     font-size: 3rem;
     padding-top: 120px; }
   .mainIndex .info .informativa p {
-    font-size: 20px; }
+    font-size: 1.25 rem; }
   .mainIndex .galeria .tz-gallery {
     padding: 40px; }
     .mainIndex .galeria .tz-gallery .row div {
@@ -822,14 +822,14 @@ footer {
     grid-template-rows: 15% 60% 25%;
     grid-template-columns: 80%; }
     .gridInicio a {
-      font-size: 12px; }
+      font-size: 0.75 rem; }
     .gridInicio .boton__formulario {
       margin-top: 10px;
       padding-right: 2px;
       padding-left: 2px;
-      font-size: 13px; }
+      font-size: 0.82 rem; }
     .gridInicio label {
-      font-size: 10px; }
+      font-size: 0.6 rem; }
     .gridInicio input {
       padding: 2px;
       height: 20px; }
@@ -857,14 +857,14 @@ footer {
     grid-template-rows: 15% 60% 25%;
     grid-template-columns: 80%; }
     .gridInicio a {
-      font-size: 14px; }
+      font-size: 0.88 rem; }
     .gridInicio .boton__formulario {
       margin-top: 11px;
       padding-right: 4px;
       padding-left: 4px;
-      font-size: 18px; }
+      font-size: 1.13 rem; }
     .gridInicio label {
-      font-size: 15px; }
+      font-size: 0.95 rem; }
     .gridInicio input {
       padding: 4px;
       height: 25px; }
@@ -887,14 +887,14 @@ footer {
     grid-template-rows: 5% 70% 25%;
     grid-template-columns: 70%; }
     .gridInicio a {
-      font-size: 16px; }
+      font-size: 1 rem; }
     .gridInicio .boton__formulario {
       margin-top: 2px;
       padding-right: 5px;
       padding-left: 5px;
-      font-size: 20px; }
+      font-size: 1.25 rem; }
     .gridInicio label {
-      font-size: 18px; }
+      font-size: 1.13 rem; }
     .gridInicio input {
       padding: 5px;
       height: 28px; }
@@ -1026,9 +1026,9 @@ footer {
       margin-top: 10px;
       padding-right: 2px;
       padding-left: 2px;
-      font-size: 13px; }
+      font-size: 0.82 rem; }
     .gridRegistro label {
-      font-size: 10px; }
+      font-size: 0.6rem; }
     .gridRegistro input {
       padding: 2px;
       height: 20px; }
@@ -1053,9 +1053,9 @@ footer {
       margin-top: 11px;
       padding-right: 4px;
       padding-left: 4px;
-      font-size: 18px; }
+      font-size: 1.13rem; }
     .gridRegistro label {
-      font-size: 15px; }
+      font-size: 0.95 rem; }
     .gridRegistro input {
       padding: 4px;
       height: 25px; }
@@ -1080,9 +1080,9 @@ footer {
       margin-top: 2px;
       padding-right: 5px;
       padding-left: 5px;
-      font-size: 20px; }
+      font-size: 1.25 rem; }
     .gridRegistro label {
-      font-size: 18px; }
+      font-size: 1.13 rem; }
     .gridRegistro input {
       padding: 5px;
       height: 28px; }
@@ -1174,30 +1174,30 @@ footer {
   .bannerSalamandras {
     height: 25vh; }
     .bannerSalamandras h2, .bannerSalamandras .h2 {
-      font-size: 30px;
+      font-size: 2rem;
       backdrop-filter: saturate(1); }
   .salamandras .categoriaSalamandra {
     margin-bottom: 50px;
     margin-top: 50px; }
     .salamandras .categoriaSalamandra p {
       font-weight: 700;
-      font-size: 14px; }
+      font-size: 0.9 rem; }
   .salamandras p {
-    font-size: 14px; } }
+    font-size: 0.9 rem; } }
 
 @media (min-width: 600px) {
   .bannerSalamandras {
     height: 35vh; }
     .bannerSalamandras h2, .bannerSalamandras .h2 {
-      font-size: 40px; }
+      font-size: 2.5 rem; }
   .salamandras p {
-    font-size: 16px; }
+    font-size: 1 rem; }
   .salamandras .categoriaSalamandra {
     margin-top: 50px;
     margin-bottom: 50px; }
     .salamandras .categoriaSalamandra p {
       font-weight: 700;
-      font-size: 17px; }
+      font-size: 1 rem; }
     .salamandras .categoriaSalamandra .botonVerCategoria {
       padding: 10px; }
     .salamandras .categoriaSalamandra div {
@@ -1207,13 +1207,13 @@ footer {
   .bannerSalamandras {
     height: 45vh; }
   .salamandras p {
-    font-size: 18px; }
+    font-size: 1.13 rem; }
   .salamandras .categoriaSalamandra {
     margin-bottom: 70px;
     margin-top: 70px; }
     .salamandras .categoriaSalamandra p {
       font-weight: 650;
-      font-size: 19px; }
+      font-size: 1.2 rem; }
     .salamandras .categoriaSalamandra .botonVerCategoria {
       padding: 11px; }
     .salamandras .categoriaSalamandra div {
@@ -1285,13 +1285,13 @@ footer {
 /* media queries visualizar*/
 @media (min-width: 360px) {
   .verProducto h3, .verProducto .h3 {
-    font-size: 17px; }
+    font-size: 1 rem; }
   .verProducto h2, .verProducto .h2 {
-    font-size: 20px; }
+    font-size: 1.25 rem; }
   .verProducto h4, .verProducto .h4 {
-    font-size: 20px; }
+    font-size: 1.20 rem; }
   .verProducto p {
-    font-size: 14px; }
+    font-size: 0.9 rem; }
   .verProducto .container {
     margin-top: 20px;
     width: 90%;
@@ -1312,11 +1312,11 @@ footer {
 
 @media (min-width: 600px) {
   .verProducto h2, .verProducto .h2 {
-    font-size: 22px; }
+    font-size: 1.4 rem; }
   .verProducto h3, .verProducto .h3 {
-    font-size: 19px; }
+    font-size: 1.2 rem; }
   .verProducto h4, .verProducto .h4 {
-    font-size: 17px; }
+    font-size: 1 rem; }
   .verProducto h5, .verProducto .h5 {
     font-size: small;
     color: black; }
@@ -1324,7 +1324,7 @@ footer {
     font-size: x-small;
     color: #949494; }
   .verProducto p {
-    font-size: 16px; }
+    font-size: 1rem; }
   .verProducto .container {
     margin-top: 30px;
     width: 75%; }
@@ -1343,11 +1343,11 @@ footer {
 
 @media (min-width: 1024px) {
   .verProducto h2, .verProducto .h2 {
-    font-size: 22px; }
+    font-size: 1.4rem; }
   .verProducto h3, .verProducto .h3 {
-    font-size: 19px; }
+    font-size: 1.2 rem; }
   .verProducto h4, .verProducto .h4 {
-    font-size: 17px; }
+    font-size: 1rem; }
   .verProducto h5, .verProducto .h5 {
     font-size: small;
     color: black; }
@@ -1355,7 +1355,7 @@ footer {
     font-size: x-small;
     color: #949494; }
   .verProducto p {
-    font-size: 16px; }
+    font-size: 1rem; }
   .verProducto .container {
     margin-top: 40px;
     width: 95%;
@@ -1417,7 +1417,7 @@ footer {
 /* media queries footer*/
 @media (min-width: 360px) {
   footer p {
-    font-size: 14px; }
+    font-size: 0.90rem; }
   footer .logoFooter img {
     width: 64px;
     height: 64px; }
@@ -1431,7 +1431,7 @@ footer {
 
 @media (min-width: 600px) {
   footer p {
-    font-size: 15px; }
+    font-size: 1rem; }
   footer .logoFooter img {
     width: 72px;
     height: 72px; }
@@ -1446,7 +1446,7 @@ footer {
 
 @media (min-width: 1024px) {
   footer p {
-    font-size: 16px; }
+    font-size: 1rem; }
   footer .logoFooter img {
     width: 80px;
     height: 80px; }
@@ -1621,10 +1621,10 @@ header {
       height: 45px;
       width: 45px; }
     .headerChico .h1 {
-      font-size: 22px;
+      font-size: 1.4 rem;
       margin-left: 5px; }
   .boton__inicio a {
-    font-size: 9px; } }
+    font-size: 0.6rem; } }
 
 @media (min-width: 600px) {
   .headerChico {
@@ -1636,10 +1636,10 @@ header {
       height: 65px;
       width: 65px; }
     .headerChico .h1 {
-      font-size: 35px;
+      font-size: 2rem;
       margin-left: 13px; }
   .boton__inicio a {
-    font-size: 12px; } }
+    font-size: 0.75rem; } }
 
 @media (min-width: 1024px) {
   .headerChico {
@@ -1651,10 +1651,10 @@ header {
       height: 85px;
       width: 85px; }
     .headerChico .h1 {
-      font-size: 45px;
+      font-size: 2.8rem;
       margin-left: 55px; }
   .boton__inicio a {
-    font-size: 17px; } }
+    font-size: 1rem; } }
 
 /* media queries nav*/
 @media (min-width: 360px) {
@@ -1662,18 +1662,18 @@ header {
     padding-top: 2px;
     padding-bottom: 2px; }
     nav .container-fluid, nav .container-sm, nav .container-md, nav .container-lg, nav .container-xl, nav .container-xxl {
-      font-size: 14px; }
+      font-size: 0.87 rem; }
     nav .navbar-toggler {
-      font-size: 14px; }
+      font-size: 0.87 rem; }
     nav .dropdown-menu {
-      font-size: 14px; } }
+      font-size: 0.87 rem; } }
 
 @media (min-width: 600px) {
   nav {
     padding-top: 4px;
     padding-bottom: 4px; }
     nav .container-fluid, nav .container-sm, nav .container-md, nav .container-lg, nav .container-xl, nav .container-xxl {
-      font-size: 16px; }
+      font-size: 1 rem; }
     nav .navbar-toggler {
       font-size: 16px; }
     nav .dropdown-menu {
@@ -1843,7 +1843,7 @@ header {
   .bannerAccesorios {
     height: 25vh; }
     .bannerAccesorios h2, .bannerAccesorios .h2 {
-      font-size: 30px;
+      font-size: 1.9 rem;
       backdrop-filter: saturate(1);
       padding-top: 40px; }
   .accesorios .categoriaAccesorio {
@@ -1851,24 +1851,24 @@ header {
     margin-top: 50px; }
     .accesorios .categoriaAccesorio p {
       font-weight: 700;
-      font-size: 14px; }
+      font-size: 0.9 rem; }
   .accesorios p {
-    font-size: 14px; } }
+    font-size: 0.9 rem; } }
 
 @media (min-width: 600px) {
   .bannerAccesorios {
     height: 35vh; }
     .bannerAccesorios h2, .bannerAccesorios .h2 {
-      font-size: 40px;
+      font-size: 2.5 rem;
       padding-top: 150px; }
   .accesorios p {
-    font-size: 16px; }
+    font-size: 1 rem; }
   .accesorios .categoriaAccesorio {
     margin-top: 50px;
     margin-bottom: 50px; }
     .accesorios .categoriaAccesorio p {
       font-weight: 700;
-      font-size: 17px; }
+      font-size: 1.1 rem; }
     .accesorios .categoriaAccesorio .botonVerCategoria {
       padding: 10px; }
     .accesorios .categoriaAccesorio div {
@@ -1878,15 +1878,15 @@ header {
   .bannerAccesorios {
     height: 45vh; }
     .bannerAccesorios h2, .bannerAccesorios .h2 {
-      font-size: 40px; }
+      font-size: 2.5 rem; }
   .accesorios p {
-    font-size: 18px; }
+    font-size: 1.13 rem; }
   .accesorios .categoriaAccesorio {
     margin-bottom: 70px;
     margin-top: 70px; }
     .accesorios .categoriaAccesorio p {
       font-weight: 650;
-      font-size: 19px; }
+      font-size: 1.2 rem; }
     .accesorios .categoriaAccesorio .botonVerCategoria {
       padding: 11px; }
     .accesorios .categoriaAccesorio div {
