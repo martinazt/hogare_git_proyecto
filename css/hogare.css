@@ -242,7 +242,7 @@ footer {
       margin-left: 8px;
       margin-top: 8px; }
     .consejos h2, .consejos .h2 {
-      font-size: 1.25 rem; }
+      font-size: 1.25rem; }
     .consejos .accordion {
       padding: 5px; }
       .consejos .accordion .accordion-item {
@@ -276,7 +276,7 @@ footer {
       margin-left: 10px;
       margin-top: 10px; }
     .consejos h2, .consejos .h2 {
-      font-size: 2.8 rem;
+      font-size: 2.8rem;
       padding-top: 20px;
       padding-bottom: 50px; }
     .consejos .accordion {
@@ -313,7 +313,7 @@ footer {
       margin-left: 15px;
       margin-top: 15px; }
     .consejos h2, .consejos .h2 {
-      font-size: 1.9 rem;
+      font-size: 1.9;
       padding-top: 25px;
       padding-bottom: 25px; }
     .consejos .accordion {
@@ -416,23 +416,23 @@ footer {
     padding-bottom: 20px;
     margin-top: 15px; }
     .contenedorContacto h2, .contenedorContacto .h2 {
-      font-size: 1 rem;
+      font-size: 1rem;
       margin: 2px; }
     .contenedorContacto legend {
-      font-size: 0.95 rem; }
+      font-size: 0.95rem; }
     .contenedorContacto h4, .contenedorContacto .h4 {
-      font-size: 0.95 rem; }
+      font-size: 0.95rem; }
     .contenedorContacto h5, .contenedorContacto .h5 {
-      font-size: .8 rem; }
+      font-size: .8rem; }
     .contenedorContacto p {
-      font-size: 0.8 rem; }
+      font-size: 0.8rem; }
     .contenedorContacto .gridContac {
       grid-template-rows: 25% 75%;
       grid-template-columns: 80%; }
       .contenedorContacto .gridContac textarea {
         height: 60px; }
       .contenedorContacto .gridContac label {
-        font-size: 0.6 rem; }
+        font-size: 0.6rem; }
       .contenedorContacto .gridContac input {
         padding: 2px;
         height: 20px; }
@@ -450,7 +450,7 @@ footer {
           border-style: ridge;
           padding-left: 2px;
           border-bottom: solid 2px #7d5e00;
-          font-size: 0.8 rem; } }
+          font-size: 0.8rem; } }
 
 @media (min-width: 600px) {
   .accordion-item button {
@@ -462,23 +462,23 @@ footer {
     padding-bottom: 20px;
     margin-top: 15px; }
     .contenedorContacto h2, .contenedorContacto .h2 {
-      font-size: 1 rem;
+      font-size: 1rem;
       margin: 4px; }
     .contenedorContacto legend {
-      font-size: 1.13 rem; }
+      font-size: 1.13rem; }
     .contenedorContacto h4, .contenedorContacto .h4 {
-      font-size: 1.13 rem; }
+      font-size: 1.13rem; }
     .contenedorContacto h5, .contenedorContacto .h5 {
-      font-size: 0.75 rem; }
+      font-size: 0.75rem; }
     .contenedorContacto p {
-      font-size: 0.8 rem; }
+      font-size: 0.8rem; }
     .contenedorContacto .gridContac {
       grid-template-rows: 40% 60%;
       grid-template-columns: 70%; }
       .contenedorContacto .gridContac textarea {
         height: 100px; }
       .contenedorContacto .gridContac label {
-        font-size: 0.95 rem; }
+        font-size: 0.95rem; }
       .contenedorContacto .gridContac input {
         padding: 1px;
         height: 28px; }
@@ -496,23 +496,23 @@ footer {
           border-style: ridge;
           padding-left: 2px;
           border-bottom: solid 2px #7d5e00;
-          font-size: 0.8 rem; } }
+          font-size: 0.8rem; } }
 
 @media (min-width: 1024px) {
   .contenedorContacto {
     padding-bottom: 25px;
     margin-top: 17px; }
     .contenedorContacto h2, .contenedorContacto .h2 {
-      font-size: 1.4 rem;
+      font-size: 1.4rem;
       margin: 8px; }
     .contenedorContacto legend {
-      font-size: 1.9 rem; }
+      font-size: 1.9rem; }
     .contenedorContacto h4, .contenedorContacto .h4 {
-      font-size: 1.9 rem; }
+      font-size: 1.9rem; }
     .contenedorContacto h5, .contenedorContacto .h5 {
-      font-size: 1.6 rem; }
+      font-size: 1.6rem; }
     .contenedorContacto p {
-      font-size: 1.6 rem; }
+      font-size: 1.6rem; }
     .contenedorContacto .accordion-item button {
       height: 65px; }
     .contenedorContacto .accordion-item .arrowed div {
@@ -525,7 +525,7 @@ footer {
       .contenedorContacto .gridContac textarea {
         height: 130px; }
       .contenedorContacto .gridContac label {
-        font-size: 1.6 rem; }
+        font-size: 1.6rem; }
       .contenedorContacto .gridContac input {
         padding: 4px;
         height: 32px; }
@@ -543,7 +543,7 @@ footer {
           border-style: ridge;
           padding-left: 2px;
           border-bottom: solid 2px #7d5e00;
-          font-size: 1.25 rem; } }
+          font-size: 1.25rem; } }
 
 /* filtro*/
 .filtro {
@@ -662,7 +662,7 @@ footer {
       max-width: 800px;
       margin: 25px auto;
       color: #888;
-      font-size: 1.13 rem; }
+      font-size: 1.13rem; }
     .mainIndex .galeria .tz-gallery {
       padding: 40px; }
     .mainIndex .galeria .tz-gallery .lightbox img {
@@ -708,7 +708,7 @@ footer {
     font-size: 1.5rem;
     padding-top: 145px; }
   .mainIndex .info .informativa p {
-    font-size: 0.6 rem; }
+    font-size: 0.6rem; }
   .mainIndex .galeria .tz-gallery {
     padding: 20px; }
     .mainIndex .galeria .tz-gallery .row div {
@@ -743,7 +743,7 @@ footer {
     font-size: 3rem;
     padding-top: 165px; }
   .mainIndex .info .informativa p {
-    font-size: 1 rem; }
+    font-size: 1rem; }
   .mainIndex .galeria .tz-gallery {
     padding: 40px; }
     .mainIndex .galeria .tz-gallery .row div {
@@ -777,7 +777,7 @@ footer {
       background-position-y: center;
       width: 30%; }
   .mainIndex .tituloIndex h2, .mainIndex .tituloIndex .h2 {
-    font-size: 2 rem;
+    font-size: 2rem;
     color: black;
     padding-top: 40px;
     padding-bottom: 40px; }
@@ -785,7 +785,7 @@ footer {
     font-size: 3rem;
     padding-top: 120px; }
   .mainIndex .info .informativa p {
-    font-size: 1.25 rem; }
+    font-size: 1.25rem; }
   .mainIndex .galeria .tz-gallery {
     padding: 40px; }
     .mainIndex .galeria .tz-gallery .row div {
@@ -800,6 +800,8 @@ footer {
   color: white;
   justify-content: center;
   text-align: center; }
+  .gridInicio form {
+    text-align: initial; }
   .gridInicio a {
     text-decoration: none;
     color: #ffffff; }
@@ -823,19 +825,19 @@ footer {
     grid-template-rows: 15% 60% 25%;
     grid-template-columns: 80%; }
     .gridInicio a {
-      font-size: 0.75 rem; }
+      font-size: 0.75rem; }
     .gridInicio .boton__formulario {
       margin-top: 10px;
       padding-right: 2px;
       padding-left: 2px;
-      font-size: 0.82 rem; }
+      font-size: 0.82rem; }
     .gridInicio label {
-      font-size: 0.6 rem; }
+      font-size: 0.6rem; }
     .gridInicio input {
       padding: 2px;
-      height: 20px; }
+      height: 25px; }
     .gridInicio div {
-      margin: 0px; }
+      margin: 5px 0px; }
       .gridInicio div select {
         height: 25px;
         padding: 2px;
@@ -858,19 +860,20 @@ footer {
     grid-template-rows: 15% 60% 25%;
     grid-template-columns: 80%; }
     .gridInicio a {
-      font-size: 0.88 rem; }
+      font-size: 0.88rem; }
     .gridInicio .boton__formulario {
       margin-top: 11px;
       padding-right: 4px;
       padding-left: 4px;
-      font-size: 1.13 rem; }
+      font-size: 1.13rem; }
     .gridInicio label {
-      font-size: 0.95 rem; }
+      font-size: 0.95rem; }
     .gridInicio input {
       padding: 4px;
-      height: 25px; }
+      height: 30px; }
     .gridInicio div {
-      margin-bottom: 14px; }
+      margin-bottom: 14px;
+      margin-top: 14px; }
       .gridInicio div select {
         height: 25px;
         padding: 2px;
@@ -888,19 +891,20 @@ footer {
     grid-template-rows: 5% 70% 25%;
     grid-template-columns: 70%; }
     .gridInicio a {
-      font-size: 1 rem; }
+      font-size: 1rem; }
     .gridInicio .boton__formulario {
       margin-top: 2px;
       padding-right: 5px;
       padding-left: 5px;
-      font-size: 1.25 rem; }
+      font-size: 1.25rem; }
     .gridInicio label {
-      font-size: 1.13 rem; }
+      font-size: 1.13rem; }
     .gridInicio input {
       padding: 5px;
-      height: 28px; }
+      height: 35px; }
     .gridInicio div {
-      margin-bottom: 12px; }
+      margin-bottom: 12px;
+      margin-top: 12px; }
       .gridInicio div select {
         height: 30px;
         padding: 4px;
@@ -928,6 +932,8 @@ footer {
     color: white;
     justify-content: center;
     /* modal registro*/ }
+    .bodyRegistro .gridRegistro form {
+      text-align: initial; }
     .bodyRegistro .gridRegistro div .botonInicioRegistro {
       margin-top: 20px; }
       .bodyRegistro .gridRegistro div .botonInicioRegistro a {
@@ -1027,14 +1033,14 @@ footer {
       margin-top: 10px;
       padding-right: 2px;
       padding-left: 2px;
-      font-size: 0.82 rem; }
+      font-size: 0.82rem; }
     .gridRegistro label {
       font-size: 0.6rem; }
     .gridRegistro input {
       padding: 2px;
-      height: 20px; }
+      height: 25px; }
     .gridRegistro div {
-      margin: 0px; }
+      margin: 5px 0px; }
       .gridRegistro div select {
         height: 25px;
         padding: 2px;
@@ -1056,11 +1062,12 @@ footer {
       padding-left: 4px;
       font-size: 1.13rem; }
     .gridRegistro label {
-      font-size: 0.95 rem; }
+      font-size: 0.95rem; }
     .gridRegistro input {
       padding: 4px;
-      height: 25px; }
+      height: 30px; }
     .gridRegistro div {
+      margin-bottom: 14px;
       margin-bottom: 14px; }
       .gridRegistro div select {
         height: 25px;
@@ -1081,14 +1088,15 @@ footer {
       margin-top: 2px;
       padding-right: 5px;
       padding-left: 5px;
-      font-size: 1.25 rem; }
+      font-size: 1.25rem; }
     .gridRegistro label {
-      font-size: 1.13 rem; }
+      font-size: 1.13rem; }
     .gridRegistro input {
       padding: 5px;
-      height: 28px; }
+      height: 35px; }
     .gridRegistro div {
-      margin-bottom: 12px; }
+      margin-bottom: 12px;
+      margin-top: 12px; }
       .gridRegistro div select {
         height: 30px;
         padding: 4px;
@@ -1182,23 +1190,23 @@ footer {
     margin-top: 50px; }
     .salamandras .categoriaSalamandra p {
       font-weight: 700;
-      font-size: 0.9 rem; }
+      font-size: 0.9rem; }
   .salamandras p {
-    font-size: 0.9 rem; } }
+    font-size: 0.9rem; } }
 
 @media (min-width: 600px) {
   .bannerSalamandras {
     height: 35vh; }
     .bannerSalamandras h2, .bannerSalamandras .h2 {
-      font-size: 2.5 rem; }
+      font-size: 2.5rem; }
   .salamandras p {
-    font-size: 1 rem; }
+    font-size: 1rem; }
   .salamandras .categoriaSalamandra {
     margin-top: 50px;
     margin-bottom: 50px; }
     .salamandras .categoriaSalamandra p {
       font-weight: 700;
-      font-size: 1 rem; }
+      font-size: 1rem; }
     .salamandras .categoriaSalamandra .botonVerCategoria {
       padding: 10px; }
     .salamandras .categoriaSalamandra div {
@@ -1208,13 +1216,13 @@ footer {
   .bannerSalamandras {
     height: 45vh; }
   .salamandras p {
-    font-size: 1.13 rem; }
+    font-size: 1.13rem; }
   .salamandras .categoriaSalamandra {
     margin-bottom: 70px;
     margin-top: 70px; }
     .salamandras .categoriaSalamandra p {
       font-weight: 650;
-      font-size: 1.2 rem; }
+      font-size: 1.2rem; }
     .salamandras .categoriaSalamandra .botonVerCategoria {
       padding: 11px; }
     .salamandras .categoriaSalamandra div {
@@ -1286,13 +1294,13 @@ footer {
 /* media queries visualizar*/
 @media (min-width: 360px) {
   .verProducto h3, .verProducto .h3 {
-    font-size: 1 rem; }
+    font-size: 1rem; }
   .verProducto h2, .verProducto .h2 {
-    font-size: 1.25 rem; }
+    font-size: 1.25rem; }
   .verProducto h4, .verProducto .h4 {
-    font-size: 1.20 rem; }
+    font-size: 1.20rem; }
   .verProducto p {
-    font-size: 0.9 rem; }
+    font-size: 0.9rem; }
   .verProducto .container {
     margin-top: 20px;
     width: 90%;
@@ -1313,11 +1321,11 @@ footer {
 
 @media (min-width: 600px) {
   .verProducto h2, .verProducto .h2 {
-    font-size: 1.4 rem; }
+    font-size: 1.4rem; }
   .verProducto h3, .verProducto .h3 {
-    font-size: 1.2 rem; }
+    font-size: 1.2rem; }
   .verProducto h4, .verProducto .h4 {
-    font-size: 1 rem; }
+    font-size: 1rem; }
   .verProducto h5, .verProducto .h5 {
     font-size: small;
     color: black; }
@@ -1346,7 +1354,7 @@ footer {
   .verProducto h2, .verProducto .h2 {
     font-size: 1.4rem; }
   .verProducto h3, .verProducto .h3 {
-    font-size: 1.2 rem; }
+    font-size: 1.2rem; }
   .verProducto h4, .verProducto .h4 {
     font-size: 1rem; }
   .verProducto h5, .verProducto .h5 {
@@ -1622,7 +1630,7 @@ header {
       height: 45px;
       width: 45px; }
     .headerChico .h1 {
-      font-size: 1.4 rem;
+      font-size: 1.4rem;
       margin-left: 5px; }
   .boton__inicio a {
     font-size: 0.6rem; } }
@@ -1663,22 +1671,22 @@ header {
     padding-top: 2px;
     padding-bottom: 2px; }
     nav .container-fluid, nav .container-sm, nav .container-md, nav .container-lg, nav .container-xl, nav .container-xxl {
-      font-size: 0.87 rem; }
+      font-size: 0.87rem; }
     nav .navbar-toggler {
-      font-size: 0.87 rem; }
+      font-size: 0.87rem; }
     nav .dropdown-menu {
-      font-size: 0.87 rem; } }
+      font-size: 0.87rem; } }
 
 @media (min-width: 600px) {
   nav {
     padding-top: 4px;
     padding-bottom: 4px; }
     nav .container-fluid, nav .container-sm, nav .container-md, nav .container-lg, nav .container-xl, nav .container-xxl {
-      font-size: 1 rem; }
+      font-size: 1rem; }
     nav .navbar-toggler {
-      font-size: 1 rem; }
+      font-size: 1rem; }
     nav .dropdown-menu {
-      font-size: 1 rem; } }
+      font-size: 1rem; } }
 
 @media (min-width: 1024px) {
   nav {
@@ -1739,7 +1747,7 @@ header {
     height: 25vh;
     background-position-y: -80px; }
     .bannerGuardaLena h2, .bannerGuardaLena .h2 {
-      font-size: 1.9 rem;
+      font-size: 1.9rem;
       backdrop-filter: saturate(1);
       padding-top: 40px; }
   .guardaLena .categoriaGL {
@@ -1747,25 +1755,25 @@ header {
     margin-top: 50px; }
     .guardaLena .categoriaGL p {
       font-weight: 700;
-      font-size: 0.9 rem; }
+      font-size: 0.9rem; }
   .guardaLena p {
-    font-size: 0.9 rem; } }
+    font-size: 0.9rem; } }
 
 @media (min-width: 600px) {
   .bannerGuardaLena {
     height: 35vh;
     background-position-y: -150px; }
     .bannerGuardaLena h2, .bannerGuardaLena .h2 {
-      font-size: 2.5 rem;
+      font-size: 2.5rem;
       padding-top: 150px; }
   .guardaLena p {
-    font-size: 1 rem; }
+    font-size: 1rem; }
   .guardaLena .categoriaGL {
     margin-top: 50px;
     margin-bottom: 50px; }
     .guardaLena .categoriaGL p {
       font-weight: 700;
-      font-size: 1.1 rem; }
+      font-size: 1.1rem; }
     .guardaLena .categoriaGL .botonVerCategoria {
       padding: 10px; }
     .guardaLena .categoriaGL div {
@@ -1776,15 +1784,15 @@ header {
     height: 45vh;
     background-position-y: -690px; }
     .bannerGuardaLena h2, .bannerGuardaLena .h2 {
-      font-size: 2.5 rem; }
+      font-size: 2.5rem; }
   .guardaLena p {
-    font-size: 1.13 rem; }
+    font-size: 1.13rem; }
   .guardaLena .categoriaGL {
     margin-bottom: 70px;
     margin-top: 70px; }
     .guardaLena .categoriaGL p {
       font-weight: 650;
-      font-size: 1.2 rem; }
+      font-size: 1.2rem; }
     .guardaLena .categoriaGL .botonVerCategoria {
       padding: 11px; }
     .guardaLena .categoriaGL div {
@@ -1844,7 +1852,7 @@ header {
   .bannerAccesorios {
     height: 25vh; }
     .bannerAccesorios h2, .bannerAccesorios .h2 {
-      font-size: 1.9 rem;
+      font-size: 1.9rem;
       backdrop-filter: saturate(1);
       padding-top: 40px; }
   .accesorios .categoriaAccesorio {
@@ -1852,24 +1860,24 @@ header {
     margin-top: 50px; }
     .accesorios .categoriaAccesorio p {
       font-weight: 700;
-      font-size: 0.9 rem; }
+      font-size: 0.9rem; }
   .accesorios p {
-    font-size: 0.9 rem; } }
+    font-size: 0.9rem; } }
 
 @media (min-width: 600px) {
   .bannerAccesorios {
     height: 35vh; }
     .bannerAccesorios h2, .bannerAccesorios .h2 {
-      font-size: 2.5 rem;
+      font-size: 2.5rem;
       padding-top: 150px; }
   .accesorios p {
-    font-size: 1 rem; }
+    font-size: 1rem; }
   .accesorios .categoriaAccesorio {
     margin-top: 50px;
     margin-bottom: 50px; }
     .accesorios .categoriaAccesorio p {
       font-weight: 700;
-      font-size: 1.1 rem; }
+      font-size: 1.1rem; }
     .accesorios .categoriaAccesorio .botonVerCategoria {
       padding: 10px; }
     .accesorios .categoriaAccesorio div {
@@ -1879,15 +1887,15 @@ header {
   .bannerAccesorios {
     height: 45vh; }
     .bannerAccesorios h2, .bannerAccesorios .h2 {
-      font-size: 2.5 rem; }
+      font-size: 2.5rem; }
   .accesorios p {
-    font-size: 1.13 rem; }
+    font-size: 1.13rem; }
   .accesorios .categoriaAccesorio {
     margin-bottom: 70px;
     margin-top: 70px; }
     .accesorios .categoriaAccesorio p {
       font-weight: 650;
-      font-size: 1.2 rem; }
+      font-size: 1.2rem; }
     .accesorios .categoriaAccesorio .botonVerCategoria {
       padding: 11px; }
     .accesorios .categoriaAccesorio div {

@@ -5,7 +5,9 @@
     color: white;
     justify-content: center;
     text-align: center;
-    
+    form{
+        text-align:initial;   
+       }
     a{
       text-decoration: none;
       color: #ffffff;
@@ -43,24 +45,24 @@
         grid-template-rows: 15% 60% 25%;
         grid-template-columns: 80%;
         a{
-            font-size: 0.75 rem;
+            font-size: 0.75rem;
         }
         .boton__formulario{
            
             margin-top: 10px;
             padding-right: 2px;
             padding-left: 2px;
-            font-size: 0.82 rem;
+            font-size: 0.82rem;
         }
         label{
-            font-size: 0.6 rem;
+            font-size: 0.6rem;
         }
         input{
             padding: 2px;
-            height: 20px;
+            height: 25px;
         }
         div{
-            margin: 0px;
+            margin: 5px 0px;
            select{
             height: 25px;
             padding: 2px;
@@ -94,24 +96,25 @@
         grid-template-rows: 15% 60% 25%;
         grid-template-columns: 80%;
         a{
-            font-size: 0.88 rem;
+            font-size: 0.88rem;
         }
         .boton__formulario{
             
             margin-top: 11px;
             padding-right: 4px;
             padding-left: 4px;
-            font-size: 1.13 rem;
+            font-size: 1.13rem;
         }
         label{
-            font-size: 0.95 rem;
+            font-size: 0.95rem;
         }
         input{
             padding: 4px;
-            height: 25px;
+            height: 30px;
         }
         div{
             margin-bottom: 14px;
+            margin-top: 14px;
            select{
             height: 25px;
             padding: 2px;
@@ -137,23 +140,24 @@
         grid-template-rows: 5% 70% 25%;
         grid-template-columns: 70%;
         a{
-            font-size: 1 rem;
+            font-size: 1rem;
         }
         .boton__formulario{
             margin-top: 2px;
             padding-right: 5px;
             padding-left: 5px;
-            font-size: 1.25 rem;
+            font-size: 1.25rem;
         }
         label{
-            font-size: 1.13 rem;
+            font-size: 1.13rem;
         }
         input{
             padding: 5px;
-            height: 28px;
+            height: 35px;
         }
         div{
             margin-bottom: 12px;
+            margin-top: 12px;
            select{
             height: 30px;
             padding: 4px;
