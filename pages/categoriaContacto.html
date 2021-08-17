@@ -26,7 +26,7 @@
               </button>
             </article>
         </section>       
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark ">
           <div class="container-fluid">
             <a class="navbar-brand" href="#"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -81,87 +81,40 @@
           </div>
         </nav>  
       </header>  
-      <main>
-          <div class="container contenedorContacto">
-              <div class="row tituloContacto">
-                  <h2>Ponganse en contacto con nosotros</h2>   
-              </div>
-              <div class="gridContac fondoGris" >
-            
-                <div class=" centrar  ">
-                    <img src="../imagenes/registro1.jpg" alt="" class="fotoForm" >
+      <main class="contacto">
+        <form class="my-form">
+          <div class="container">
+            <h1>Ponte en contacto!</h1>
+            <ul>
+              <li>
+                <select>
+                  <option selected disabled>-- Por favor, elija una opción --</option>
+                  <option>Problema en mi pago</option>
+                  <option>Consulta con vendedor</option>
+                  <option>Otro</option>      
+                </select>
+              </li>
+              <li>
+                <div class="grid grid-2">
+                  <input type="text" placeholder="Nombre" required>  
+                  <input type="text" placeholder="Apellido" required>
                 </div>
-                <div>
-                    <form class="row g-3">
-                        <div class="col-md-6">
-                            <label for="inputEmail4" class="form-label">Nombre</label>
-                            <input type="nombre" class="form-control" id="inputEmail4">
-                          </div>
-                          <div class="col-md-6">
-                            <label for="inputPassword4" class="form-label">Apellido</label>
-                            <input type="apellido" class="form-control" id="inputPassword4">
-                          </div>
-                        <div class="col-md-12">
-                          <label for="inputEmail4" class="form-label">Email</label>
-                          <input type="email" class="form-control" id="inputEmail4">
-                        </div>
-                        <div class="col-md12 ">
-                          <div class="mensajeContacto">
-                              <label for="mensaje"> Mensaje </label> <br>
-                              <textarea placeholder="Envianos un mensaje" name="mensaje" cols="20px" rows="10px"></textarea>
-                          </div>
-                        </div> 
-                        <div class="row botonEnviar">
-                          <button class="btn lg ghost">Enviar</button>
-                        </div>
-                        
-
-                      </form>
+              </li>
+              <li>
+                <div class="grid grid-2">
+                  <input type="email" placeholder="Email" required>  
+                  <input type="tel" placeholder="Telefono">
                 </div>
-
-            </div>
-            
-            <div class="accordion" id="accordionExample">
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingOne">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      Ver informacion de contacto
-                      <div class="arrowed">
-                        <div class="arrow-1"></div>
-                      </div>
-                    </button>
-                </h2>
-                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <div class=" " >
-                      <div class="col datosContacto">
-                        <!--(a la izquierda:)-->
-                        
-                        <h5>ADRESS</h5>
-                        <h4>Oficina</h4>    
-                        <p>Avenida empresa 123</p>
-                        <p>Mendoza</p>
-                        <p>Argentina</p>
-                        <h5>CALL</h5>
-                        <p>2612345678</p>
-                        <h5>EMAIL</h5>
-                        <p>ayudaEmpresa@gmail.com</p>
-                        <div class="redesContacto"><br>
-                          <p>SEGUINOS EN NUESTRAS REDES</p>
-                          <div class="gridRedesContacto">
-                            <div ><a href="" ><img src="../imagenes/redesByN/Facebook.png"  alt="logo facebook" height="40" width="40" ></a></div>
-                            <div ><a href="" ><img src="../imagenes/redesByN/Instagram.png"  alt="logo instagram" height="40" width="40"></a></div>
-                            <div> <a href="" ><img src="../imagenes/redesByN/Twitter.png"  alt="logo twitter" height="40" width="40"></a></div>
-                            <div> <a href="" ><img src="../imagenes/redesByN/YouTube.png"  alt="logo YouTube" height="40" width="40"></a></div>
-                          </div >  
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>             
-            </div>
-              
+              </li>    
+              <li>
+                <textarea placeholder="Mensaje"></textarea>
+              </li>   
+              <li class="botonDeContacto">
+                <button class="btn">ENVIAR</button>
+              </li> 
+            </ul>
+          </div>
+        </form>
       </main>
       <!--Pie de pagina-->
       <footer>

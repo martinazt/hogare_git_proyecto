@@ -28,37 +28,25 @@
             </article>
         </section>   
       </header>
-      <main>
-        <div class="gridInicio" >
-          <p>~ Bienvenido ~</p>
-          <div class=" centrar ">
-              <img src="../imagenes/registro1.jpg" alt="" class="fotoForm" >
-          </div>
-          <div>
-              <form class="row g-3">
-                  
-                  <div class="col-md-12">
-                    <label for="inputEmail4" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="inputEmail4">
-                  </div>
-                  <div class="col-md-12">
-                    <label for="inputPassword4" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="inputPassword4">
-                  </div>
-                  <div>
-                    <a href="">Olvide mi contraseña / </a>
-                    <a href="registrarse.html">No tengo una cuenta</a>
-                  </div>
-                  <div class="col-12 botonInicioRegistro">
-                    <button class="button">
-                      <a href="iniciarSesion.html">Iniciar Sesion</a>                    
-                      <div class="button__horizontal"></div>
-                      <div class="button__vertical"></div>
-                    </button>
-                  </div>
-                </form>
-          </div>
-      </div>
+      <main class="inicioRegistro">
+        <div class="wrapper">
+          <form class="login">
+            <p class="title">Log in</p>
+            <input type="text" placeholder="Username" autofocus/>
+            <i class="fa fa-user"></i>
+            <input type="password" placeholder="Password" />
+            <i class="fa fa-key"></i>
+            <div class="enlacesFormulario">
+              <a href="#">Forgot your password?</a>
+              <p><a href="../pages/registrarse.html">Create account</a></p>
+            </div>
+            
+            <button>
+              <i class="spinner"></i>
+              <span class="state">Log in</span>
+            </button>
+          </form>
+        </div>     
       </main>
     </body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

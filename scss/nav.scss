@@ -1,6 +1,8 @@
 
 /* media queries nav*/
-
+nav{
+    background-color: black !important;
+}
 @media (min-width: 360px) {
     nav{
         padding-top: 2px;

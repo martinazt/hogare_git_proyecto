@@ -1,4 +1,7 @@
+@charset "UTF-8";
 /* footer */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
 footer {
   background-color: black;
   margin-left: 0px;
@@ -337,213 +340,198 @@ footer {
       width: 750px;
       height: 450px; } }
 
-/*contacto*/
-.contenedorContacto {
-  color: #fbebbb;
-  text-align: center; }
-  .contenedorContacto .tituloContacto {
-    color: black;
-    margin-left: 15px;
-    font-family: system-ui; }
-    .contenedorContacto .tituloContacto h2, .contenedorContacto .tituloContacto .h2 {
-      padding: 2px; }
-  .contenedorContacto .gridContac {
-    display: grid;
-    grid-template-rows: 400px 450px;
-    grid-template-columns: 700px;
-    text-align: center;
-    color: white;
-    justify-content: center; }
-    .contenedorContacto .gridContac .botonEnviar {
-      justify-content: center;
-      margin-bottom: 0px; }
-      .contenedorContacto .gridContac .botonEnviar .ghost {
-        background-color: transparent;
-        color: #a2a2a2;
-        border: 2px solid #a2a2a2;
-        transition: .2s ease;
-        vertical-align: inherit;
-        padding: 1px;
-        margin: 2px; }
-        .contenedorContacto .gridContac .botonEnviar .ghost:hover {
-          background-color: #a2a2a2;
-          color: #232122;
-          transition: .2s ease; }
-    .contenedorContacto .gridContac .mensajeContacto {
-      margin-bottom: 0px; }
-      .contenedorContacto .gridContac .mensajeContacto textarea {
-        width: 100%; }
-  .contenedorContacto .fondoGris {
-    background-color: #232122; }
-  .contenedorContacto .accordion {
-    padding-top: 25px; }
-    .contenedorContacto .accordion .arrowed {
-      background-color: pink; }
-      .contenedorContacto .accordion .arrowed div {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        margin: auto; }
-      .contenedorContacto .accordion .arrowed .arrow-1 {
-        height: 15px;
-        width: 15px;
-        border: 1px solid #a2a2a2;
-        border-width: 0px 2px 2px 0px;
-        transform: rotate(45deg); }
-    .contenedorContacto .accordion .accordion-button:not(.collapsed)::after {
-      background-image: none; }
-    .contenedorContacto .accordion .accordion-item {
-      background-color: #949494; }
-      .contenedorContacto .accordion .accordion-item button {
-        color: #ffffff;
-        background-color: #232122; }
-    .contenedorContacto .accordion .datosContacto {
-      color: black; }
-      .contenedorContacto .accordion .datosContacto h4, .contenedorContacto .accordion .datosContacto .h4, .contenedorContacto .accordion .datosContacto h5, .contenedorContacto .accordion .datosContacto .h5, .contenedorContacto .accordion .datosContacto p {
-        margin: 4px; }
-    .contenedorContacto .accordion .redesContacto .gridRedesContacto {
-      display: inline-flex;
-      background: bottom black; }
-
-/* media queries contacto */
-@media (min-width: 360px) {
-  .accordion-item button {
-    height: 10px; }
-  .accordion-item .arrowed div {
-    right: 0px;
-    left: 250px; }
-  .contenedorContacto {
-    padding-bottom: 20px;
-    margin-top: 15px; }
-    .contenedorContacto h2, .contenedorContacto .h2 {
-      font-size: 1rem;
-      margin: 2px; }
-    .contenedorContacto legend {
-      font-size: 0.95rem; }
-    .contenedorContacto h4, .contenedorContacto .h4 {
-      font-size: 0.95rem; }
-    .contenedorContacto h5, .contenedorContacto .h5 {
-      font-size: .8rem; }
-    .contenedorContacto p {
-      font-size: 0.8rem; }
-    .contenedorContacto .gridContac {
-      grid-template-rows: 25% 75%;
-      grid-template-columns: 80%; }
-      .contenedorContacto .gridContac textarea {
-        height: 60px; }
-      .contenedorContacto .gridContac label {
-        font-size: 0.6rem; }
-      .contenedorContacto .gridContac input {
-        padding: 2px;
-        height: 20px; }
-      .contenedorContacto .gridContac div {
-        margin: 0px; }
-        .contenedorContacto .gridContac div select {
-          height: 25px;
-          padding: 2px;
-          padding-top: 0;
-          padding-bottom: 0px; }
-        .contenedorContacto .gridContac div button {
-          background-color: #eab769e0;
-          margin-top: 10px;
-          padding-right: 2px;
-          border-style: ridge;
-          padding-left: 2px;
-          border-bottom: solid 2px #7d5e00;
-          font-size: 0.8rem; } }
-
-@media (min-width: 600px) {
-  .accordion-item button {
-    height: 45px; }
-  .accordion-item .arrowed div {
-    right: 0px;
-    left: 550px; }
-  .contenedorContacto {
-    padding-bottom: 20px;
-    margin-top: 15px; }
-    .contenedorContacto h2, .contenedorContacto .h2 {
-      font-size: 1rem;
-      margin: 4px; }
-    .contenedorContacto legend {
-      font-size: 1.13rem; }
-    .contenedorContacto h4, .contenedorContacto .h4 {
-      font-size: 1.13rem; }
-    .contenedorContacto h5, .contenedorContacto .h5 {
-      font-size: 0.75rem; }
-    .contenedorContacto p {
-      font-size: 0.8rem; }
-    .contenedorContacto .gridContac {
-      grid-template-rows: 40% 60%;
-      grid-template-columns: 70%; }
-      .contenedorContacto .gridContac textarea {
-        height: 100px; }
-      .contenedorContacto .gridContac label {
-        font-size: 0.95rem; }
-      .contenedorContacto .gridContac input {
-        padding: 1px;
-        height: 28px; }
-      .contenedorContacto .gridContac div {
-        margin-bottom: 14px; }
-        .contenedorContacto .gridContac div select {
-          height: 25px;
-          padding: 2px;
-          padding-top: 0;
-          padding-bottom: 0px; }
-        .contenedorContacto .gridContac div button {
-          background-color: #eab769e0;
-          margin-top: 10px;
-          padding-right: 2px;
-          border-style: ridge;
-          padding-left: 2px;
-          border-bottom: solid 2px #7d5e00;
-          font-size: 0.8rem; } }
-
-@media (min-width: 1024px) {
-  .contenedorContacto {
-    padding-bottom: 25px;
-    margin-top: 17px; }
-    .contenedorContacto h2, .contenedorContacto .h2 {
-      font-size: 1.4rem;
-      margin: 8px; }
-    .contenedorContacto legend {
-      font-size: 1.9rem; }
-    .contenedorContacto h4, .contenedorContacto .h4 {
-      font-size: 1.9rem; }
-    .contenedorContacto h5, .contenedorContacto .h5 {
-      font-size: 1.6rem; }
-    .contenedorContacto p {
-      font-size: 1.6rem; }
-    .contenedorContacto .accordion-item button {
-      height: 65px; }
-    .contenedorContacto .accordion-item .arrowed div {
-      right: 0px;
-      left: 1100px; }
-    .contenedorContacto .gridContac {
-      grid-template-rows: 50% 50%;
-      grid-template-columns: 70%;
-      height: 850px; }
-      .contenedorContacto .gridContac textarea {
-        height: 130px; }
-      .contenedorContacto .gridContac label {
-        font-size: 1.6rem; }
-      .contenedorContacto .gridContac input {
-        padding: 4px;
-        height: 32px; }
-      .contenedorContacto .gridContac div {
-        margin-bottom: 14px; }
-        .contenedorContacto .gridContac div select {
-          height: 35px;
-          padding: 2px;
-          padding-top: 0;
-          padding-bottom: 0px; }
-        .contenedorContacto .gridContac div button {
-          background-color: #eab769e0;
-          margin-top: 10px;
-          padding-right: 2px;
-          border-style: ridge;
-          padding-left: 2px;
-          border-bottom: solid 2px #7d5e00;
-          font-size: 1.25rem; } }
+.contacto {
+  /* RESET RULES
+    –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  background-image: url(https://www.globalmedia-it.com/dominicana/wp-content/uploads/2020/07/Tecnolog%C3%ADa-IDC.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 80vh;
+  /* Remove native arrow on IE */
+  /*Remove dotted outline from selected option on Firefox*/
+  /*https://stackoverflow.com/questions/3773430/remove-outline-from-select-box-in-ff/18853002#18853002*/
+  /*We use !important to override the color set for the select on line 99*/
+  /* FORM ELEMENTS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  /* FORM BTNS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  /* CUSTOM CHECKBOX
+    –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  /* MQ
+    –––––––––––––––––––––––––––––––––––––––––––––––––– */ }
+  .contacto :root {
+    --white: #afafaf;
+    --red: #e31b23;
+    --bodyColor: #292a2b;
+    --borderFormEls: hsl(0, 0%, 10%);
+    --bgFormEls: hsl(0, 0%, 14%);
+    --bgFormElsFocus: hsl(0, 7%, 20%); }
+  .contacto .botonDeContacto {
+    border: solid 2px black; }
+    .contacto .botonDeContacto .btn {
+      height: auto; }
+  .contacto a {
+    color: inherit; }
+  .contacto input,
+  .contacto select,
+  .contacto textarea,
+  .contacto button {
+    font-family: inherit;
+    font-size: 100%;
+    background: #a7b180;
+    color: black; }
+  .contacto button,
+  .contacto label {
+    cursor: pointer; }
+  .contacto select {
+    appearance: none; }
+  .contacto select::-ms-expand {
+    display: none; }
+  .contacto select:-moz-focusring {
+    color: transparent !important;
+    text-shadow: 0 0 0 var(--white); }
+  .contacto textarea {
+    resize: none; }
+  .contacto ul {
+    list-style: none; }
+  .contacto body {
+    font: 18px/1.5 "Open Sans", sans-serif;
+    background: var(--bodyColor);
+    color: var(--white);
+    margin: 1.5rem 0; }
+  .contacto .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    text-align: center; }
+  .contacto .my-form {
+    background-color: #ffffff66;
+    min-height: inherit;
+    padding-top: 10vh; }
+  .contacto .my-form h1, .contacto .my-form .h1 {
+    margin-bottom: 1.5rem; }
+  .contacto .my-form li,
+  .contacto .my-form .grid > *:not(:last-child) {
+    margin-bottom: 1.5rem; }
+  .contacto .my-form select,
+  .contacto .my-form input,
+  .contacto .my-form textarea,
+  .contacto .my-form button {
+    width: 100%;
+    line-height: 1.5;
+    padding: 15px 10px;
+    border: 1px solid var(--borderFormEls);
+    color: var(--white);
+    background: var(--bgFormEls);
+    transition: background-color 0.3s cubic-bezier(0.57, 0.21, 0.69, 1.25), transform 0.3s cubic-bezier(0.57, 0.21, 0.69, 1.25);
+    background: #a7b180;
+    color: black; }
+  .contacto .my-form textarea {
+    height: 170px; }
+  .contacto .my-form select {
+    background: #a7b180;
+    color: black; }
+  .contacto .my-form ::placeholder {
+    color: inherit;
+    /*Fix opacity issue on Firefox*/
+    opacity: 1; }
+  .contacto .my-form select:focus,
+  .contacto .my-form input:focus,
+  .contacto .my-form textarea:focus,
+  .contacto .my-form button:enabled:hover,
+  .contacto .my-form button:focus,
+  .contacto .my-form input[type="checkbox"]:focus + label {
+    background: var(--bgFormElsFocus); }
+  .contacto .my-form select:focus,
+  .contacto .my-form input:focus,
+  .contacto .my-form textarea:focus {
+    transform: scale(1.02); }
+  .contacto .my-form *:required,
+  .contacto .my-form select {
+    background-repeat: no-repeat;
+    background-position: center right 12px;
+    background-size: 15px 15px; }
+  .contacto .my-form *:required {
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/asterisk.svg); }
+  .contacto .my-form select {
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/down.svg); }
+  .contacto .my-form *:disabled {
+    cursor: default;
+    filter: blur(2px); }
+  .contacto .my-form .required-msg {
+    display: none;
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/asterisk.svg) no-repeat center left/15px 15px;
+    padding-left: 20px; }
+  .contacto .my-form .btn-grid {
+    position: relative;
+    overflow: hidden;
+    transition: filter 0.2s; }
+  .contacto .my-form button {
+    font-weight: bold;
+    background: #a7b180;
+    color: black; }
+  .contacto .my-form button > * {
+    display: inline-block;
+    width: 100%;
+    transition: transform 0.4s ease-in-out; }
+  .contacto .my-form button .back {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-110%, -50%); }
+  .contacto .my-form button:enabled:hover .back,
+  .contacto .my-form button:focus .back {
+    transform: translate(-50%, -50%); }
+  .contacto .my-form button:enabled:hover .front,
+  .contacto .my-form button:focus .front {
+    transform: translateX(110%); }
+  .contacto .my-form input[type="checkbox"] {
+    position: absolute;
+    left: -9999px; }
+  .contacto .my-form input[type="checkbox"] + label {
+    position: relative;
+    display: inline-block;
+    padding-left: 2rem;
+    transition: background 0.3s cubic-bezier(0.57, 0.21, 0.69, 1.25); }
+  .contacto .my-form input[type="checkbox"] + label::before,
+  .contacto .my-form input[type="checkbox"] + label::after {
+    content: '';
+    position: absolute; }
+  .contacto .my-form input[type="checkbox"] + label::before {
+    left: 0;
+    top: 6px;
+    width: 18px;
+    height: 18px;
+    border: 2px solid var(--white); }
+  .contacto .my-form input[type="checkbox"]:checked + label::before {
+    background: var(--red); }
+  .contacto .my-form input[type="checkbox"]:checked + label::after {
+    left: 7px;
+    top: 7px;
+    width: 6px;
+    height: 14px;
+    border-bottom: 2px solid var(--white);
+    border-right: 2px solid var(--white);
+    transform: rotate(45deg); }
+  @media screen and (min-width: 600px) {
+    .contacto .my-form .grid {
+      display: grid;
+      grid-gap: 1.5rem; }
+    .contacto .my-form .grid-2 {
+      grid-template-columns: 1fr 1fr; }
+    .contacto .my-form .grid-3 {
+      grid-template-columns: auto auto auto;
+      align-items: center; }
+    .contacto .my-form .grid > *:not(:last-child) {
+      margin-bottom: 0; }
+    .contacto .my-form .required-msg {
+      display: block; } }
+  @media screen and (min-width: 541px) {
+    .contacto .my-form input[type="checkbox"] + label::before {
+      top: 50%;
+      transform: translateY(-50%); }
+    .contacto .my-form input[type="checkbox"]:checked + label::after {
+      top: 3px; } }
 
 /* filtro*/
 .filtro {
@@ -795,318 +783,132 @@ footer {
         margin-bottom: 30px; } }
 
 /*iniciar*/
-.gridInicio {
-  display: grid;
-  color: white;
-  justify-content: center;
-  text-align: center; }
-  .gridInicio form {
-    text-align: initial; }
-  .gridInicio a {
-    text-decoration: none;
-    color: #ffffff; }
-  .gridInicio .botonInicioRegistro .button a {
-    color: white; }
-  .gridInicio button a {
-    color: #fbebbb; }
-  .gridInicio button a:hover {
-    color: white; }
-
-/*formularios registro y de inicio*/
-.fotoForm {
+.inicioRegistro {
   width: 100%;
-  height: 100%;
-  padding-bottom: 10px; }
+  min-height: 90vh;
+  background-image: url(https://barbasbellfires.com/nl/wp-content/uploads/sites/2/2018/07/Dubbele-brander.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
 
-/* media queries iniciar*/
-@media (min-width: 360px) {
-  .gridInicio {
-    margin-top: 20px;
-    grid-template-rows: 15% 60% 25%;
-    grid-template-columns: 80%; }
-    .gridInicio a {
-      font-size: 0.75rem; }
-    .gridInicio .boton__formulario {
-      margin-top: 10px;
-      padding-right: 2px;
-      padding-left: 2px;
-      font-size: 0.82rem; }
-    .gridInicio label {
-      font-size: 0.6rem; }
-    .gridInicio input {
-      padding: 2px;
-      height: 25px; }
-    .gridInicio div {
-      margin: 5px 0px; }
-      .gridInicio div select {
-        height: 25px;
-        padding: 2px;
-        padding-top: 0;
-        padding-bottom: 0px; }
-      .gridInicio div .botonInicioRegistro {
-        margin-top: 20px; }
-        .gridInicio div .botonInicioRegistro a {
-          color: black;
-          text-decoration: none; }
-    .gridInicio .form-check-input {
-      height: 13px;
-      width: 13px; }
-    .gridInicio .botonInicioRegistro .button {
-      padding: 4px 8px !important; } }
-
-@media (min-width: 600px) {
-  .gridInicio {
-    margin-top: 30px;
-    grid-template-rows: 15% 60% 25%;
-    grid-template-columns: 80%; }
-    .gridInicio a {
-      font-size: 0.88rem; }
-    .gridInicio .boton__formulario {
-      margin-top: 11px;
-      padding-right: 4px;
-      padding-left: 4px;
-      font-size: 1.13rem; }
-    .gridInicio label {
-      font-size: 0.95rem; }
-    .gridInicio input {
-      padding: 4px;
-      height: 30px; }
-    .gridInicio div {
-      margin-bottom: 14px;
-      margin-top: 14px; }
-      .gridInicio div select {
-        height: 25px;
-        padding: 2px;
-        padding-top: 0;
-        padding-bottom: 0px; }
-    .gridInicio .form-check-input {
-      height: 15px;
-      width: 15px; }
-    .gridInicio .botonInicioRegistro .button {
-      padding: 16px 24px !important; } }
-
-@media (min-width: 1024px) {
-  .gridInicio {
-    margin-top: 20px;
-    grid-template-rows: 5% 70% 25%;
-    grid-template-columns: 70%; }
-    .gridInicio a {
-      font-size: 1rem; }
-    .gridInicio .boton__formulario {
-      margin-top: 2px;
-      padding-right: 5px;
-      padding-left: 5px;
-      font-size: 1.25rem; }
-    .gridInicio label {
-      font-size: 1.13rem; }
-    .gridInicio input {
-      padding: 5px;
-      height: 35px; }
-    .gridInicio div {
-      margin-bottom: 12px;
-      margin-top: 12px; }
-      .gridInicio div select {
-        height: 30px;
-        padding: 4px;
-        padding-top: 2px;
-        padding-bottom: 2pxpx; }
-    .gridInicio .form-check-input {
-      height: 18px;
-      width: 18px; }
-    .gridInicio .botonInicioRegistro .button {
-      padding: 20px 40px !important; } }
-
-/*formularios registro y de inicio*/
-.fotoForm {
-  width: 100%;
-  height: 100%;
-  padding-bottom: 10px; }
-
-/*registro*/
-.bodyRegistro {
-  background-color: #232122 !important;
-  /*boton inicio y boton registro*/ }
-  .bodyRegistro .gridRegistro {
-    display: grid;
-    text-align: center;
-    color: white;
+@keyframes spinner {
+  0% {
+    transform: rotateZ(0deg); }
+  100% {
+    transform: rotateZ(359deg); } }
+  .inicioRegistro * {
+    box-sizing: border-box; }
+  .inicioRegistro .enlacesFormulario {
     justify-content: center;
-    /* modal registro*/ }
-    .bodyRegistro .gridRegistro form {
-      text-align: initial; }
-    .bodyRegistro .gridRegistro div .botonInicioRegistro {
-      margin-top: 20px; }
-      .bodyRegistro .gridRegistro div .botonInicioRegistro a {
-        color: white;
-        text-decoration: none; }
-    .bodyRegistro .gridRegistro div h5, .bodyRegistro .gridRegistro div .h5 {
-      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-      font-weight: bolder; }
-    .bodyRegistro .gridRegistro a:hover {
-      color: white; }
-    .bodyRegistro .gridRegistro .modal {
-      text-align: -webkit-center; }
-      .bodyRegistro .gridRegistro .modal button {
-        padding-top: 1px;
-        padding-bottom: 1px; }
-      .bodyRegistro .gridRegistro .modal .modal-content {
-        background-color: transparent; }
-      .bodyRegistro .gridRegistro .modal .modal-dialog {
-        top: 200px; }
-      .bodyRegistro .gridRegistro .modal .modal-header {
-        background-color: #3c3c3c;
-        color: white;
-        margin-bottom: 0px; }
-      .bodyRegistro .gridRegistro .modal .modal-body {
-        background-color: #ffffffcc;
-        margin-bottom: 0px;
-        color: black; }
-      .bodyRegistro .gridRegistro .modal .modal-footer {
-        background-color: #3c3c3c;
-        color: white;
-        margin-bottom: 0px; }
-  .bodyRegistro .button {
-    --offset: 10px;
-    --border-size: 2px;
-    display: block;
+    text-align: center; }
+  .inicioRegistro .wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-height: 100%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.616);
+    height: 90vh; }
+  .inicioRegistro .login {
+    border-radius: 2px 2px 5px 5px;
+    padding: 10px 20px 20px 20px;
+    width: 90%;
+    max-width: 320px;
+    background: #ffffffab;
     position: relative;
-    padding: 1.5em 3em;
-    appearance: none;
-    border: 0;
-    background: transparent;
-    color: #ffffff;
-    text-transform: uppercase;
-    letter-spacing: .25em;
-    outline: none;
-    cursor: pointer;
-    font-weight: bold;
-    border-radius: 0;
-    box-shadow: inset 0 0 0 var(--border-size) currentcolor;
-    transition: background .8s ease; }
-    .bodyRegistro .button:hover {
-      background: rgba(100, 0, 0, 0.03); }
-    .bodyRegistro .button__horizontal, .bodyRegistro .button__vertical {
-      position: absolute;
-      top: var(--horizontal-offset, 0);
-      right: var(--vertical-offset, 0);
-      bottom: var(--horizontal-offset, 0);
-      left: var(--vertical-offset, 0);
-      transition: transform .8s ease;
-      will-change: transform; }
-      .bodyRegistro .button__horizontal::before, .bodyRegistro .button__vertical::before {
-        content: '';
+    padding-bottom: 80px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3); }
+    .inicioRegistro .login.loading button {
+      max-height: 100%;
+      padding-top: 50px; }
+      .inicioRegistro .login.loading button .spinner {
+        opacity: 1;
+        top: 40%; }
+    .inicioRegistro .login.ok button {
+      background-color: #8bc34a; }
+      .inicioRegistro .login.ok button .spinner {
+        border-radius: 0;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        height: 20px;
+        animation: none;
+        transform: rotateZ(-45deg); }
+    .inicioRegistro .login input {
+      display: block;
+      padding: 15px 10px;
+      margin-bottom: 10px;
+      width: 100%;
+      border: 1px solid #ddd;
+      transition: border-width 0.2s ease;
+      border-radius: 2px;
+      color: #ccc; }
+      .inicioRegistro .login input + i.fa {
+        color: #fff;
+        font-size: 1em;
         position: absolute;
-        border: inherit; }
-    .bodyRegistro .button__horizontal {
-      --vertical-offset: calc(var(--offset) * -1);
-      border-top: var(--border-size) solid currentcolor;
-      border-bottom: var(--border-size) solid currentcolor; }
-      .bodyRegistro .button__horizontal::before {
-        top: calc(var(--vertical-offset) - var(--border-size));
-        bottom: calc(var(--vertical-offset) - var(--border-size));
-        left: calc(var(--vertical-offset) * -1);
-        right: calc(var(--vertical-offset) * -1); }
-    .bodyRegistro .button:hover .bodyRegistro .button__horizontal {
-      transform: scaleX(0); }
-    .bodyRegistro .button__vertical {
-      --horizontal-offset: calc(var(--offset) * -1);
-      border-left: var(--border-size) solid currentcolor;
-      border-right: var(--border-size) solid currentcolor; }
-      .bodyRegistro .button__vertical::before {
-        top: calc(var(--horizontal-offset) * -1);
-        bottom: calc(var(--horizontal-offset) * -1);
-        left: calc(var(--horizontal-offset) - var(--border-size));
-        right: calc(var(--horizontal-offset) - var(--border-size)); }
-    .bodyRegistro .button:hover .bodyRegistro .button__vertical {
-      transform: scaleY(0); }
-    .bodyRegistro .button a {
-      color: black; }
-    .bodyRegistro .button a:hover {
-      color: white; }
-
-/* media queries registro*/
-@media (min-width: 360px) {
-  .gridRegistro {
-    grid-template-rows: 25% 75%;
-    grid-template-columns: 80%; }
-    .gridRegistro .boton__formulario {
-      margin-top: 10px;
-      padding-right: 2px;
-      padding-left: 2px;
-      font-size: 0.82rem; }
-    .gridRegistro label {
-      font-size: 0.6rem; }
-    .gridRegistro input {
-      padding: 2px;
-      height: 25px; }
-    .gridRegistro div {
-      margin: 5px 0px; }
-      .gridRegistro div select {
-        height: 25px;
-        padding: 2px;
-        padding-top: 0;
-        padding-bottom: 0px; }
-    .gridRegistro .form-check-input {
-      height: 13px;
-      width: 13px; }
-    .gridRegistro .botonInicioRegistro .button {
-      padding: 4px 8px !important; } }
-
-@media (min-width: 600px) {
-  .gridRegistro {
-    grid-template-rows: 75% 25%;
-    grid-template-columns: 70%; }
-    .gridRegistro .boton__formulario {
-      margin-top: 11px;
-      padding-right: 4px;
-      padding-left: 4px;
-      font-size: 1.13rem; }
-    .gridRegistro label {
-      font-size: 0.95rem; }
-    .gridRegistro input {
-      padding: 4px;
-      height: 30px; }
-    .gridRegistro div {
-      margin-bottom: 14px;
-      margin-bottom: 14px; }
-      .gridRegistro div select {
-        height: 25px;
-        padding: 2px;
-        padding-top: 0;
-        padding-bottom: 0px; }
-    .gridRegistro .form-check-input {
-      height: 15px;
-      width: 15px; }
-    .gridRegistro .botonInicioRegistro .button {
-      padding: 16px 32px !important; } }
-
-@media (min-width: 1024px) {
-  .gridRegistro {
-    grid-template-rows: 50% 50%;
-    grid-template-columns: 55%; }
-    .gridRegistro .boton__formulario {
-      margin-top: 2px;
-      padding-right: 5px;
-      padding-left: 5px;
-      font-size: 1.25rem; }
-    .gridRegistro label {
-      font-size: 1.13rem; }
-    .gridRegistro input {
-      padding: 5px;
-      height: 35px; }
-    .gridRegistro div {
-      margin-bottom: 12px;
-      margin-top: 12px; }
-      .gridRegistro div select {
-        height: 30px;
-        padding: 4px;
-        padding-top: 2px;
-        padding-bottom: 2pxpx; }
-    .gridRegistro .form-check-input {
-      height: 18px;
-      width: 18px; }
-    .gridRegistro .botonInicioRegistro .button {
-      padding: 20px 40px  !important; } }
+        margin-top: -47px;
+        opacity: 0;
+        left: 0;
+        transition: all 0.1s ease-in; }
+      .inicioRegistro .login input:focus {
+        outline: none;
+        color: #444;
+        border-color: #b3831e;
+        border-left-width: 35px; }
+        .inicioRegistro .login input:focus + i.fa {
+          opacity: 1;
+          left: 30px;
+          transition: all 0.25s ease-out; }
+    .inicioRegistro .login a {
+      font-size: 0.8em;
+      color: #b3831e;
+      text-decoration: none; }
+    .inicioRegistro .login .title {
+      color: #444;
+      font-size: 1.2em;
+      font-weight: bold;
+      margin: 10px 0 30px 0;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 20px; }
+    .inicioRegistro .login button {
+      width: 100%;
+      height: 100%;
+      padding: 10px 10px;
+      background: #b3831e;
+      color: #fff;
+      display: block;
+      border: none;
+      margin-top: 20px;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      max-height: 60px;
+      border: 0px solid rgba(0, 0, 0, 0.1);
+      border-radius: 0 0 2px 2px;
+      transform: rotateZ(0deg);
+      transition: all 0.1s ease-out;
+      border-bottom-width: 7px; }
+      .inicioRegistro .login button .spinner {
+        display: block;
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        border: 4px solid #ffffff;
+        border-top-color: rgba(255, 255, 255, 0.3);
+        border-radius: 100%;
+        left: 50%;
+        top: 0;
+        opacity: 0;
+        margin-left: -20px;
+        margin-top: -20px;
+        animation: spinner 0.6s infinite linear;
+        transition: top 0.3s 0.3s ease, opacity 0.3s 0.3s ease, border-radius 0.3s ease;
+        box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2); }
+    .inicioRegistro .login:not(.loading) button:hover {
+      box-shadow: 0px 1px 3px #b3831e; }
+    .inicioRegistro .login:not(.loading) button:focus {
+      border-bottom-width: 4px; }
 
 /* salamandras*/
 .bannerSalamandras {
@@ -1666,6 +1468,9 @@ header {
     font-size: 1rem; } }
 
 /* media queries nav*/
+nav {
+  background-color: black !important; }
+
 @media (min-width: 360px) {
   nav {
     padding-top: 2px;
@@ -1902,6 +1707,198 @@ header {
       margin-right: 10px; } }
 
 /*MODIFICACIONES BOOTSTRAP*/
+.contacto {
+  /* RESET RULES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+  background-image: url(https://www.globalmedia-it.com/dominicana/wp-content/uploads/2020/07/Tecnolog%C3%ADa-IDC.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 80vh;
+  /* Remove native arrow on IE */
+  /*Remove dotted outline from selected option on Firefox*/
+  /*https://stackoverflow.com/questions/3773430/remove-outline-from-select-box-in-ff/18853002#18853002*/
+  /*We use !important to override the color set for the select on line 99*/
+  /* FORM ELEMENTS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+  /* FORM BTNS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+  /* CUSTOM CHECKBOX
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+  /* MQ
+–––––––––––––––––––––––––––––––––––––––––––––––––– */ }
+  .contacto :root {
+    --white: #afafaf;
+    --red: #e31b23;
+    --bodyColor: #292a2b;
+    --borderFormEls: hsl(0, 0%, 10%);
+    --bgFormEls: hsl(0, 0%, 14%);
+    --bgFormElsFocus: hsl(0, 7%, 20%); }
+  .contacto .botonDeContacto {
+    border: solid 2px black; }
+    .contacto .botonDeContacto .btn {
+      height: auto; }
+  .contacto a {
+    color: inherit; }
+  .contacto input,
+  .contacto select,
+  .contacto textarea,
+  .contacto button {
+    font-family: inherit;
+    font-size: 100%;
+    background: #a7b180;
+    color: black; }
+  .contacto button,
+  .contacto label {
+    cursor: pointer; }
+  .contacto select {
+    appearance: none; }
+  .contacto select::-ms-expand {
+    display: none; }
+  .contacto select:-moz-focusring {
+    color: transparent !important;
+    text-shadow: 0 0 0 var(--white); }
+  .contacto textarea {
+    resize: none; }
+  .contacto ul {
+    list-style: none; }
+  .contacto body {
+    font: 18px/1.5 "Open Sans", sans-serif;
+    background: var(--bodyColor);
+    color: var(--white);
+    margin: 1.5rem 0; }
+  .contacto .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    text-align: center; }
+  .contacto .my-form {
+    background-color: #ffffff66;
+    min-height: inherit; }
+  .contacto .my-form h1, .contacto .my-form .h1 {
+    margin-bottom: 1.5rem; }
+  .contacto .my-form li,
+  .contacto .my-form .grid > *:not(:last-child) {
+    margin-bottom: 1.5rem; }
+  .contacto .my-form select,
+  .contacto .my-form input,
+  .contacto .my-form textarea,
+  .contacto .my-form button {
+    width: 100%;
+    line-height: 1.5;
+    padding: 15px 10px;
+    border: 1px solid var(--borderFormEls);
+    color: var(--white);
+    background: var(--bgFormEls);
+    transition: background-color 0.3s cubic-bezier(0.57, 0.21, 0.69, 1.25), transform 0.3s cubic-bezier(0.57, 0.21, 0.69, 1.25);
+    background: #a7b180;
+    color: black; }
+  .contacto .my-form textarea {
+    height: 170px; }
+  .contacto .my-form select {
+    background: #a7b180;
+    color: black; }
+  .contacto .my-form ::placeholder {
+    color: inherit;
+    /*Fix opacity issue on Firefox*/
+    opacity: 1; }
+  .contacto .my-form select:focus,
+  .contacto .my-form input:focus,
+  .contacto .my-form textarea:focus,
+  .contacto .my-form button:enabled:hover,
+  .contacto .my-form button:focus,
+  .contacto .my-form input[type="checkbox"]:focus + label {
+    background: var(--bgFormElsFocus); }
+  .contacto .my-form select:focus,
+  .contacto .my-form input:focus,
+  .contacto .my-form textarea:focus {
+    transform: scale(1.02); }
+  .contacto .my-form *:required,
+  .contacto .my-form select {
+    background-repeat: no-repeat;
+    background-position: center right 12px;
+    background-size: 15px 15px; }
+  .contacto .my-form *:required {
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/asterisk.svg); }
+  .contacto .my-form select {
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/down.svg); }
+  .contacto .my-form *:disabled {
+    cursor: default;
+    filter: blur(2px); }
+  .contacto .my-form .required-msg {
+    display: none;
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/asterisk.svg) no-repeat center left/15px 15px;
+    padding-left: 20px; }
+  .contacto .my-form .btn-grid {
+    position: relative;
+    overflow: hidden;
+    transition: filter 0.2s; }
+  .contacto .my-form button {
+    font-weight: bold;
+    background: #a7b180;
+    color: black; }
+  .contacto .my-form button > * {
+    display: inline-block;
+    width: 100%;
+    transition: transform 0.4s ease-in-out; }
+  .contacto .my-form button .back {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-110%, -50%); }
+  .contacto .my-form button:enabled:hover .back,
+  .contacto .my-form button:focus .back {
+    transform: translate(-50%, -50%); }
+  .contacto .my-form button:enabled:hover .front,
+  .contacto .my-form button:focus .front {
+    transform: translateX(110%); }
+  .contacto .my-form input[type="checkbox"] {
+    position: absolute;
+    left: -9999px; }
+  .contacto .my-form input[type="checkbox"] + label {
+    position: relative;
+    display: inline-block;
+    padding-left: 2rem;
+    transition: background 0.3s cubic-bezier(0.57, 0.21, 0.69, 1.25); }
+  .contacto .my-form input[type="checkbox"] + label::before,
+  .contacto .my-form input[type="checkbox"] + label::after {
+    content: '';
+    position: absolute; }
+  .contacto .my-form input[type="checkbox"] + label::before {
+    left: 0;
+    top: 6px;
+    width: 18px;
+    height: 18px;
+    border: 2px solid var(--white); }
+  .contacto .my-form input[type="checkbox"]:checked + label::before {
+    background: var(--red); }
+  .contacto .my-form input[type="checkbox"]:checked + label::after {
+    left: 7px;
+    top: 7px;
+    width: 6px;
+    height: 14px;
+    border-bottom: 2px solid var(--white);
+    border-right: 2px solid var(--white);
+    transform: rotate(45deg); }
+  @media screen and (min-width: 600px) {
+    .contacto .my-form .grid {
+      display: grid;
+      grid-gap: 1.5rem; }
+    .contacto .my-form .grid-2 {
+      grid-template-columns: 1fr 1fr; }
+    .contacto .my-form .grid-3 {
+      grid-template-columns: auto auto auto;
+      align-items: center; }
+    .contacto .my-form .grid > *:not(:last-child) {
+      margin-bottom: 0; }
+    .contacto .my-form .required-msg {
+      display: block; } }
+  @media screen and (min-width: 541px) {
+    .contacto .my-form input[type="checkbox"] + label::before {
+      top: 50%;
+      transform: translateY(-50%); }
+    .contacto .my-form input[type="checkbox"]:checked + label::after {
+      top: 3px; } }
+
 /* EN DROPDOWN.SCSS */
 /* EN BUTTOM */
 .btn {

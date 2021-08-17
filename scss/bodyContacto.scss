@@ -1,305 +1,300 @@
-/*contacto*/ 
-.contenedorContacto{
-    color: #fbebbb;
+.contacto{
+    @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+
+    /* RESET RULES
+    –––––––––––––––––––––––––––––––––––––––––––––––––– */
+    :root {
+    --white: #afafaf;
+    --red: #e31b23;
+    --bodyColor: #292a2b;
+    --borderFormEls: hsl(0, 0%, 10%);
+    --bgFormEls: hsl(0, 0%, 14%);
+    --bgFormElsFocus: hsl(0, 7%, 20%);
+    }
+    background-image: url(https://www.globalmedia-it.com/dominicana/wp-content/uploads/2020/07/Tecnolog%C3%ADa-IDC.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+    
+    .botonDeContacto{
+            border: solid 2px black;
+            .btn{
+                height: auto;
+            }
+    }
+
+    a {
+    color: inherit;
+    }
+
+    input,
+    select,
+    textarea,
+    button {
+    font-family: inherit;
+    font-size: 100%;
+    background: #a7b180;
+    color: black;
+    }
+
+    button,
+    label {
+    cursor: pointer;
+    
+    }
+
+    select {
+    appearance: none;
+
+    }
+
+    /* Remove native arrow on IE */
+    select::-ms-expand {
+    display: none;
+    }
+
+    /*Remove dotted outline from selected option on Firefox*/
+    /*https://stackoverflow.com/questions/3773430/remove-outline-from-select-box-in-ff/18853002#18853002*/
+    /*We use !important to override the color set for the select on line 99*/
+    select:-moz-focusring {
+    color: transparent !important;
+    text-shadow: 0 0 0 var(--white);
+    }
+
+    textarea {
+    resize: none;
+    }
+
+    ul {
+    list-style: none;
+    }
+
+    body {
+    font: 18px/1.5 "Open Sans", sans-serif;
+    background: var(--bodyColor);
+    color: var(--white);
+    margin: 1.5rem 0;
+    }
+
+    .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
     text-align: center;
-    .tituloContacto{
+    }
+
+
+    /* FORM ELEMENTS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– */
+    .my-form{
+        background-color: #ffffff66;
+        min-height: inherit;
+        padding-top: 10vh;
+    }
+    .my-form h1 {
+    margin-bottom: 1.5rem;
+    
+    }
+
+    .my-form li,
+    .my-form .grid > *:not(:last-child) {
+    margin-bottom: 1.5rem;
+    
+    }
+
+    .my-form select,
+    .my-form input,
+    .my-form textarea,
+    .my-form button {
+
+    width: 100%;
+    line-height: 1.5;
+    padding: 15px 10px;
+    border: 1px solid var(--borderFormEls);
+    color: var(--white);
+    background: var(--bgFormEls);
+    transition: background-color 0.3s cubic-bezier(0.57, 0.21, 0.69, 1.25),
+        transform 0.3s cubic-bezier(0.57, 0.21, 0.69, 1.25);
+    background: #a7b180;
+    color: black;
+
+    }
+
+    .my-form textarea {
+    height: 170px;
+    }
+    .my-form  select {
+        background: #a7b180;
         color: black;
-        margin-left: 15px;
-        font-family:system-ui;
-        h2{
-            padding: 2px;            
-        }
     }
-    .gridContac{
+
+    .my-form ::placeholder {
+    color: inherit;
+    /*Fix opacity issue on Firefox*/
+    opacity: 1;
+    }
+
+    .my-form select:focus,
+    .my-form input:focus,
+    .my-form textarea:focus,
+    .my-form button:enabled:hover,
+    .my-form button:focus,
+    .my-form input[type="checkbox"]:focus + label {
+    background: var(--bgFormElsFocus);
+    }
+
+    .my-form select:focus,
+    .my-form input:focus,
+    .my-form textarea:focus {
+    transform: scale(1.02);
+    }
+
+    .my-form *:required,
+    .my-form select {
+    background-repeat: no-repeat;
+    background-position: center right 12px;
+    background-size: 15px 15px;
+    }
+
+    .my-form *:required {
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/asterisk.svg);  
+    }
+
+    .my-form select {
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/down.svg);
+    }
+
+    .my-form *:disabled {
+    cursor: default;
+    filter: blur(2px);
+    }
+
+
+    /* FORM BTNS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– */
+    .my-form .required-msg {
+    display: none;
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/asterisk.svg)
+        no-repeat center left / 15px 15px;
+    padding-left: 20px;
+    }
+
+    .my-form .btn-grid {
+    position: relative;
+    overflow: hidden;
+    transition: filter 0.2s;
+    }
+
+    .my-form button {
+    font-weight: bold;
+    background: #a7b180;
+        color: black;
+    }
+
+    .my-form button > * {
+    display: inline-block;
+    width: 100%;
+    transition: transform 0.4s ease-in-out;
+    }
+
+    .my-form button .back {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-110%, -50%);
+    }
+
+    .my-form button:enabled:hover .back,
+    .my-form button:focus .back {
+    transform: translate(-50%, -50%);
+    }
+
+    .my-form button:enabled:hover .front,
+    .my-form button:focus .front {
+    transform: translateX(110%);
+    }
+
+
+    /* CUSTOM CHECKBOX
+    –––––––––––––––––––––––––––––––––––––––––––––––––– */
+    .my-form input[type="checkbox"] {
+    position: absolute;
+    left: -9999px;
+
+    }
+
+    .my-form input[type="checkbox"] + label {
+    position: relative;
+    display: inline-block;
+    padding-left: 2rem;
+    transition: background 0.3s cubic-bezier(0.57, 0.21, 0.69, 1.25);
+    }
+
+    .my-form input[type="checkbox"] + label::before,
+    .my-form input[type="checkbox"] + label::after {
+    content: '';
+    position: absolute;
+    }
+
+    .my-form input[type="checkbox"] + label::before {
+    left: 0;
+    top: 6px;
+    width: 18px;
+    height: 18px;
+    border: 2px solid var(--white);
+    }
+
+    .my-form input[type="checkbox"]:checked + label::before {
+    background: var(--red);
+    }
+
+    .my-form input[type="checkbox"]:checked + label::after {
+    left: 7px;
+    top: 7px;
+    width: 6px;
+    height: 14px;
+    border-bottom: 2px solid var(--white);
+    border-right: 2px solid var(--white);
+    transform: rotate(45deg);
+    }
+
+
+
+
+    /* MQ
+    –––––––––––––––––––––––––––––––––––––––––––––––––– */
+    @media screen and (min-width: 600px) {
+    .my-form .grid {
         display: grid;
-        grid-template-rows: 400px 450px;
-        grid-template-columns: 700px;
-        text-align: center;
-        color: white;
-        justify-content: center;
-        
-        .botonEnviar{
-            justify-content: center;
-            .ghost {
-                background-color: transparent;
-                color:#a2a2a2;
-                border: 2px solid #a2a2a2;
-                transition: .2s ease;
-                vertical-align: inherit;
-                padding: 1px;
-                margin: 2px;;
-                
-                &:hover {
-                background-color: #a2a2a2;
-                color: #232122;
-                
-                transition: .2s ease;
-                }
-            }
-           margin-bottom: 0px;
-        }
-        .mensajeContacto{
-            margin-bottom: 0px;
-            textarea{
-                width: 100%;
-            }    
-        }   
-    }
-    .fondoGris{
-        background-color: #232122 ;
-    
-    }
-    .accordion{
-        padding-top: 25px;
-        .arrowed{
-            background-color:pink ;
-            div {
-              position: absolute;
-              top: 0; bottom: 0; 
-              margin: auto;
-            }
-       
-           .arrow-1 {
-               height: 15px; width: 15px;
-               border: 1px solid #a2a2a2;
-               border-width: 0px 2px 2px 0px;
-               transform: rotate(45deg);
-           }             
-         }
-      .accordion-button:not(.collapsed)::after {
-            background-image: none;
-       }
-        .accordion-item{
-            background-color: #949494;
-            button{
-                color: #ffffff;
-                background-color: #232122;
-            }
-        }
-        .datosContacto{
-            color: black;
-            h4, h5, p {
-                margin:4px;
-            }
-        }
-        .redesContacto{    
-            .gridRedesContacto{
-                display:  inline-flex;;
-                background: bottom black;
-             }
-        }
+        grid-gap: 1.5rem;
     }
 
-}
-/* media queries contacto */
+    .my-form .grid-2 {
+        grid-template-columns: 1fr 1fr;
+    }
 
+    .my-form .grid-3 {
+        grid-template-columns: auto auto auto;
+        align-items: center;
+    }
 
-@media (min-width: 360px) {   
-    .accordion-item{
-        button{
-            height: 10px;
-        }
-        .arrowed{
-            div{
-                right: 0px;
-                left: 250px;
-            }   
-        }
-    }   
-    .contenedorContacto{
-        padding-bottom: 20px; 
-        margin-top: 15px;
-        h2{
-            font-size: 1rem;
-            margin: 2px;
-        }
-        legend{
-            font-size: 0.95rem;
-        }
-        h4{
-            font-size: 0.95rem;
-        }
-        h5{
-            font-size: .8rem;
-        }
-        p{
-            font-size: 0.8rem;
-        }
-        .gridContac{
-            grid-template-rows: 25% 75%;
-            grid-template-columns: 80%;
-            
-            textarea{
-                height: 60px;
-            }
-            label{
-                font-size: 0.6rem;
-            }
-            input{
-                padding: 2px;
-                height: 20px;
-            }
-            div{
-                margin: 0px;
-            select{
-                height: 25px;
-                padding: 2px;
-                padding-top: 0;
-                padding-bottom: 0px;
-            }
+    .my-form .grid > *:not(:last-child) {
+        margin-bottom: 0;
+    }
 
-                button{
-                    background-color: #eab769e0;
-                    margin-top: 10px;
-                    padding-right: 2px;
-                    border-style: ridge;
-                    padding-left: 2px;
-                    border-bottom: solid 2px #7d5e00;
-                    font-size: 0.8rem;
-                }
-            }
-    
-        }
+    .my-form .required-msg {
+        display: block;
+    }
+    }
+
+    @media screen and (min-width: 541px) {
+    .my-form input[type="checkbox"] + label::before {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .my-form input[type="checkbox"]:checked + label::after {
+        top: 3px;
+    }
     }
 }
- 
- 
- @media (min-width: 600px) {
-
-    .accordion-item{
-        button{
-            height: 45px;
-        }
-        .arrowed{
-            div{
-                right: 0px;
-                left: 550px;
-            }   
-        }
-    }   
-    .contenedorContacto{
-        padding-bottom: 20px; 
-        margin-top: 15px;
-        h2{
-            font-size: 1rem;
-            margin: 4px;
-        }
-        legend{
-            font-size: 1.13rem;
-        }
-        h4{
-            font-size: 1.13rem;
-        }
-        h5{
-            font-size: 0.75rem;
-        }
-        p{
-            font-size: 0.8rem;
-        }
-        .gridContac{
-            grid-template-rows: 40% 60%;
-            grid-template-columns: 70%;
-            textarea{
-                height: 100px;
-            }
-        
-            label{
-                font-size: 0.95rem;
-                
-            }
-            input{
-                padding: 1px;
-                height: 28px;
-            }
-            div{
-                margin-bottom: 14px;
-            select{
-                height: 25px;
-                padding: 2px;
-                padding-top: 0;
-                padding-bottom: 0px;
-            }
-            button{
-                background-color: #eab769e0;
-                margin-top: 10px;
-                padding-right: 2px;
-                border-style: ridge;
-                padding-left: 2px;
-                border-bottom: solid 2px #7d5e00;
-                font-size: 0.8rem;
-                }
-            }
-        }
-    } 
- }
- 
- @media (min-width: 1024px) {
-      
-    .contenedorContacto{
-        padding-bottom: 25px; 
-        margin-top: 17px;
-        h2{
-            font-size: 1.4rem;
-            margin: 8px;
-        }
-        legend{
-            font-size: 1.9rem;
-        }
-        h4{
-            font-size: 1.9rem;
-        }
-        h5{
-            font-size: 1.6rem;
-        }
-        p{
-            font-size: 1.6rem;
-        }
-        .accordion-item{
-            button{
-                height: 65px;
-            }
-            .arrowed{
-                div{
-                    right: 0px;
-                    left: 1100px;
-                }   
-            }
-        } 
-        .gridContac{
-            grid-template-rows: 50% 50%;
-            grid-template-columns: 70%;
-            height: 850px;
-            textarea{
-                height: 130px;
-            }
-        
-            label{
-                font-size: 1.6rem;
-    
-            }
-            input{
-                padding: 4px;
-                height: 32px;
-            }
-            div{
-                margin-bottom: 14px;
-            select{
-                height: 35px;
-                padding: 2px;
-                padding-top: 0;
-                padding-bottom: 0px;
-            }
-            button{
-                background-color: #eab769e0;
-                margin-top: 10px;
-                padding-right: 2px;
-                border-style: ridge;
-                padding-left: 2px;
-                border-bottom: solid 2px #7d5e00;
-                font-size: 1.25rem;
-                }
-            }
-        }
-    } 
- }
- 
