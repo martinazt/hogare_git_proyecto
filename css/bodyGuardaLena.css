@@ -1,3 +1,4 @@
+/* guarda lena*/
 .bannerGuardaLena {
   background-image: url(https://693431.smushcdn.com/1076333/wp-content/uploads/sites/3/2018/07/F1_Unilux-6-270-Three-sided_inbouw-kader-1.jpg?lossy=1&strip=1&webp=1);
   background-repeat: no-repeat;
@@ -63,14 +64,14 @@
   border-width: 0px 0px 15px 0px;
 }
 
-/* media queries */
+/* media queries guarda lena*/
 @media (min-width: 360px) {
   .bannerGuardaLena {
     height: 25vh;
     background-position-y: -80px;
   }
   .bannerGuardaLena h2 {
-    font-size: 30px;
+    font-size: 1.9rem;
     -webkit-backdrop-filter: saturate(1);
             backdrop-filter: saturate(1);
     padding-top: 40px;
@@ -81,10 +82,10 @@
   }
   .guardaLena .categoriaGL p {
     font-weight: 700;
-    font-size: 14px;
+    font-size: 0.9rem;
   }
   .guardaLena p {
-    font-size: 14px;
+    font-size: 0.9rem;
   }
 }
 
@@ -94,11 +95,11 @@
     background-position-y: -150px;
   }
   .bannerGuardaLena h2 {
-    font-size: 40px;
+    font-size: 2.5rem;
     padding-top: 150px;
   }
   .guardaLena p {
-    font-size: 16px;
+    font-size: 1rem;
   }
   .guardaLena .categoriaGL {
     margin-top: 50px;
@@ -106,7 +107,7 @@
   }
   .guardaLena .categoriaGL p {
     font-weight: 700;
-    font-size: 17px;
+    font-size: 1.1rem;
   }
   .guardaLena .categoriaGL .botonVerCategoria {
     padding: 10px;
@@ -122,10 +123,10 @@
     background-position-y: -690px;
   }
   .bannerGuardaLena h2 {
-    font-size: 40px;
+    font-size: 2.5rem;
   }
   .guardaLena p {
-    font-size: 18px;
+    font-size: 1.13rem;
   }
   .guardaLena .categoriaGL {
     margin-bottom: 70px;
@@ -133,7 +134,7 @@
   }
   .guardaLena .categoriaGL p {
     font-weight: 650;
-    font-size: 19px;
+    font-size: 1.2rem;
   }
   .guardaLena .categoriaGL .botonVerCategoria {
     padding: 11px;

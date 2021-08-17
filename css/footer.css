@@ -63,7 +63,7 @@ footer div p a:hover {
 /* media queries footer*/
 @media (min-width: 360px) {
   footer p {
-    font-size: 14px;
+    font-size: 0.90rem;
   }
   footer .logoFooter img {
     width: 64px;
@@ -83,7 +83,7 @@ footer div p a:hover {
 
 @media (min-width: 600px) {
   footer p {
-    font-size: 15px;
+    font-size: 1rem;
   }
   footer .logoFooter img {
     width: 72px;
@@ -108,7 +108,7 @@ footer div p a:hover {
 
 @media (min-width: 1024px) {
   footer p {
-    font-size: 16px;
+    font-size: 1rem;
   }
   footer .logoFooter img {
     width: 80px;

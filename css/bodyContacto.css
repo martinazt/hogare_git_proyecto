@@ -1,312 +1,334 @@
-/* probando*/
-.gridContac .botonEnviar {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+.contacto {
+  /* RESET RULES
+    –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  background-image: url(https://barbasbellfires.com/nl/wp-content/uploads/sites/2/2018/07/Dubbele-brander.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 80vh;
   margin-bottom: 0px;
+  /* Remove native arrow on IE */
+  /*Remove dotted outline from selected option on Firefox*/
+  /*https://stackoverflow.com/questions/3773430/remove-outline-from-select-box-in-ff/18853002#18853002*/
+  /*We use !important to override the color set for the select on line 99*/
+  /* FORM ELEMENTS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  /* FORM BTNS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  /* CUSTOM CHECKBOX
+    –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  /* MQ
+    –––––––––––––––––––––––––––––––––––––––––––––––––– */
 }
 
-.gridContac .botonEnviar .ghost {
-  background-color: transparent;
-  color: #a2a2a2;
-  border: 2px solid #a2a2a2;
-  -webkit-transition: .2s ease;
-  transition: .2s ease;
-  vertical-align: inherit;
-  padding: 1px;
-  margin: 2px;
+.contacto :root {
+  --white: #afafaf;
+  --red: #e31b23;
+  --bodyColor: #292a2b;
+  --borderFormEls: hsl(0, 0%, 10%);
+  --bgFormEls: hsl(0, 0%, 14%);
+  --bgFormElsFocus: hsl(0, 7%, 20%);
 }
 
-.gridContac .botonEnviar .ghost:hover {
-  background-color: #a2a2a2;
-  color: #232122;
-  -webkit-transition: .2s ease;
-  transition: .2s ease;
+.contacto .botonDeContacto .btn {
+  height: auto;
 }
 
-.gridContac .botonMensaje {
+.contacto a {
+  color: inherit;
+}
+
+.contacto input,
+.contacto select,
+.contacto textarea,
+.contacto button {
+  font-family: inherit;
+  font-size: 100%;
+  background: #ffffff;
+  color: black;
+}
+
+.contacto button,
+.contacto label {
+  cursor: pointer;
+}
+
+.contacto select {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+.contacto select::-ms-expand {
+  display: none;
+}
+
+.contacto select:-moz-focusring {
+  color: #ff002b !important;
+  text-shadow: 0 0 0 var(--white);
+}
+
+.contacto textarea {
+  resize: none;
+}
+
+.contacto ul {
+  list-style: none;
+}
+
+.contacto body {
+  font: 18px/1.5 "Open Sans", sans-serif;
+  background: var(--bodyColor);
+  color: var(--white);
+  margin: 1.5rem 0;
+}
+
+.contacto .container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
   text-align: center;
 }
 
-.gridContac .mensajeContacto {
-  margin-bottom: 0px;
+.contacto .my-form {
+  background-color: rgba(0, 0, 0, 0.616);
+  min-height: inherit;
+  padding-top: 10vh;
 }
 
-.gridContac .mensajeContacto textarea {
+.contacto .my-form h1 {
+  margin-bottom: 1.5rem;
+  color: white;
+}
+
+.contacto .my-form li,
+.contacto .my-form .grid > *:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+
+.contacto .my-form select,
+.contacto .my-form input,
+.contacto .my-form textarea,
+.contacto .my-form button {
   width: 100%;
+  line-height: 1.5;
+  padding: 15px 10px;
+  border: 1px solid var(--borderFormEls);
+  color: var(--white);
+  background: var(--bgFormEls);
+  -webkit-transition: background-color 0.3s cubic-bezier(0.57, 0.21, 0.69, 1.25), -webkit-transform 0.3s cubic-bezier(0.57, 0.21, 0.69, 1.25);
+  transition: background-color 0.3s cubic-bezier(0.57, 0.21, 0.69, 1.25), -webkit-transform 0.3s cubic-bezier(0.57, 0.21, 0.69, 1.25);
+  transition: background-color 0.3s cubic-bezier(0.57, 0.21, 0.69, 1.25), transform 0.3s cubic-bezier(0.57, 0.21, 0.69, 1.25);
+  transition: background-color 0.3s cubic-bezier(0.57, 0.21, 0.69, 1.25), transform 0.3s cubic-bezier(0.57, 0.21, 0.69, 1.25), -webkit-transform 0.3s cubic-bezier(0.57, 0.21, 0.69, 1.25);
+  background: #ffffff;
+  color: black;
 }
 
-.contenedorContacto {
-  color: #fbebbb;
-  text-align: center;
+.contacto .my-form textarea {
+  height: 170px;
 }
 
-.contenedorContacto .redesContacto .gridRedesContacto {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+.contacto .my-form select {
+  background: #ffffff;
+  color: black;
 }
 
-.contenedorContacto .accordion {
-  padding-top: 25px;
+.contacto .my-form ::-webkit-input-placeholder {
+  color: black;
+  /*Fix opacity issue on Firefox*/
+  opacity: 1;
 }
 
-.contenedorContacto .accordion .arrowed {
-  background-color: pink;
+.contacto .my-form :-ms-input-placeholder {
+  color: black;
+  /*Fix opacity issue on Firefox*/
+  opacity: 1;
 }
 
-.contenedorContacto .accordion .arrowed div {
+.contacto .my-form ::-ms-input-placeholder {
+  color: black;
+  /*Fix opacity issue on Firefox*/
+  opacity: 1;
+}
+
+.contacto .my-form ::placeholder {
+  color: black;
+  /*Fix opacity issue on Firefox*/
+  opacity: 1;
+}
+
+.contacto .my-form select:focus,
+.contacto .my-form input:focus,
+.contacto .my-form textarea:focus,
+.contacto .my-form button:enabled:hover,
+.contacto .my-form button:focus,
+.contacto .my-form input[type="checkbox"]:focus + label {
+  background: #b3841e83;
+}
+
+.contacto .my-form select:focus,
+.contacto .my-form input:focus,
+.contacto .my-form textarea:focus {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+}
+
+.contacto .my-form *:required,
+.contacto .my-form select {
+  background-repeat: no-repeat;
+  background-position: center right 12px;
+  background-size: 15px 15px;
+}
+
+.contacto .my-form *:required {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/asterisk.svg);
+}
+
+.contacto .my-form select {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/down.svg);
+}
+
+.contacto .my-form *:disabled {
+  cursor: default;
+  -webkit-filter: blur(2px);
+          filter: blur(2px);
+}
+
+.contacto .my-form .required-msg {
+  display: none;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/asterisk.svg) no-repeat center left/15px 15px;
+  padding-left: 20px;
+}
+
+.contacto .my-form .btn-grid {
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: -webkit-filter 0.2s;
+  transition: -webkit-filter 0.2s;
+  transition: filter 0.2s;
+  transition: filter 0.2s, -webkit-filter 0.2s;
+}
+
+.contacto .my-form button {
+  padding: 10px 10px;
+  background: #b3831e;
+  color: #fff;
+  display: block;
+  border: none;
+  border: 0px solid rgba(0, 0, 0, 0.082);
+  border-radius: 0 0 2px 2px;
+  -webkit-transform: rotateZ(0deg);
+          transform: rotateZ(0deg);
+  -webkit-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;
+  border-bottom-width: 7px;
+}
+
+.contacto .my-form button > * {
+  display: inline-block;
+  width: 100%;
+  -webkit-transition: -webkit-transform 0.4s ease-in-out;
+  transition: -webkit-transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
+}
+
+.contacto .my-form button .back {
   position: absolute;
-  top: 0;
-  bottom: 0;
-  margin: auto;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-110%, -50%);
+          transform: translate(-110%, -50%);
 }
 
-.contenedorContacto .accordion .arrowed .arrow-1 {
-  height: 15px;
-  width: 15px;
-  border: 1px solid #a2a2a2;
-  border-width: 0px 2px 2px 0px;
+.contacto .my-form button:enabled:hover .back,
+.contacto .my-form button:focus .back {
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.contacto .my-form button:enabled:hover .front,
+.contacto .my-form button:focus .front {
+  -webkit-transform: translateX(110%);
+          transform: translateX(110%);
+}
+
+.contacto .my-form input[type="checkbox"] {
+  position: absolute;
+  left: -9999px;
+}
+
+.contacto .my-form input[type="checkbox"] + label {
+  position: relative;
+  display: inline-block;
+  padding-left: 2rem;
+  -webkit-transition: background 0.3s cubic-bezier(0.57, 0.21, 0.69, 1.25);
+  transition: background 0.3s cubic-bezier(0.57, 0.21, 0.69, 1.25);
+}
+
+.contacto .my-form input[type="checkbox"] + label::before,
+.contacto .my-form input[type="checkbox"] + label::after {
+  content: '';
+  position: absolute;
+}
+
+.contacto .my-form input[type="checkbox"] + label::before {
+  left: 0;
+  top: 6px;
+  width: 18px;
+  height: 18px;
+  border: 2px solid var(--white);
+}
+
+.contacto .my-form input[type="checkbox"]:checked + label::before {
+  background: var(--red);
+}
+
+.contacto .my-form input[type="checkbox"]:checked + label::after {
+  left: 7px;
+  top: 7px;
+  width: 6px;
+  height: 14px;
+  border-bottom: 2px solid var(--white);
+  border-right: 2px solid var(--white);
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
 }
 
-.contenedorContacto .accordion .accordion-button:not(.collapsed)::after {
-  background-image: none;
-}
-
-.contenedorContacto .accordion .accordion-item {
-  background-color: #949494;
-}
-
-.contenedorContacto .accordion .accordion-item button {
-  color: #ffffff;
-  background-color: #232122;
-}
-
-.datosContacto {
-  color: black;
-}
-
-.fondoGris {
-  background-color: #232122;
-}
-
-.tituloContacto {
-  color: black;
-  margin-left: 15px;
-  font-family: system-ui;
-}
-
-.tituloContacto h2 {
-  padding: 2px;
-}
-
-.gridContac {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-rows: 400px 450px;
-      grid-template-rows: 400px 450px;
-  -ms-grid-columns: 700px;
-      grid-template-columns: 700px;
-  text-align: center;
-  color: white;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-/* media queries */
-@media (min-width: 360px) {
-  .accordion-item button {
-    height: 10px;
+@media screen and (min-width: 600px) {
+  .contacto .my-form .grid {
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 1.5rem;
   }
-  .accordion-item .arrowed div {
-    right: 0px;
-    left: 250px;
+  .contacto .my-form .grid-2 {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
   }
-  .contenedorContacto {
-    padding-bottom: 20px;
-    margin-top: 15px;
+  .contacto .my-form .grid-3 {
+    -ms-grid-columns: auto auto auto;
+        grid-template-columns: auto auto auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-  .contenedorContacto h2 {
-    font-size: 16px;
-    margin: 2px;
+  .contacto .my-form .grid > *:not(:last-child) {
+    margin-bottom: 0;
   }
-  .contenedorContacto legend {
-    font-size: 15px;
-  }
-  .contenedorContacto h4 {
-    font-size: 15px;
-  }
-  .contenedorContacto h5 {
-    font-size: 13px;
-  }
-  .contenedorContacto p {
-    font-size: 13px;
-  }
-  .gridContac {
-    -ms-grid-rows: 25% 75%;
-        grid-template-rows: 25% 75%;
-    -ms-grid-columns: 80%;
-        grid-template-columns: 80%;
-  }
-  .gridContac textarea {
-    height: 60px;
-  }
-  .gridContac label {
-    font-size: 10px;
-  }
-  .gridContac input {
-    padding: 2px;
-    height: 20px;
-  }
-  .gridContac div {
-    margin: 0px;
-  }
-  .gridContac div select {
-    height: 25px;
-    padding: 2px;
-    padding-top: 0;
-    padding-bottom: 0px;
-  }
-  .gridContac div button {
-    background-color: #eab769e0;
-    margin-top: 10px;
-    padding-right: 2px;
-    border-style: ridge;
-    padding-left: 2px;
-    border-bottom: solid 2px #7d5e00;
-    font-size: 13px;
+  .contacto .my-form .required-msg {
+    display: block;
   }
 }
 
-@media (min-width: 600px) {
-  .accordion-item button {
-    height: 45px;
+@media screen and (min-width: 541px) {
+  .contacto .my-form input[type="checkbox"] + label::before {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
   }
-  .accordion-item .arrowed div {
-    right: 0px;
-    left: 550px;
-  }
-  .contenedorContacto {
-    padding-bottom: 20px;
-    margin-top: 15px;
-  }
-  .contenedorContacto h2 {
-    font-size: 18px;
-    margin: 4px;
-  }
-  .contenedorContacto legend {
-    font-size: 20px;
-  }
-  .contenedorContacto h4 {
-    font-size: 20px;
-  }
-  .contenedorContacto h5 {
-    font-size: 15px;
-  }
-  .contenedorContacto p {
-    font-size: 15px;
-  }
-  .gridContac {
-    -ms-grid-rows: 40% 60%;
-        grid-template-rows: 40% 60%;
-    -ms-grid-columns: 70%;
-        grid-template-columns: 70%;
-  }
-  .gridContac textarea {
-    height: 100px;
-  }
-  .gridContac label {
-    font-size: 15px;
-  }
-  .gridContac input {
-    padding: 1px;
-    height: 28px;
-  }
-  .gridContac div {
-    margin-bottom: 14px;
-  }
-  .gridContac div select {
-    height: 25px;
-    padding: 2px;
-    padding-top: 0;
-    padding-bottom: 0px;
-  }
-  .gridContac div button {
-    background-color: #eab769e0;
-    margin-top: 10px;
-    padding-right: 2px;
-    border-style: ridge;
-    padding-left: 2px;
-    border-bottom: solid 2px #7d5e00;
-    font-size: 13px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .contenedorContacto {
-    padding-bottom: 25px;
-    margin-top: 17px;
-  }
-  .contenedorContacto h2 {
-    font-size: 22px;
-    margin: 8px;
-  }
-  .contenedorContacto legend {
-    font-size: 30px;
-  }
-  .contenedorContacto h4 {
-    font-size: 30px;
-  }
-  .contenedorContacto h5 {
-    font-size: 25px;
-  }
-  .contenedorContacto p {
-    font-size: 25px;
-  }
-  .contenedorContacto .accordion-item button {
-    height: 65px;
-  }
-  .contenedorContacto .accordion-item .arrowed div {
-    right: 0px;
-    left: 1100px;
-  }
-  .gridContac {
-    -ms-grid-rows: 50% 50%;
-        grid-template-rows: 50% 50%;
-    -ms-grid-columns: 70%;
-        grid-template-columns: 70%;
-    height: 850px;
-  }
-  .gridContac textarea {
-    height: 130px;
-  }
-  .gridContac label {
-    font-size: 25px;
-  }
-  .gridContac input {
-    padding: 4px;
-    height: 32px;
-  }
-  .gridContac div {
-    margin-bottom: 14px;
-  }
-  .gridContac div select {
-    height: 35px;
-    padding: 2px;
-    padding-top: 0;
-    padding-bottom: 0px;
-  }
-  .gridContac div button {
-    background-color: #eab769e0;
-    margin-top: 10px;
-    padding-right: 2px;
-    border-style: ridge;
-    padding-left: 2px;
-    border-bottom: solid 2px #7d5e00;
-    font-size: 20px;
+  .contacto .my-form input[type="checkbox"]:checked + label::after {
+    top: 3px;
   }
 }
 /*# sourceMappingURL=bodyContacto.css.map */

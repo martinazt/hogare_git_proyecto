@@ -1,17 +1,21 @@
 /* media queries nav*/
+nav {
+  background-color: black !important;
+}
+
 @media (min-width: 360px) {
   nav {
     padding-top: 2px;
     padding-bottom: 2px;
   }
   nav .container-fluid {
-    font-size: 14px;
+    font-size: 0.87rem;
   }
   nav .navbar-toggler {
-    font-size: 14px;
+    font-size: 0.87rem;
   }
   nav .dropdown-menu {
-    font-size: 14px;
+    font-size: 0.87rem;
   }
 }
 
@@ -21,13 +25,13 @@
     padding-bottom: 4px;
   }
   nav .container-fluid {
-    font-size: 16px;
+    font-size: 1rem;
   }
   nav .navbar-toggler {
-    font-size: 16px;
+    font-size: 1rem;
   }
   nav .dropdown-menu {
-    font-size: 16px;
+    font-size: 1rem;
   }
 }
 
@@ -37,10 +41,10 @@
     padding-bottom: 8px;
   }
   nav .container-fluid {
-    font-size: 17px;
+    font-size: 1.1rem;
   }
   nav .dropdown-menu {
-    font-size: 17px;
+    font-size: 1.1rem;
   }
 }
 /*# sourceMappingURL=nav.css.map */

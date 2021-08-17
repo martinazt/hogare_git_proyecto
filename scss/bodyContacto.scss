@@ -11,17 +11,17 @@
     --bgFormEls: hsl(0, 0%, 14%);
     --bgFormElsFocus: hsl(0, 7%, 20%);
     }
-    background-image: url(https://www.globalmedia-it.com/dominicana/wp-content/uploads/2020/07/Tecnolog%C3%ADa-IDC.jpg);
+    background-image: url(https://barbasbellfires.com/nl/wp-content/uploads/sites/2/2018/07/Dubbele-brander.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 80vh;
     
     .botonDeContacto{
-            border: solid 2px black;
             .btn{
                 height: auto;
             }
     }
+    margin-bottom: 0px;
 
     a {
     color: inherit;
@@ -33,7 +33,7 @@
     button {
     font-family: inherit;
     font-size: 100%;
-    background: #a7b180;
+    background: #ffffff;
     color: black;
     }
 
@@ -57,7 +57,7 @@
     /*https://stackoverflow.com/questions/3773430/remove-outline-from-select-box-in-ff/18853002#18853002*/
     /*We use !important to override the color set for the select on line 99*/
     select:-moz-focusring {
-    color: transparent !important;
+    color: rgb(255, 0, 43) !important;
     text-shadow: 0 0 0 var(--white);
     }
 
@@ -87,13 +87,13 @@
     /* FORM ELEMENTS
     –––––––––––––––––––––––––––––––––––––––––––––––––– */
     .my-form{
-        background-color: #ffffff66;
+        background-color: rgba(0, 0, 0, 0.616);
         min-height: inherit;
         padding-top: 10vh;
     }
     .my-form h1 {
     margin-bottom: 1.5rem;
-    
+    color: white;
     }
 
     .my-form li,
@@ -115,7 +115,7 @@
     background: var(--bgFormEls);
     transition: background-color 0.3s cubic-bezier(0.57, 0.21, 0.69, 1.25),
         transform 0.3s cubic-bezier(0.57, 0.21, 0.69, 1.25);
-    background: #a7b180;
+    background: #ffffff;
     color: black;
 
     }
@@ -124,12 +124,12 @@
     height: 170px;
     }
     .my-form  select {
-        background: #a7b180;
+        background: #ffffff;
         color: black;
     }
 
     .my-form ::placeholder {
-    color: inherit;
+    color: rgb(0, 0, 0);
     /*Fix opacity issue on Firefox*/
     opacity: 1;
     }
@@ -140,7 +140,7 @@
     .my-form button:enabled:hover,
     .my-form button:focus,
     .my-form input[type="checkbox"]:focus + label {
-    background: var(--bgFormElsFocus);
+    background:#b3841e83;
     }
 
     .my-form select:focus,
@@ -186,9 +186,16 @@
     }
 
     .my-form button {
-    font-weight: bold;
-    background: #a7b180;
-        color: black;
+        padding: 10px 10px;
+        background: #b3831e;
+        color: #fff;
+        display: block;
+        border: none;
+        border: 0px solid rgba(0, 0, 0, 0.082);
+        border-radius: 0 0 2px 2px;
+        transform: rotateZ(0deg); 
+        transition: all 0.1s ease-out; 
+        border-bottom-width: 7px;
     }
 
     .my-form button > * {

@@ -11,10 +11,9 @@
   /* gif index*/
   /* titulo index*/
   /*div index*/
-  /*fila informativa*/
-  /*banner*/
+  /*fila informativa index*/
   /* main index*/
-  /* galeria*/
+  /* galeria index*/
 }
 
 .mainIndex .gifIndex {
@@ -50,6 +49,8 @@
 }
 
 .mainIndex .divIndex {
+  margin-right: 0px;
+  margin-left: 0px;
   margin-bottom: 50px;
   place-content: center;
 }
@@ -140,7 +141,7 @@
   background-position-x: center;
   background-position-y: center;
   background-size: cover;
-  height: 40vh;
+  min-height: 40vh;
 }
 
 .mainIndex .info .informativa {
@@ -149,33 +150,6 @@
   padding-left: 50px;
   PLACE-SELF: CENTER;
   padding-right: 50px;
-}
-
-.mainIndex .banner {
-  margin-top: 0;
-  margin-bottom: 0px;
-  color: #f8f9fa;
-  background-color: #41464bad;
-}
-
-.mainIndex .banner p {
-  background-color: #000000a8;
-  color: white;
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
-}
-
-.mainIndex .banner h5 {
-  background-color: #000000a8;
-  color: white;
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
-}
-
-.mainIndex .banner .d-none {
-  text-align: -webkit-center;
 }
 
 .mainIndex .mainIndex {
@@ -207,7 +181,7 @@
   max-width: 800px;
   margin: 25px auto;
   color: #888;
-  font-size: 18px;
+  font-size: 1.13rem;
 }
 
 .mainIndex .galeria .tz-gallery {
@@ -238,7 +212,7 @@
   background-color: transparent !important;
 }
 
-/* media queries */
+/* media queries index*/
 @media (min-width: 360px) {
   .mainIndex .tituloIndex {
     margin-top: 32px;
@@ -274,11 +248,8 @@
     font-size: 1.5rem;
     padding-top: 145px;
   }
-  .mainIndex .banner img {
-    height: 25vh;
-  }
   .mainIndex .info .informativa p {
-    font-size: 10px;
+    font-size: 0.6rem;
   }
   .mainIndex .galeria .tz-gallery {
     padding: 20px;
@@ -324,11 +295,8 @@
     font-size: 3rem;
     padding-top: 165px;
   }
-  .mainIndex .banner img {
-    height: 40vh;
-  }
   .mainIndex .info .informativa p {
-    font-size: 17px;
+    font-size: 1rem;
   }
   .mainIndex .galeria .tz-gallery {
     padding: 40px;
@@ -375,7 +343,7 @@
     width: 30%;
   }
   .mainIndex .tituloIndex h2 {
-    font-size: 32px;
+    font-size: 2rem;
     color: black;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -384,11 +352,8 @@
     font-size: 3rem;
     padding-top: 120px;
   }
-  .mainIndex .banner img {
-    height: 45vh;
-  }
   .mainIndex .info .informativa p {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
   .mainIndex .galeria .tz-gallery {
     padding: 40px;

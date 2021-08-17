@@ -1,57 +1,16 @@
-@charset "UTF-8";
-/*GRID DE LAS SUBCATEGORIAS*/
-.gridSubCategoria {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 20% 80%;
-      grid-template-columns: 20% 80%;
-}
-
-.gridFiltro {
-  background-color: #69696961;
-  padding-left: 5px;
-  margin-left: 0px;
-}
-
-.gridFiltro div {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-weight: bold;
-}
-
-.gridFiltro input {
-  width: 80%;
-}
-
-.gridProductos {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 32% 32% 32%;
-      grid-template-columns: 32% 32% 32%;
-  padding: 5px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.grid {
-  display: -ms-grid;
-  display: grid;
-  /*3 columnas*/
-  -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
-  -ms-grid-rows: 3fr 1fr;
-      grid-template-rows: 3fr 1fr;
-  /*background-color: pink;*/
+/* Categorias*/
+.subCategorias {
   text-align: center;
 }
 
-.gridSalamandras {
-  margin: 5px;
-  padding: 5px;
-  text-align: center;
+.subCategorias p {
+  text-align: initial;
 }
 
-/* nuevo*/
+.subCategorias h2 {
+  margin-bottom: 50px;
+}
+
 .divProductos {
   margin: 5px;
   padding: 1px;
@@ -94,11 +53,11 @@
   border: solid 1px #881f14;
 }
 
-.mainLeña {
+.mainLena {
   border-top: 8px solid #f77a27;
 }
 
-.mainLeña .divProductos:hover {
+.mainLena .divProductos:hover {
   border: solid 1px #f77a27;
 }
 
@@ -150,18 +109,7 @@
   border: solid 1px #947b34;
 }
 
-.subCategorias {
-  text-align: center;
-}
-
-.subCategorias p {
-  text-align: initial;
-}
-
-.subCategorias h2 {
-  margin-bottom: 50px;
-}
-
+/* queries categorias*/
 @media (min-width: 360px) {
   .subCategorias img {
     width: 300px;
